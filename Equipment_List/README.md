@@ -17,6 +17,8 @@ Buy a [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-
 - A power supply (like [this](https://www.pishop.us/product/wall-adapter-power-supply-micro-usb-2-4a-5-25v/))
 - A high quality micro SD card with at least 8 GB of space (the [official Raspberry Pi Micro SD cards with 32 GB](https://www.pishop.us/product/raspberry-pi-sd-card-32gb/) are high quality and will serve well, note that it also comes with a Micro SD to SD card adapter)
   - Note: Do not get a very large SD Card (256+ GB) for more storage. SD Cards do not survive constant file transfers the way SSDs (solid state drives) do and using massive ones for moving and storing many files is prone to failure.
+ 
+![Bare Raspberry Pi Zero 2 W motherboard](https://github.com/MythicAptronym/Locus-Server/blob/1f74da379c967ed8d3db54ce35241509a0cc6845/Media_Repository/Raspberry_Pi_Zero_2_W_0-Bare.jpg)
 
 #### __Optional Hardware__
 
@@ -24,3 +26,17 @@ Buy a [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-
   - This will allow you to use wired ethernet rather than wireless wifi. This allows for faster and more consistent connection.
 - SD Card USB Adapter (like [this](https://www.amazon.com/Reader-Adapter-Camera-Memory-Wansurs/dp/B0B9QZ4W4Y?crid=3UGPJK6DS6ZDK&dib=eyJ2IjoiMSJ9.OP-goGzbVTBErEAb5KAgGCjBKA-u0HiCypmciWXnCRgmRE5ZhWDvwdAi_2XUcK0jL_SFjQ4MZWhqaqWC8kp3wYdJ1e6p75mvBgBMb91yRA6v73oRnv2FNBMINxGLaSHPoB8Lsy-aHlXIVakZkXW6UUyA4iiWEqsUIvrpOTs5NKxYXa5HTfle6cKL7AInHXQmJYmBoxLW0MV9AXg7qCqNJ6Y0euFFmyIU_ONiIANMR-0.Y2-4F1iyV_KvIv3bcPtFNsjz4sYLBWfq465lF-pqZ5A&dib_tag=se&keywords=sd+card+usb+adapter&qid=1734674535&sprefix=sd+card+usb%2Caps%2C139&sr=8-3)) ($5)
   - If your computer does not have an SD card or micro SD card reader, you will need one of these.
+ 
+## __Full Home Server__
+
+As of 2024, the following will cost ~$200. 
+
+#### __Critical Hardware (\~$200)__
+
+Buy a [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) with 
+
+- A case (like [this](https://www.pishop.us/product/aluminum-alloy-protection-case-for-raspberry-pi-zero-series-fits-zero-zero-2-w/))
+  - You may also need a [heatsink](https://www.pishop.us/product/aluminum-heatsink-for-raspberry-pi-zero/) depending on the style of the case (see below for more information)
+- A power supply (like [this](https://www.pishop.us/product/wall-adapter-power-supply-micro-usb-2-4a-5-25v/))
+- A high quality micro SD card with at least 8 GB of space (the [official Raspberry Pi Micro SD cards with 32 GB](https://www.pishop.us/product/raspberry-pi-sd-card-32gb/) are high quality and will serve well, note that it also comes with a Micro SD to SD card adapter)
+  - Note: Do not get a very large SD Card (256+ GB) for more storage. SD Cards do not survive constant file transfers the way SSDs (solid state drives) do and using massive ones for moving and storing many files is prone to failure.
