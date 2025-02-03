@@ -2,7 +2,7 @@ Note: In addition to this, you will need a web URL, which as of 2024 costs \~$10
 
 ## __Very Basics__
 
-~Add section about stuff like having internet acess, a router, etc.~
+Add section about stuff like having internet acess, a router, etc.
 
 ## __Full Home Server with Cloud Storage and Secure Communication__
 
