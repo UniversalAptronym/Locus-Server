@@ -10,7 +10,7 @@ A self-hosted communication system is much more difficult to interfere with or b
 
 As a perk, the process to set up secure self-hosted communication overlaps very heavily with the process of setting up a full home server with self-hosted cloud storage, and this guide will show you how to do that as well. That is, you can have your own Google Drive / iCloud / DropBox without needing to pay exhorbitant monthly fees. This can save a good deal of money on cloud storage and avoids dependence on data-mining entities such as Google and Apple to store one's files. If you use this guide to do so, even if you yourself have no need for secure communication, please consider passing it on to those in your life who may be the targets of bigotry and institutional violence. 
 
-Even if you think it's overreacting and even if they don't end up needing or using it, gestures such as these, reaching out and affirming a desire to help, are never without merit or appreciation. 
+Even if you don't think they will need it, gestures such as these, reaching out and affirming a desire to help, are never without merit or appreciation. 
 
 ### __How-To List__
 
