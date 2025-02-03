@@ -17,9 +17,9 @@ Even if you think it's overreacting and even if they don't end up needing or usi
  1. Decide what you're getting.
     1. Full Home Server with Cloud Storage and Secure Communication (~$200 + $10/yr)
     2. Secure Communication Only (~$50-70 + $10/yr)
- 2. Buy the equipment you need. [Equipment List.md](https://storage.quietstars.org/f/281324)
- 3. Get a domain name (web URL) and set it up. [Getting a Domain Name (Web URL).md](https://storage.quietstars.org/f/281378)
- 4. Install the imaging software. [Software Download List](https://storage.quietstars.org/f/272237)
+ 2. Buy the equipment you need. [Equipment List.md](https://github.com/MythicAptronym/Locus-Server/tree/d38cfb39f7593207ba383d74bd4478b6912eef67/Equipment_List)
+ 3. Get a domain name (web URL) and set it up. [Getting a Domain Name (Web URL).md](https://github.com/MythicAptronym/Locus-Server/blob/1f998997e4ccb97da92ac3ed4df4e2114b61cde0/Internet_Actions/Getting_a_Domain_Name_(Web_URL).md)
+ 4. Install the imaging software. [Software Download List](https://github.com/MythicAptronym/Locus-Server/tree/2bcd2c980c217c7e3e1dbdcd782b5819d3701988/Software_Download_List)
     DEV NOTE: (Beginner) is aspirational, for now we're just putting together the resources for (Advanced)
     1. (Beginner) There are prepared images (copies of everything needed to make your Pi a computer with software) and scripts (little programs which will ask you for your inputs) which will let you set everything up painlessly. You will only need to type in things like your wifi name and password, your desired usernames and passwords, your domain name, etc.
     2. (Advanced) There is a list of tools and instructions with which you can install a fresh Raspberry Pi OS and add everything you need.
