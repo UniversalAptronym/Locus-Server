@@ -1,4 +1,4 @@
-The Nextcloud folder route for the standard image / for BigBearCasaOS is Root/Data/AppData/big-bear-nextcloud. This should be substituted for all examples of ... below unless you have a custom installation.
+The Nextcloud folder route for BigBearCasaOS is Root/Data/AppData/big-bear-nextcloud. This should be substituted for all examples of "..." below unless you have a custom installation.
 
 ## __Problems with File Syncing__
 
