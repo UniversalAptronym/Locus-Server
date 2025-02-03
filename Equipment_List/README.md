@@ -44,6 +44,5 @@ Buy a [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/) wit
 - An [external SSD enclosure](https://www.amazon.com/UGREEN-External-Enclosure-Housing-Adapter/dp/B076WQHK2G) to connect your SSD to your Pi, with a USB 3.0 connector, and which **runs off its own power adapter**. This is very important. Your enclosure should have power adapter with an outlet plug. Many external SSD enclosures operate off of power from their USB 3.0 port; the pi 5 **does not have enough power** to do this.
 
 Raspberry Pi 5 and SSD in an external enclosure. (left) Exposed Pi 5 and SSD. (Right) Enclosed Pi 5 and SSD.
-<img src="
-https://github.com/MythicAptronym/Locus-Server/blob/8085d56783c51a567b81cf351e39e5aba3026f01/Media_Repository/Raspberry_Pi_5_and_SSD_enclosed.jpg" alt="Exposed Pi 5 and SSD" title="Exposed Pi 5 and SSD" width="40%"/> <img src="https://github.com/MythicAptronym/Locus-Server/blob/bf0e2ada85ff6c71767ff4623db80f89bbf1b27b/Media_Repository/Raspberry_Pi_5_and_SSD_enclosed.jpg" alt="Enclosed Pi 5 and SSD" title="Enclosed Pi 5 and SSD" width="40%"/> 
+<img src="https://github.com/MythicAptronym/Locus-Server/blob/11e73728441614f219cdb8b4ced3217c696632e3/Media_Repository/Raspberry_Pi_5_and_SSD_exposed.jpg" alt="Exposed Pi 5 and SSD" title="Exposed Pi 5 and SSD" width="40%"/> <img src="https://github.com/MythicAptronym/Locus-Server/blob/bf0e2ada85ff6c71767ff4623db80f89bbf1b27b/Media_Repository/Raspberry_Pi_5_and_SSD_enclosed.jpg" alt="Enclosed Pi 5 and SSD" title="Enclosed Pi 5 and SSD" width="40%"/> 
 
