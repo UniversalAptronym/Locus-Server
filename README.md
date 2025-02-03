@@ -1,6 +1,6 @@
 # __Secure Communication__
 
-This is a guide for how to set up secure, self-hosted communication, including text, voice, and video chat, which is much more difficult\* for governments to surveil than typical texts or social media (such as Facebook, Discord, Tumblr, etc). "Self-hosted" means that you physically own and operate the equipment which transmits and stores messages, and "secure" means the messages are encrypted - they cannot be read by anyone who intercepts the messages en-route. 
+This is a guide for how to set up secure, self-hosted communication, including text, voice, and video chat, which is much more difficult\* for governments to surveil or for corporations to harvest data from than typical texts or social media (such as Facebook, Discord, Tumblr, etc). "Self-hosted" means that you physically own and operate the equipment which transmits and stores messages, and "secure" means the messages are encrypted - they cannot be read by anyone who intercepts the messages en-route. 
 
 That said, the [Signal](https://signal.org/download/) app is an easier to use secure communication platform than this and we highly recommended using it. However, [China has blocked Signal](https://www.techradar.com/news/china-blocks-signal-heres-what-you-need-to-know), making impossible to access without a VPN (service which alters your apparent digital location) which [China has also been cracking down on](https://www.farwestchina.com/tips/best-vpn-for-china/). Such services can be interfered with and censored by governments.
 
