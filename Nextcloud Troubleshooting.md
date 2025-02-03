@@ -14,6 +14,6 @@ This one should be your first stop if Nextcloud rejects attempts to change files
 
 If this line is not present, inserting it at the end like this may solve your issues.
 
-![](.attachments.280043/image.png)
+![](https://github.com/MythicAptronym/Locus-Server/blob/ca06006ce596831c9928df763755113e73a7a8ef/Images_Repository/Nextcloud_Filelocking.png)
 
 This is not recommended for large professional servers as it can cause problems with large data transfers by multiple users. However for small scale private servers, frankly I find filelocking (which sets certain conditions for files not being moved or updated) causes far more problems than it solves.
