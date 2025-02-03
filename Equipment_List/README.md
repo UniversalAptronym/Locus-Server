@@ -45,5 +45,5 @@ Buy a [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/) wit
 
 Raspberry Pi 5 and SSD in an external enclosure. (left) Exposed Pi 5 and SSD. (Right) Enclosed Pi 5 and SSD.
 <img src="
-https://github.com/MythicAptronym/Locus-Server/blob/8085d56783c51a567b81cf351e39e5aba3026f01/Media_Repository/Raspberry_Pi_5_and_SSD_enclosed.jpg" alt="Exposed Pi 5 and SSD" title="Exposed Pi 5 and SSD" width="40%"/> <img src="https://github.com/MythicAptronym/Locus-Server/blob/8085d56783c51a567b81cf351e39e5aba3026f01/Media_Repository/Raspberry_Pi_5_and_SSD_exposed.jpg" alt="Enclosed Pi 5 and SSD" title="Enclosed Pi 5 and SSD" width="40%"/> 
+https://github.com/MythicAptronym/Locus-Server/blob/8085d56783c51a567b81cf351e39e5aba3026f01/Media_Repository/Raspberry_Pi_5_and_SSD_enclosed.jpg" alt="Exposed Pi 5 and SSD" title="Exposed Pi 5 and SSD" width="40%"/> <img src="https://github.com/MythicAptronym/Locus-Server/blob/bf0e2ada85ff6c71767ff4623db80f89bbf1b27b/Media_Repository/Raspberry_Pi_5_and_SSD_enclosed.jpg" alt="Enclosed Pi 5 and SSD" title="Enclosed Pi 5 and SSD" width="40%"/> 
 
