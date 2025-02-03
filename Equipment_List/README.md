@@ -13,14 +13,14 @@ As of 2024, the following will cost $50-70.
 Buy a [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) with 
 
 - A case (like [this](https://www.pishop.us/product/aluminum-alloy-protection-case-for-raspberry-pi-zero-series-fits-zero-zero-2-w/))
-  - You may also need a [heatsink](https://www.pishop.us/product/aluminum-heatsink-for-raspberry-pi-zero/) depending on the style of the case (see below for more information)
-- A power supply (like [this](https://www.pishop.us/product/wall-adapter-power-supply-micro-usb-2-4a-5-25v/))
+  - You may also need an extra [heatsink](https://www.pishop.us/product/aluminum-heatsink-for-raspberry-pi-zero/) if your case does not have metal heatsink ridges (rectangular ridges which dissipate heat) and come with thermal putty contacts. (The case above does not need an extra heatsink.)
+- A compatible power supply (like [this](https://www.pishop.us/product/wall-adapter-power-supply-micro-usb-2-4a-5-25v/))
 - A high quality micro SD card with at least 8 GB of space (the [official Raspberry Pi Micro SD cards with 32 GB](https://www.pishop.us/product/raspberry-pi-sd-card-32gb/) are high quality and will serve well, note that it also comes with a Micro SD to SD card adapter)
   - Note: Do not get a very large SD Card (256+ GB) for more storage. SD Cards do not survive constant file transfers the way SSDs (solid state drives) do and using massive ones for moving and storing many files is prone to failure.
 
-Raspberry Pi Zero 2 W. (left) Bare motherboard. (Middle) Motherboard with thermal plastic contacts, which help conduct heat away from the board and into the case. (Right) Pi Zero 2 W fully enclosed in case, with an extra unneeded aluminum heatsink on top. 
+Raspberry Pi Zero 2 W. (left) Bare motherboard. (Middle) Motherboard with thermal putty contacts, which help conduct heat away from the board and into the case. (Right) Pi Zero 2 W fully enclosed in case, with an extra unneeded aluminum heatsink on top. 
 
-<img src="https://github.com/MythicAptronym/Locus-Server/blob/1f74da379c967ed8d3db54ce35241509a0cc6845/Media_Repository/Raspberry_Pi_Zero_2_W_0-Bare.jpg" alt="Bare Raspberry Pi Zero 2 W motherboard" title="Bare Raspberry Pi Zero 2 W motherboard" width="30%"/> <img src="https://github.com/MythicAptronym/Locus-Server/blob/192cb7fa16d6826c81baeb14fbd5af65b4366dee/Media_Repository/Raspberry_Pi_Zero_2_W_1-With-Thermal-Patches.jpg" alt="Raspberry Pi Zero 2 W motherboard and thermal plastic contacts" title="Raspberry Pi Zero 2 W motherboard and thermal plastic contacts" width="30%"/> <img src="https://github.com/MythicAptronym/Locus-Server/blob/192cb7fa16d6826c81baeb14fbd5af65b4366dee/Media_Repository/Raspberry_Pi_Zero_2_W_2-With-Case.jpg" alt="Raspberry Pi Zero 2 W in case" title="Raspberry Pi Zero 2 W in case" width="30%"/>
+<img src="https://github.com/MythicAptronym/Locus-Server/blob/1f74da379c967ed8d3db54ce35241509a0cc6845/Media_Repository/Raspberry_Pi_Zero_2_W_0-Bare.jpg" alt="Bare Raspberry Pi Zero 2 W motherboard" title="Bare Raspberry Pi Zero 2 W motherboard" width="30%"/> <img src="https://github.com/MythicAptronym/Locus-Server/blob/192cb7fa16d6826c81baeb14fbd5af65b4366dee/Media_Repository/Raspberry_Pi_Zero_2_W_1-With-Thermal-Patches.jpg" alt="Raspberry Pi Zero 2 W motherboard and thermal putty contacts" title="Raspberry Pi Zero 2 W motherboard and thermal putty contacts" width="30%"/> <img src="https://github.com/MythicAptronym/Locus-Server/blob/192cb7fa16d6826c81baeb14fbd5af65b4366dee/Media_Repository/Raspberry_Pi_Zero_2_W_2-With-Case.jpg" alt="Raspberry Pi Zero 2 W in case" title="Raspberry Pi Zero 2 W in case" width="30%"/>
 
 #### __Optional Hardware__
 
@@ -35,10 +35,15 @@ As of 2024, the following will cost ~$200.
 
 #### __Critical Hardware (\~$200)__
 
-Buy a [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) with 
+Buy a [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/) with at least [4 GB of RAM](https://www.pishop.us/product/raspberry-pi-5-4gb/)
 
-- A case (like [this](https://www.pishop.us/product/aluminum-alloy-protection-case-for-raspberry-pi-zero-series-fits-zero-zero-2-w/))
-  - You may also need a [heatsink](https://www.pishop.us/product/aluminum-heatsink-for-raspberry-pi-zero/) depending on the style of the case (see below for more information)
-- A power supply (like [this](https://www.pishop.us/product/wall-adapter-power-supply-micro-usb-2-4a-5-25v/))
-- A high quality micro SD card with at least 8 GB of space (the [official Raspberry Pi Micro SD cards with 32 GB](https://www.pishop.us/product/raspberry-pi-sd-card-32gb/) are high quality and will serve well, note that it also comes with a Micro SD to SD card adapter)
-  - Note: Do not get a very large SD Card (256+ GB) for more storage. SD Cards do not survive constant file transfers the way SSDs (solid state drives) do and using massive ones for moving and storing many files is prone to failure.
+- A case (like [this](https://www.pishop.us/product/raspberry-pi-case-for-pi-5-red-white/), which includes a cooling fan)
+  - You should also get extra [heatsinks](https://www.pishop.us/product/set-of-heatsinks-for-raspberry-pi-5-4-pack-copper/)
+- A compatible power supply (like [this](https://www.pishop.us/product/raspberry-pi-27w-usb-c-power-supply-white-us/))
+- A good quality SSD (solid state drive) with at least 1 TB of space [I (Sengachi) personally use this SSD and it's worked well so far](https://www.amazon.com/Silicon-Power-Performance-Internal-SP002TBSS3A55S25/dp/B07Q37V1C9). High transfer speeds are a plus when considering what SSD card to get, but reliability is the most important thing. Always look up customer reviews from somewhere other than the major sites (like Amazon), which are sometimes faked.
+- An [external SSD enclosure](https://www.amazon.com/UGREEN-External-Enclosure-Housing-Adapter/dp/B076WQHK2G) to connect your SSD to your Pi, with a USB 3.0 connector, and which **runs off its own power adapter**. This is very important. Your enclosure should have power adapter with an outlet plug. Many external SSD enclosures operate off of power from their USB 3.0 port; the pi 5 **does not have enough power** to do this.
+
+Raspberry Pi 5 and SSD in an external enclosure. (left) Exposed Pi 5 and SSD. (Right) Enclosed Pi 5 and SSD.
+<img src="
+https://github.com/MythicAptronym/Locus-Server/blob/8085d56783c51a567b81cf351e39e5aba3026f01/Media_Repository/Raspberry_Pi_5_and_SSD_enclosed.jpg" alt="Exposed Pi 5 and SSD" title="Exposed Pi 5 and SSD" width="40%"/> <img src="https://github.com/MythicAptronym/Locus-Server/blob/8085d56783c51a567b81cf351e39e5aba3026f01/Media_Repository/Raspberry_Pi_5_and_SSD_exposed.jpg" alt="Enclosed Pi 5 and SSD" title="Enclosed Pi 5 and SSD" width="40%"/> 
+
