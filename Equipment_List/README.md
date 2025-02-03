@@ -19,7 +19,7 @@ Buy a [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-
   - Note: Do not get a very large SD Card (256+ GB) for more storage. SD Cards do not survive constant file transfers the way SSDs (solid state drives) do and using massive ones for moving and storing many files is prone to failure.
 
 Bare Raspberry Pi Zero 2 W motherboard
-<img src="[image url](https://github.com/MythicAptronym/Locus-Server/blob/1f74da379c967ed8d3db54ce35241509a0cc6845/Media_Repository/Raspberry_Pi_Zero_2_W_0-Bare.jpg)" alt="Bare Raspberry Pi Zero 2 W motherboard" title="Bare Raspberry Pi Zero 2 W motherboard" width="150"/>
+<img src="https://github.com/MythicAptronym/Locus-Server/blob/1f74da379c967ed8d3db54ce35241509a0cc6845/Media_Repository/Raspberry_Pi_Zero_2_W_0-Bare.jpg" alt="Bare Raspberry Pi Zero 2 W motherboard" title="Bare Raspberry Pi Zero 2 W motherboard" width="150"/>
 
 #### __Optional Hardware__
 
