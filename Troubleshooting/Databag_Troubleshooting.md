@@ -1,3 +1,5 @@
+These are the very messy notes I made to myself while trying to figure out the barebones Databag install without CasaOS. - Sengachi
+
 __Dependency command:__ sudo apt-get -y install curl net-tools jq netcat-openbsd unzip wget git vim fail2ban imagemagick-6.q16 build-essential sqlite3 openssh-client
 
 Note: netcat needed to be updated to netcat-openbsd.
