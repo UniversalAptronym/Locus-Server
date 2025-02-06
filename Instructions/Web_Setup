@@ -1,0 +1,9 @@
+To-do:
+This section needs to be extremely detailed and easy to follow, because it's the one part which we can't do anything to simplify on our end.
+- Presumptively, we're using Cloudflare and Cloudflare ZeroTrust for this. 
+(Any advice and suggestions on how to avoid Cloudflare decrypting stuff in the middle would be helpful. 
+I know Tailscale is an alternative, but that requires a frustratingly high degree of tech-work from each user.)
+- Show people how to use Cloudflare. Explain what it is.
+- - Note: How do we future proof the pictures and directions against Cloudflare changing their UI?
+- Show how to use ZeroTrust tunneling.
+- Show how to make an RTC server for Databag voice and video.
