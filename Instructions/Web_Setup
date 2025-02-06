@@ -6,4 +6,5 @@ I know Tailscale is an alternative, but that requires a frustratingly high degre
 - Show people how to use Cloudflare. Explain what it is.
 - - Note: How do we future proof the pictures and directions against Cloudflare changing their UI?
 - Show how to use ZeroTrust tunneling.
+- Show how to use Nginx Proxy Manager with all this.
 - Show how to make an RTC server for Databag voice and video.
