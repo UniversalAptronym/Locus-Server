@@ -20,7 +20,7 @@ This is not recommended for large professional servers as it can cause problems 
 
 ### __Server replied "413 Request Entity Too Large"__
 
-Could be two things. 
+Could be three things. 
 
 #### __CasaOS Nexcloud Setting__
 
@@ -31,6 +31,10 @@ Open Nextcloud's settings UI. Go to the third tab "nextcloud". Change "PHP_MEMOR
 Go to Root/DATA/AppData/config/nginx/site-confs/default.conf.
 
 Find the setting "client_max_body_size [...];". [...] will likely be 512M. Change it to a higher value. I use 25G. 
+
+#### __Delete Sync File__
+
+Turn Nextcloud off on your PC. Go to your Nextcloud folder. View hidden files. Delete all "sync" files. (These have sync in the name and .db as file extensions). Turn Nextcloud back on.
 
 ### __Problems After Restarting The Pi__
 
