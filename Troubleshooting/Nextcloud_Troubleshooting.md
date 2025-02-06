@@ -31,3 +31,12 @@ Open Nextcloud's settings UI. Go to the third tab "nextcloud". Change "PHP_MEMOR
 Go to Root/DATA/AppData/config/nginx/site-confs/default.conf.
 
 Find the setting "client_max_body_size [...];". [...] will likely be 512M. Change it to a higher value. I use 25G. 
+
+### __Problems After Restarting The Pi__
+
+If you see this after restarting your Pi:
+`Internal Server Error
+The server encountered an internal error and was unable to complete your request.
+Please contact the server administrator if this error reappears multiple times, please include the technical details below in your report.
+More details can be found in the server log.`
+Nextcloud may needed to be restarted manually.
