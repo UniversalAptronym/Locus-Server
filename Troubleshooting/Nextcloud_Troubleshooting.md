@@ -32,9 +32,9 @@ Go to `Root/DATA/AppData/config/nginx/site-confs/default.conf`.
 
 Find the setting `client_max_body_size [...];`. `[...]` will likely be 512M. Change it to a higher value. I use 25G. 
 
-#### __Delete Sync File__
+#### __Delete Sync Files__
 
-Turn Nextcloud off on your PC. Go to your Nextcloud folder. View hidden files. Delete all "sync" files (these have sync in the name and .db as file extensions) and `.nextcloudsync.log`. Turn Nextcloud back on.
+Turn Nextcloud off on your PC. Go to your Nextcloud folder. View hidden files. Delete all "sync" files (these have sync in the name and .db as file extensions) and `.nextcloudsync.log`. Turn Nextcloud back on. It may take some time to repopulate the sync files if you have a large number of files.
 
 ### __Problems After Restarting The Pi__
 
