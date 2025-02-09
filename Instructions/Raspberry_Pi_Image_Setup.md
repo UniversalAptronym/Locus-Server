@@ -23,7 +23,6 @@ Plug your micro SD card into your computer. You computer may have a micro SD car
 Your computer may have an SD card slot, in which case you need to put your micro SD card into an SC card adapter (this comes with the purchase of most micro SD cards), then plug that into your computer.
 
 <img src="../Media_Repository/micro_SD_card_stuff.jpg" alt="micro SD card with SD card adapater and USB adapter" title="micro SD card with SD card adapater and USB adapter" width="30%"/> <img src="../Media_Repository/micro_SD_card_in_SD_card_adapter.jpg" alt="micro SD card in SD card adapter" title="micro SD card in SD card adapter" width="30%"/> <img src="../Media_Repository/micro_SD_card_SD-slot.jpg" alt="SD card adapter in slot" title="SD card adapter in slot" width="30%"/> 
-
 If you computer does not have either of those slots, you may need to put your micro SD card in a USB adapter (found in [Equipment_List](../Equipment_List#optional-hardware)), then plug that into your computer.
 
 <img src="../Media_Repository/micro_SD_card_stuff.jpg" alt="micro SD card with SD card adapater and USB adapter" title="micro SD card with SD card adapater and USB adapter" width="30%"/> <img src="../Media_Repository/micro_SD_card_in_USB_adapter.jpg" alt="micro SD card in USB adapter" title="micro SD card in USB adapter" width="30%"/> to-do: last image
