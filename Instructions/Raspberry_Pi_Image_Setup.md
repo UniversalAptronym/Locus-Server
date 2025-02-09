@@ -12,7 +12,7 @@ If you have not already done so, install the [Raspberry Pi Imager](https://githu
 
 Plug your micro SD card into your computer. You computer may have a micro SD card slot, in which case you can plug it in directly. 
 
-<img src="[https://github.com/MythicAptronym/Locus-Server/blob/fe58b47d67fb4e8fdf7f6bbf3f83c89fae25d7d3/Media_Repository/Raspberry_Pi_5_and_SSD_exposed.jpg](https://github.com/MythicAptronym/Locus-Server/blob/79f710830626c9c8fb7a29931a842ee2437d7682/Media_Repository/SD_Card_micro-SD-slot.jpeg)" alt="micro SD card in slot" title="micro SD card in slot" width="40%"/> 
+<img src="https://github.com/MythicAptronym/Locus-Server/blob/79f710830626c9c8fb7a29931a842ee2437d7682/Media_Repository/SD_Card_micro-SD-slot.jpeg" alt="micro SD card in slot" title="micro SD card in slot" width="40%"/> 
 
 It may have an SD card slot, in which case you will
 
