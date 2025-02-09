@@ -6,4 +6,4 @@ To-do:
 - How to set up Raspberry Pi OS / dietPi.
 - - How to set up CasaOS, if it's being used.
 
-## __Full Home Server__
+# __Full Home Server__
