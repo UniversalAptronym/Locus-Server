@@ -16,11 +16,11 @@ If you have not already done so, install the [Raspberry Pi Imager](https://githu
 
 Plug your micro SD card into your computer. You computer may have a micro SD card slot like this, in which case you can plug it in directly. 
 
-<img src="https://github.com/MythicAptronym/Locus-Server/blob/79f710830626c9c8fb7a29931a842ee2437d7682/Media_Repository/SD_Card_micro-SD-slot.jpeg" alt="micro SD card in slot" title="micro SD card in slot" width="30%"/> 
+<img src="https://github.com/MythicAptronym/Locus-Server/blob/16e93ef8ea23f6b46f764a9f70ee9497db466a13/Media_Repository/micro_SD_Card_micro-SD-slot.jpeg" alt="micro SD card in slot" title="micro SD card in slot" width="30%"/> 
 
 Your computer may have an SD card slot, in which case you need to put your micro SD card into an SC card adapter, then plug that into your computer.
 
-<img src="Media_Repository/SD_card_SD-slot.jpg" alt="SD card adapter in slot" title="SD card adapter in slot" width="30%"/> 
+<img src="https://github.com/MythicAptronym/Locus-Server/blob/3ebb0cc1adaa820192d872107ace30abda49b7ce/Media_Repository/SD_card_stuff.jpg" alt="micro SD card with SD card adapater and USB adapter" title="micro SD card with SD card adapater and USB adapter" width="30%"/> <img src="https://github.com/MythicAptronym/Locus-Server/blob/16e93ef8ea23f6b46f764a9f70ee9497db466a13/Media_Repository/micro_SD_card_in_SD_card_adapter.jpg" alt="micro SD card in SC card adapter" title="micro SD card in SC card adapter" width="30%"/> <img src="https://github.com/MythicAptronym/Locus-Server/blob/1270703f2e8795255c61a9fe7140c78e99cc8775/Media_Repository/micro_SD_card_SD-slot.jpg" alt="SD card adapter in slot" title="SD card adapter in slot" width="30%"/> 
 
 
 
