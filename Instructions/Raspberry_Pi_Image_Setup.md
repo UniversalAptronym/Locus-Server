@@ -10,7 +10,9 @@ To-do:
 
 If you have not already done so, install the [Raspberry Pi Imager](https://github.com/MythicAptronym/Locus-Server/blob/7ad735253776f07ade66aeaa48de0d57d2be70cf/Software_Repository/Raspberry_Pi_Imager.md) on your computer. This lets you turn your Raspbbery Pi from a lump of silicon into a working computer you can talk to.
 
+Place your SSD into your external SSD enclosure. Plug the enclosure's power supply into a wall outlet. Plug the enclosure's USB 3.0 cable into your computer.
 
+<img src="../Media_Repository/Pi_Imager_landing_page.png" alt="micro SD card in slot" title="micro SD card in slot" width="30%"/> 
 
 # __Secure Communication Only (Advanced)__
 
