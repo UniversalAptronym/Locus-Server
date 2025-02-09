@@ -19,7 +19,7 @@ Even if you don't think they will need it, gestures such as these, reaching out 
  1. Decide what you're getting.
     1. [Full Home Server with Cloud Storage and Secure Communication](https://github.com/MythicAptronym/Locus-Server/blob/212890bef63c699d6c49c2edd7390ee65c048aed/Equipment_List/Description_Full_Home_Server) (~$200 + $10/yr)
     2. [Secure Communication Only](https://github.com/MythicAptronym/Locus-Server/blob/212890bef63c699d6c49c2edd7390ee65c048aed/Equipment_List/Description_Secure_Communication_Only) (~$50-70 + $10/yr)
- 2. Buy the equipment you need. [Equipment List.md](https://github.com/MythicAptronym/Locus-Server/tree/d38cfb39f7593207ba383d74bd4478b6912eef67/Equipment_List)
+ 2. Buy the equipment you need from [this list](https://github.com/MythicAptronym/Locus-Server/tree/d38cfb39f7593207ba383d74bd4478b6912eef67/Equipment_List).
  3. Get a domain name (web URL) and set it up. When you are finished, you and others will access your communication server by going to this URL. [Getting a Domain Name (Web URL).md](https://github.com/MythicAptronym/Locus-Server/blob/1f998997e4ccb97da92ac3ed4df4e2114b61cde0/Internet_Actions/Getting_a_Domain_Name_(Web_URL).md)
  4. Install the imaging software. This software lets you use your computer to install other software onto your equipment.
     DEV NOTE: (Beginner) is aspirational, for now we're just putting together the resources for (Advanced)
