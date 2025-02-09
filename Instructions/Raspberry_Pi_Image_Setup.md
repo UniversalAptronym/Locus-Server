@@ -20,9 +20,13 @@ For `Raspberry Pi Device` select 'Raspberry Pi 5'. For `Choose OS`, select 'Rasp
 
 Click `Next` and then `Edit Settings`. Fill in the settings. **Keep track of your Pi hostname, your Pi username (if different), and your Pi password!!!** These are very important. The Pi hostname will be used to connect to your Pi. The Pi username and password will be used to give commands to your Pi. 
 
-Under `Wireless LAN`, for `SSID`, enter the name of your wifi. Under `Wireless LAN`, for `SSID`, enter your wifi password. Click the `Services` tab and make sure you have 'Enable SSH' and 'Use password authentication' enabled. This will ensure you can talk to your Pi through your wifi. Click `Save`, `Yes`, and `Yes`. Wait for the Raspberry Pi Imager to finish writing the Pi OS to your SSD.
+Under `Wireless LAN`, for `SSID`, enter the name of your wifi. Under `Wireless LAN`, for `SSID`, enter your wifi password. Click the `Services` tab and make sure you have 'Enable SSH' and 'Use password authentication' enabled. This will ensure you can talk to your Pi through your wifi. Click `Save`, `Yes`, and `Yes`. Wait for the Raspberry Pi Imager to finish writing the Pi OS to your SSD. If your computer asks you if you want to format your device when finished **do not say yes** (this will wipe your Pi device). 
 
 <img src="../Media_Repository/Pi_Imager_OS_settings_1.png" alt="Pi imager OS other" alt="Pi imager OS settings" title="Pi imager OS settings" width="30%"/> <img src="../Media_Repository/Pi_Imager_OS_settings_2.png" alt="Pi imager OS settings" title="Pi imager OS settings" width="30%"/> 
+
+Remove the USB plug of the SSD enclosure from your PC. Make sure your Pi is unplugged from any wall outlet. Plug the USB plug of the SSD enclosure into the Pi. Plug your Pi into a wall outlet. Wait one minute while your Pi boots up. You now have a tiny functioning computer! 
+
+Your next step, to talk to the Pi, is to [use SSH to connect to your Pi](../Instructions/SSH_setup.md). After that, [install CasaOS](../Instructions/CasaOS_Setup.md), a free and open source operating system which goes on top of your Raspberry Pi OS and makes it easier to work with. 
 
 # __Secure Communication Only (Advanced)__
 
