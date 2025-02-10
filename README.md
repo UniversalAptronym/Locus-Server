@@ -18,7 +18,7 @@ Should you build a Locus Server? It depends. If you're a member of an at-risk gr
 
 Follow these instructions step by step to make a secure communication hub / home server. Each step links to a detailed list of instructions. 
 
-Also, please don't be intimidated if this seems like a work; most of these steps are very simple. The reason there's so many lists of instructions is that we try to document each step in as much detail as possible. Most users will probably find themselves bored to tears and rolling their eyes over how much overexplaining is done in the Locus Server project. But our goal is to make it so that _anyone_ can make a home server. Whether because you're a novice with computers and need your hand held through each step, or because you trip over something specific, we don't want anyone to give up on making a home server because we didn't explain it carefully enough.
+Also, please don't be intimidated if this seems like a lot; most of these steps are actually very simple. The reason there's so many lists of instructions is that we try to document each step in as much detail as possible. Most users will probably find themselves bored to tears and rolling their eyes over how much overexplaining is done in the Locus Server project. But our goal is to make it so that _anyone_ can make a home server. Whether because you're a novice with computers and need your hand held through each step, or because you trip over something specific, we don't want anyone to give up on making a home server because we didn't explain it carefully enough.
 
  1. Decide what you're getting.
     1. [Full Home Server with Cloud Storage and Secure Communication](Equipment_List/Description_Full_Home_Server) (~$200 + $10/yr)
