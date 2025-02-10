@@ -53,7 +53,7 @@ Before we start, you should to decide on certain usernames, passcodes, etc. You 
 - Databag username (this is your username for the secure communication app) (Important: Do not ever set your browser to autocomplete this username)
 - Databag password (this is your password for the secure communication app) (Important: Do not ever set your browser to autocomplete this password)
 - Databag admin password (this is your administrator password for the secure communication app) **(IMPORTANT: None of these passwords should be the same as the others, but this one MUST BE DIFFERENT THAN THE OTHERS! DO NOT EVER SET YOUR BROWSER TO AUTOCOMPLETE THIS PASSWORD!)**
-Full Home Server Only
+### __Full Home Server Only__
 - CasaOS username (this is the username you use to log into your Pi through a web browser)
 - CasaOS password (this is the password you use to log into your Pi through a web browser)
 - Nextcloud username (this is the username you use to log into your home server storage, and an alternative secure communication service)
