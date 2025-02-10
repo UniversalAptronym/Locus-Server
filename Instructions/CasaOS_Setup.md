@@ -7,4 +7,4 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 `curl -fsSL https://get.casaos.io | sudo bash`
 
-This commands installs [CasaOS](https://casaos.io/) from an online repository. CasaOS is an operating system which sits on top of your Raspberry Pi OS. It lets you operate your Pi through a graphics-based desktop like your usual computers, rather than through Terminal, and lets us easily make use of many programs written by hard-working open-source programmers.
+This commands installs [CasaOS](https://casaos.io/) from an online repository. CasaOS is an operating system which sits on top of your Raspberry Pi OS. It lets you operate your Pi through a graphics-based desktop like your usual computers, rather than through Terminal, and lets us easily make use of many programs written by open-source programmers. As a quick note, we have a [list of open-source programers whose work we'd like you to consider supporting](../donations_list.md). Their hard work makes all of this possible and they rely on donations to continue doing this work.
