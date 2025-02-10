@@ -39,7 +39,6 @@ Also, please don't be intimidated if this seems like a lot; most of these steps 
 10. (For full home server users). Set up your Nextcloud system.
 11. Talk to your friends and say hi to others.
 
-
 # __Passwords__
 
 Before we start, you should to decide on certain usernames, passcodes, etc. You will need these later, and they are very important for your security. **Make sure these are usernames and passwords you can remember, which do not rely on simple patterns. If you absolutely must write them down, store them in a secure *offline* location. None of these passwords should be a copy of other passwords you use.** You will need:
