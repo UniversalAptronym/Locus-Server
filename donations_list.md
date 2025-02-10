@@ -1,1 +1,1 @@
-To-do: Incldue list of open-source projects to support.
+To-do: Include list of open-source projects to support.
