@@ -2,7 +2,7 @@
 # __About This Project__
 **==================================================**
 
-`Setup and Installation Guide <Setup-and-Installation>`_
+[Setup and Installation Guide](<Setup-and-Installation>)
 
 Welcome to the Locus Server project. Our goal is to provide a fairly inexpensive method for oppressed and at-risk groups (such as the LGBT+ community and religious or ethnic minorities) to communicate securely without fear of surveillance, censorship, or government violence.
 
