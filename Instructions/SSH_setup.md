@@ -16,6 +16,8 @@ If this does not work you probably got your wifi details wrong in the previous s
 
 <img src="../Media_Repository/PuTTY_username.png" alt="PuTTY username input" title="PuTTY username input" width="30%"/> <img src="../Media_Repository/PuTTY_password.png" alt="PuTTY password input" title="PuTTY password input" width="30%"/> <img src="../Media_Repository/PuTTY_terminal_input.png" alt="PuTTY terminal input" title="PuTTY terminal input" width="30%"/> 
 
-If this works, you are ready for the next step. 
+If this works, you are ready for the next step. Follow the link below which matches the setup you want.
+
 [Full Home Server](Instructions/CasaOS_Setup.md) 
+
 Secure Communication Only
