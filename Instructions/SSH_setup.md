@@ -4,7 +4,7 @@ to-do: Check if `pi` and `raspberry` are the default root username and password 
 
 To-do: Include instructions for Macs and Ubuntu.
 
-SSH means "Secure Shell", referring to the Secure Shell Protocol. An SSH program (like PuTTY) lets you talk to your Pi from your computer in a secure way. If you are using Windows, download and install [PuTTY](Software_Repository/SSH.md). Make sure to create a desktop shortcut for PuTTY, and open it up.
+SSH means "Secure Shell", referring to the Secure Shell Protocol. An SSH program (like PuTTY) lets you talk to your Pi from your computer in a secure way. If you are using Windows, download and install [PuTTY](../Software_Repository/SSH.md). Make sure to create a desktop shortcut for PuTTY, and open it up.
 
 In a previous step you create a Pi hostname, Pi username, and Pi password. Make sure you have all three ready for this step.
 
@@ -18,6 +18,6 @@ If this does not work you probably got your wifi details wrong in the previous s
 
 If this works, you are ready for the next step. Follow the link below which matches the setup you want.
 
-[Full Home Server](Instructions/CasaOS_Setup.md) 
+[Full Home Server](../Instructions/CasaOS_Setup.md) 
 
 Secure Communication Only
