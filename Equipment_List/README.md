@@ -1,8 +1,8 @@
-Note: In addition to this, you will need a web URL, which as of 2024 costs \~$10/yr.
+Note: In addition to the equipment itself, you will need to purchase a web URL, which as of 2024 costs \~$10/yr.
 
 ## __Very Basics__
 
-Add section about stuff like having internet acess, a router, etc.
+To-do: Add section about stuff like having internet acess, a router, etc.
 
 ## __Full Home Server with Cloud Storage and Secure Communication__
 

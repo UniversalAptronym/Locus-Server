@@ -18,7 +18,7 @@ For `Raspberry Pi Device` select 'Raspberry Pi 5'. For `Choose OS`, select 'Rasp
 
 <img src="../Media_Repository/Pi_Imager_OS_Other.png" alt="Pi imager OS other" alt="Pi imager OS other" title="Pi imager OS other" width="30%"/> <img src="../Media_Repository/Pi_Imager_OS_Lite.png" alt="Pi imager OS lite" title="Pi imager OS lite" width="30%"/> <img src="../Media_Repository/Pi_Imager_OS_Complete.png" alt="Pi imager OS complete" title="Pi imager OS complete" width="30%"/> 
 
-Click `Next` and then `Edit Settings`. Fill in the settings. **Keep track of your Pi hostname, your Pi username (if different), and your Pi password!!!** These are very important. The Pi hostname will be used to connect to your Pi. The Pi username and password will be used to give commands to your Pi. 
+Click `Next` and then `Edit Settings`. Fill in the settings. **Keep track of your Pi hostname, your Pi username (if different), and your Pi password!!!** These are very important. The Pi hostname will be used to connect to your Pi. The Pi username and password will be used to give commands to your Pi. **Be careful about entering your Pi password. There is no way to tell if you did this wrong.**
 
 Under `Wireless LAN`, for `SSID`, enter the name of your wifi. Under `Wireless LAN`, for `SSID`, enter your wifi password. Click the `Services` tab and make sure you have 'Enable SSH' and 'Use password authentication' enabled. This will ensure you can talk to your Pi through your wifi. Click `Save`, `Yes`, and `Yes`. Wait for the Raspberry Pi Imager to finish writing the Pi OS to your SSD. If your computer asks you if you want to format your device when finished **do not say yes** (this will wipe your Pi device). 
 
