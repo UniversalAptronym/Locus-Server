@@ -39,10 +39,14 @@ Find the setting `fastcgi_buffers [...] [...];`. Change `[...] [...]` to 64 4k t
 Not sure if this helped, but apparently you can also add this to `Root/DATA/AppData/config/php/php-local.ini`.
 
 `; Edit this file to override php.ini directives`
-`upload_max_filesize = 100G
-post_max_size = 100G
-max_execution_time = 3600
-memory_limit = 512M`
+
+`upload_max_filesize = 100G`
+
+`post_max_size = 100G`
+
+`max_execution_time = 3600`
+
+`memory_limit = 512M`
 
 #### __Delete Sync Files__
 
