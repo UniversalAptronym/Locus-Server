@@ -34,8 +34,8 @@ Don't be intimidated if this seems like a lot; most of these steps are actually 
     1. (Beginner) There are prepared images (copies of everything needed to make your Pi a computer with software) and scripts (little programs which will ask you for your inputs) which will let you set everything up painlessly. You will only need to type in things like your wifi name and password, your desired usernames and passwords, your domain name, etc.
     2. ([Advanced](Software_Repository/Raspberry_Pi_Imager.md)) There is a list of tools and instructions with which you can install a fresh Raspberry Pi OS and add everything you need.
 5. [Assemble your Raspberry Pi](Instructions/Raspberry_Pi_Assembly.md).
-6. Image your Micro SD Card (Secure Communication Only) or your SSD (Full Home Server). These are the storage devices which will hold all the operational software for your equipment.
-7. Install SSH software (this lets your computer talk to your Raspberry Pi during the installation).
+6. [Image an operating system](Instructions/Raspberry_Pi_Image_Setup.md) onto your Micro SD Card (Secure Communication Only) or your SSD (Full Home Server). These are the storage devices which will hold all the operational software for your equipment.
+7. [Install SSH software](Instructions/SSH_setup.md) (this lets your computer talk to your Raspberry Pi during the installation).
 8. Log into your Pi and complete the installation.
 9. Set up your Databag server. 
 10. (For full home server users). Set up your Nextcloud system.
