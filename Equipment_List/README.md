@@ -1,4 +1,4 @@
-Note: In addition to the equipment itself, you will need to purchase a web URL, which as of 2024 costs \~$10/yr.
+Note: In addition to the equipment itself, you will need to purchase a web URL, which as of 2024 costs \~$10/yr. Follow the instructions [here](Instructions/Getting_a_Domain_Name_(Web_URL).md) to do so.
 
 ## __Very Basics__
 
@@ -47,3 +47,5 @@ Raspberry Pi Zero 2 W. (left) Bare motherboard. (Middle) Motherboard with therma
   - This will allow you to use wired ethernet rather than wireless wifi. This allows for faster and more consistent connection.
 - SD Card USB Adapter (like [this](https://www.amazon.com/Reader-Adapter-Camera-Memory-Wansurs/dp/B0B9QZ4W4Y?crid=3UGPJK6DS6ZDK&dib=eyJ2IjoiMSJ9.OP-goGzbVTBErEAb5KAgGCjBKA-u0HiCypmciWXnCRgmRE5ZhWDvwdAi_2XUcK0jL_SFjQ4MZWhqaqWC8kp3wYdJ1e6p75mvBgBMb91yRA6v73oRnv2FNBMINxGLaSHPoB8Lsy-aHlXIVakZkXW6UUyA4iiWEqsUIvrpOTs5NKxYXa5HTfle6cKL7AInHXQmJYmBoxLW0MV9AXg7qCqNJ6Y0euFFmyIU_ONiIANMR-0.Y2-4F1iyV_KvIv3bcPtFNsjz4sYLBWfq465lF-pqZ5A&dib_tag=se&keywords=sd+card+usb+adapter&qid=1734674535&sprefix=sd+card+usb%2Caps%2C139&sr=8-3)) ($5)
   - If your computer does not have an SD card or micro SD card reader, you will need one of these.
+
+Once you have finished your purchases, you will need to purchase a web URL, which as of 2024 costs \~$10/yr. Follow the instructions [here](Instructions/Getting_a_Domain_Name_(Web_URL).md) to do so.
