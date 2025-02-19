@@ -9,7 +9,11 @@ For the safety of your electronics, we highly recommend that all power outlets y
 
 If you have not already done so, install the [Raspberry Pi Imager](../Software_Repository/Raspberry_Pi_Imager.md) on your computer. This lets you turn your Raspbbery Pi from a lump of silicon into a working computer you can talk to.
 
-Slot your SSD into your external SSD enclosure. Plug the enclosure's power supply into a power outlet. Plug the enclosure's USB 3.0 cable into your computer. Open up the Raspberry Pi Imager on your computer.
+Slot your SSD into your external SSD enclosure. 
+
+<img src="../Media_Repository/SSD_exposed.jpg" alt="SSD exposed" title="SSD exposed" width="30%"/> <img src="../Media_Repository/SSD_enclosed.jpg" alt="SSD enclosed" title="SSD enclosed" width="30%"/> 
+
+Plug the enclosure's power supply into a power outlet. Plug the enclosure's USB 3.0 cable into your computer. Open up the Raspberry Pi Imager on your computer.
 
 <img src="../Media_Repository/Pi_Imager_search.png" alt="Searching for Pi imager" title="Searching for Pi imager" width="30%"/> <img src="../Media_Repository/Pi_Imager_landing_page.png" alt="Pi imager landing page" title="Pi imager landing page" width="30%"/> 
 
