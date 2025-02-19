@@ -31,16 +31,17 @@ Raspberry Pi Zero 2 W. (left) Bare motherboard. (Middle) Motherboard with therma
  
 ## __Full Home Server with Cloud Storage and Secure Communication__
 
-As of 2024, the following will cost ~$200. 
+As of 2024, the following will cost ~$150-200, with $150 for the bare minimum server space (250 GB) and $200 for more comfortable server space (~2 TB). 
 
-#### __Critical Hardware (\~$200)__
+#### __Critical Hardware (\~$150-200)__
 
 Buy a [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/) with at least [2 GB of RAM](https://www.pishop.us/product/raspberry-pi-5-4gb/). I would recommend 4 GB to be safe however. ($50-60)
 
 - A case (like [this](https://www.pishop.us/product/raspberry-pi-case-for-pi-5-red-white/), which includes a cooling fan) ($10)
   - You should also get extra [heatsinks](https://www.pishop.us/product/set-of-heatsinks-for-raspberry-pi-5-4-pack-copper/) ($4)
 - A compatible power supply (like [this](https://www.pishop.us/product/raspberry-pi-27w-usb-c-power-supply-white-us/)) ($14)
-- A good quality SSD (solid state drive) with at least 1 TB of space [I (Sengachi) personally use this SSD and it's worked well so far](https://www.amazon.com/Silicon-Power-Performance-Internal-SP002TBSS3A55S25/dp/B07Q37V1C9). High transfer speeds are a plus when considering what SSD card to get, but reliability is the most important thing. Always look up customer reviews from somewhere other than the major sites (like Amazon), which are sometimes faked. ($50-100)
+- A good quality SSD (solid state drive) with at least 1 TB of memory [I (Sengachi) personally use this SSD and it's worked well so far](https://www.amazon.com/Silicon-Power-Performance-Internal-SP002TBSS3A55S25/dp/B07Q37V1C9). High transfer speeds are a plus when considering what SSD card to get, but reliability is the most important thing. Always look up customer reviews from somewhere other than the major sites (like Amazon), which are sometimes faked. ($50-100)
+- - At the low end, a full home server can also run off of a very small SSD with 250 GB of memory or less. [This can be very cheap](https://www.amazon.com/SSD-Dogfish-Internal-Performance-Desktop/dp/B07JH934KL), and you can add another SSD later if you find it's too small. ($25)
 - An [external SSD enclosure](https://www.amazon.com/UGREEN-External-Enclosure-Housing-Adapter/dp/B076WQHK2G) to connect your SSD to your Pi, with a USB 3.0 connector, and which **runs off its own power adapter**. This is very important. Your enclosure should come with its own power adapter. It will be visible in shopping pictures, and have a wall outlet plug. Many external SSD enclosures do not have this and operate off of power from your computer, via the USB 3.0 connector; the Pi 5 **does not have enough power** to do this. ($30)
 - [An ethernet cable](https://www.homedepot.com/p/Commercial-Electric-CE-15-ft-Cat-6A-UTP-Patch-Cable-White-5615-WH-VN/328470762). Make sure this is long enough to stretch from your router to your equipment. ($10-20)
 
