@@ -19,7 +19,7 @@ Under `Wireless LAN`, for `SSID`, enter the name of your wifi. Under `Wireless L
 
 <img src="../Media_Repository/Pi_Imager_OS_settings_1.png" alt="Pi imager OS other" alt="Pi imager OS settings" title="Pi imager OS settings" width="30%"/> <img src="../Media_Repository/Pi_Imager_OS_settings_2.png" alt="Pi imager OS settings" title="Pi imager OS settings" width="30%"/> 
 
-Remove the USB plug of the SSD enclosure from your PC. Make sure your Pi is unplugged from any wall outlet. Plug the USB plug of the SSD enclosure into the Pi. Plug your Pi into a wall outlet. Wait one minute while your Pi boots up. You now have a tiny functioning computer! 
+Remove the USB plug of the SSD enclosure from your PC. Make sure your Pi is unplugged from any wall outlet. Plug the USB plug of the SSD enclosure into the Pi. Plug your SSD enclosure's power outlet into a wall outlet. Plug your Pi into a wall outlet. Wait one minute while your Pi boots up. You now have a tiny functioning computer! 
 
 Your next step, to talk to the Pi, is to [use SSH to connect to your Pi](../Instructions/SSH_setup.md). After that, [install CasaOS](../Instructions/CasaOS_Setup.md), a free and open source operating system which goes on top of your Raspberry Pi OS and makes it easier to work with. 
 
