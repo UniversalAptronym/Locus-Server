@@ -1,4 +1,6 @@
-to-do: Check if `pi` and `raspberry` are the default root username and password like this, and if there's a seperate `root` user by default, whose password needs to be changed.
+to-do: 
+- Check if `pi` and `raspberry` are the default root username and password like this, and if there's a seperate `root` user by default, whose password needs to be changed.
+- Add a section about how to change your wifi name and password if those change.
 
 # __SSH Setup__
 
