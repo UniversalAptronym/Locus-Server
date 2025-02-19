@@ -25,7 +25,7 @@ Follow these instructions step by step to make a secure communication hub / home
 Don't be intimidated if this seems like a lot; most of these steps are actually very simple. The reason there's so many lists of instructions is that we try to document each step in as much detail as possible. Most users will probably find themselves bored to tears and rolling their eyes over how much overexplaining is done in the Locus Server project. But our goal is to make it so that _anyone_ can make a home server. Whether because you're a novice with computers and need your hand held through each step, or if you're an IT expert who happens to trip over something specific, we don't want anyone to give up on making a home server because we didn't explain it carefully enough.
 
  1. Decide what you're getting.
-    1. [Full Home Server with Cloud Storage and Secure Communication](Equipment_List/Description_Full_Home_Server.md) (~$200 + $10/yr)
+    1. [Full Home Server with Cloud Storage and Secure Communication](Equipment_List/Description_Full_Home_Server.md) (~$150-200 + $10/yr)
     2. [Secure Communication Only](Equipment_List/Description_Secure_Communication_Only.md) (~$50-70 + $10/yr)
  2. Buy the equipment you need from [this list](Equipment_List/README.md).
  3. Get a domain name (web URL) and set it up. When you are finished, you and others will access your communication server by going to this URL. [Getting a Domain Name (Web URL).md](Instructions/Getting_a_Domain_Name_(Web_URL).md)
