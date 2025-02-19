@@ -66,3 +66,7 @@ You will also learn the following information during this installation. You shou
 - Your Raspberry Pi's IP address
 - Your network router's IP address
 - Your network router's global IP address
+
+# __Let's Get Started!__
+
+Click [here](Equipment_List/README.md) to begin your self-hosting journey!
