@@ -6,7 +6,7 @@ These instructions will get you a web domain, with a unique URL, which as of 202
 
 Note: Updates to Cloudflare's user interface may cause the website's layout to be different than the following pictures. Hopefully they will still be a helpful visual aid if so.
 
-## __Instructions__
+# __Instructions__
 
 First, go to [IPchicken](https://ipchicken.com/) to find your router's **global IP address**. It should be of the form **XX.XXX.XXX.XX**. Save this.
 
