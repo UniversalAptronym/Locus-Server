@@ -20,7 +20,7 @@ If you are not part of an at-risk group and don't know anyone who is, you don't 
 
 # __Instructions__
 
-Follow these instructions step by step to make a secure communication hub / home server. Each step links to a detailed list of instructions. 
+Follow these instructions step by step to make a secure communication hub / home server. Each step links to a detailed list of instructions.
 
 Don't be intimidated if this seems like a lot; most of these steps are actually very simple. The reason there's so many lists of instructions is that we try to document each step in as much detail as possible. Most users will probably find themselves bored to tears and rolling their eyes over how much overexplaining is done in the Locus Server project. But our goal is to make it so that _anyone_ can make a home server. Whether because you're a novice with computers and need your hand held through each step, or if you're an IT expert who happens to trip over something specific, we don't want anyone to give up on making a home server because we didn't explain it carefully enough.
 
@@ -41,7 +41,7 @@ Don't be intimidated if this seems like a lot; most of these steps are actually 
 10. (For full home server users). Set up your Nextcloud system.
 11. Talk to your friends and say hi to others.
 
-# __Passwords__
+# __Usernames and Passwords__
 
 Before we start, you should to decide on certain usernames, passcodes, etc. You will need these later, and they are very important for your security. **Make sure these are usernames and passwords you can remember, which do not rely on simple patterns. If you absolutely must write them down, store them in a secure *offline* location. None of these passwords should be a copy of other passwords you use.** You will need:
 
@@ -61,3 +61,12 @@ Before we start, you should to decide on certain usernames, passcodes, etc. You 
 - CasaOS password (this is the password you use to log into your Pi through a web browser)
 - Nextcloud username (this is the username you use to log into your home server storage, and an alternative secure communication service)
 - Nextcloud password (this is the password you use to log into your home server storage, and an alternative secure communication service)
+
+# __Recorded Information__
+
+The following information will be acquired or decided as you move through the installation. You should record this information.
+
+- Your web domain (exampleDomain.org)
+- Your Raspberry Pi's IP address
+- Your network router's IP address
+- Your network router's global IP address
