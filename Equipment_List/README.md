@@ -10,13 +10,13 @@ As of 2024, the following will cost $50-70.
 
 #### __Critical Hardware (\~$50)__
 
-Buy a [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) with 
+Buy a [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/). ($15)
 
-- A case (like [this](https://www.pishop.us/product/aluminum-alloy-protection-case-for-raspberry-pi-zero-series-fits-zero-zero-2-w/))
-  - You may also need an extra [heatsink](https://www.pishop.us/product/aluminum-heatsink-for-raspberry-pi-zero/) if your case does not have metal heatsink ridges (rectangular ridges which dissipate heat) and come with thermal putty contacts. (The case above does not need an extra heatsink.)
-- A compatible power supply (like [this](https://www.pishop.us/product/wall-adapter-power-supply-micro-usb-2-4a-5-25v/))
-- A high quality micro SD card with at least 8 GB of space (the [official Raspberry Pi Micro SD cards with 32 GB](https://www.pishop.us/product/raspberry-pi-sd-card-32gb/) are high quality and will serve well, note that it also comes with a Micro SD to SD card adapter)
-  - Note: Do not get a very large SD Card (256+ GB) for more storage. SD Cards do not survive constant file transfers the way SSDs (solid state drives) do and using massive ones for moving and storing many files is prone to failure.
+- A case (like [this](https://www.pishop.us/product/aluminum-alloy-protection-case-for-raspberry-pi-zero-series-fits-zero-zero-2-w/)) ($9)
+  - You may also need an extra [heatsink](https://www.pishop.us/product/aluminum-heatsink-for-raspberry-pi-zero/) if your case does not have metal heatsink ridges (rectangular ridges which dissipate heat) and come with thermal putty contacts. (The case above does not need an extra heatsink.) ($2)
+- A compatible power supply (like [this](https://www.pishop.us/product/wall-adapter-power-supply-micro-usb-2-4a-5-25v/)) ($8)
+- A high quality micro SD card with at least 8 GB of space (the [official Raspberry Pi Micro SD cards with 32 GB](https://www.pishop.us/product/raspberry-pi-sd-card-32gb/) are high quality and will serve well, note that it also comes with a Micro SD to SD card adapter) ($11)
+- - Note: Do not get a very large SD Card (256+ GB) for more storage. SD Cards do not survive constant file transfers the way SSDs (solid state drives) do and using massive ones for moving and storing many files is prone to failure.
 
 Raspberry Pi Zero 2 W. (left) Bare motherboard. (Middle) Motherboard with thermal putty contacts, which help conduct heat away from the board and into the case. (Right) Pi Zero 2 W fully enclosed in case, with an extra unneeded aluminum heatsink on top. 
 
