@@ -4,10 +4,6 @@ Note: In addition to the equipment itself, you will need to purchase a web URL, 
 
 To-do: Add section about stuff like having internet acess, a router, etc.
 
-## __Full Home Server with Cloud Storage and Secure Communication__
-
-Note to self: SSD enclosure needs to be powered
-
 ## __Secure Communication Only__
 
 As of 2024, the following will cost $50-70. 
@@ -33,7 +29,7 @@ Raspberry Pi Zero 2 W. (left) Bare motherboard. (Middle) Motherboard with therma
 - SD Card USB Adapter (like [this](https://www.amazon.com/Reader-Adapter-Camera-Memory-Wansurs/dp/B0B9QZ4W4Y?crid=3UGPJK6DS6ZDK&dib=eyJ2IjoiMSJ9.OP-goGzbVTBErEAb5KAgGCjBKA-u0HiCypmciWXnCRgmRE5ZhWDvwdAi_2XUcK0jL_SFjQ4MZWhqaqWC8kp3wYdJ1e6p75mvBgBMb91yRA6v73oRnv2FNBMINxGLaSHPoB8Lsy-aHlXIVakZkXW6UUyA4iiWEqsUIvrpOTs5NKxYXa5HTfle6cKL7AInHXQmJYmBoxLW0MV9AXg7qCqNJ6Y0euFFmyIU_ONiIANMR-0.Y2-4F1iyV_KvIv3bcPtFNsjz4sYLBWfq465lF-pqZ5A&dib_tag=se&keywords=sd+card+usb+adapter&qid=1734674535&sprefix=sd+card+usb%2Caps%2C139&sr=8-3)) ($5)
   - If your computer does not have an SD card or micro SD card reader, you will need one of these.
  
-## __Full Home Server__
+## __Full Home Server with Cloud Storage and Secure Communication__
 
 As of 2024, the following will cost ~$200. 
 
