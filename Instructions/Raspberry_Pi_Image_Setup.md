@@ -1,10 +1,5 @@
 To-do: 
-(plenty of pictures for all of this!)
-- List of passwords, usernames, etc that people will need to make, right at the beginning. 
-- - Advice on password security.
-- How to connect to the Pi for the first time.
-- How to set up Raspberry Pi OS / dietPi.
-- - How to set up CasaOS, if it's being used.
+Secure communication only section, with dietpi.
 
 # __Full Home Server (Advanced)__
 
