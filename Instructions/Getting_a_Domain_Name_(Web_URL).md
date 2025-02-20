@@ -34,7 +34,7 @@ Return to `Account Home` (there is a back arrow in the top left which will take 
 
 Navigate to a folder on your computer you will remember later. Create a new text file in that folder. On Windows, you do this by right clicking inside the folder, scrolling down to `New`, then scrolling down to `New Text Document`. Then **paste** the text you copied into the new text document and save it. We will need this later. Finally, return to the Cloudflare webpage, scroll down, and click `Next` at the bottom of the page. This will take you to the page below.
 
-<img src="../Media_Repository/Cloudflare_New_Text.png" alt="How to make a new text document.png" title="How to make a new text document" width="40%"/> <img src="../Media_Repository/Cloudflare_Public_Hostname_0.png" alt="Cloudflare Public Hostname Blank" title="Cloudflare Public Hostname Blank" width="40%"/>
+<img src="../Media_Repository/Cloudflare_New_Text.png" alt="How to make a new text document.png" title="How to make a new text document" width="30%"/> <img src="../Media_Repository/Cloudflare_Public_Hostname_0.png" alt="Cloudflare Public Hostname Blank" title="Cloudflare Public Hostname Blank" width="50%"/>
 
 What you do next depends on whether you are setting up a full home server, or just a secure communications hub. Follow the instructions below based on your choice. Either way, this next step will set up a series of sub-websites which you will use to access various functions of your Raspberry Pi. For example, `databag.[exampleweburl].org` will take you to your secure communications hub. Meanwhile `nginx.[exampleweburl].org` will take you to part of your device's security interface, and `pihole.[exampleweburl].org` will take you to the control panel for an adblocker which will reduce the number of ads for all devices on your internet.
 
@@ -46,7 +46,7 @@ Once your system is set up, this will take you to part of your device's security
 
 In the `subdomain` section, enter **nginx**. In the `domain` section, select your chosen URL from the drop-down list. Under `type` select **HTTP**. Under `URL`, enter your **Global IP address** followed by **:81**. It should have the form: **XXX.XXX.XXX.XXX:81**.
 
-<img src="../Media_Repository/Cloudflare_Public_Hostname_1.png" alt="Cloudflare Public Hostname nginx" title="Cloudflare Public Hostname nginx" width="30%"/> 
+<img src="../Media_Repository/Cloudflare_Public_Hostname_ngninx.png" alt="Cloudflare Public Hostname nginx" title="Cloudflare Public Hostname nginx" width="30%"/> 
 
 
 
