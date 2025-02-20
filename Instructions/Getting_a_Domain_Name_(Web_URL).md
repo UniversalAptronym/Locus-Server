@@ -6,7 +6,7 @@ to-do:
 
 These instructions will get you a web domain, with a unique URL, which as of 2024 costs ~$10/yr, along with the services of an organization known as Cloudflare to route web traffic through it. These steps are tedious and may be opaque if you're not familiar with internet backend terminology. But don't worry, none of this is technically complicated, you're just filling out paperwork. Quite literally, this is paperwork you fill out so that the internet has a contact address for your equipment. It's just that instead of sending letters to a mailbox, it's sending information packets to an IP address.
 
-Note: Updates to Cloudflare's user interface may cause the website's layout to be different than the following pictures. Hopefully they will still be a helpful visual aid even if that happens.
+Note: Updates to Cloudflare's user interface may cause the website's layout to be different than the following pictures. Hopefully they will still be a helpful visual aid even if that happens. Please leave a note in the `Issues` tab of the Locus Server's Github repository, if that happens.
 
 First, go to [IPchicken](https://ipchicken.com/) to find your router's **global IP address**. It should be of the form **XXX.XXX.XXX.XXX**, where each **XXX** can be 1, 2, or 3 digits. **Save this.** It will be used throughout the rest of this instruction page, and for future instructions as well.
 
