@@ -1,6 +1,6 @@
 to-do:
 - I'm pretty sure the current configuration I have leaves traffic readable by Cloudflare. Check if there's a way around this other than getting both parties to go through the hassle of Tailscale.  
-- We might also need to change the Zero Trust instructions for dietpi.
+- We might also need to change the Zero Trust instructions for dietpi with Secure Communications Only.
 
 These instructions will get you a web domain, with a unique URL, which as of 2024 costs ~$10/yr, along with the services of an organization known as Cloudflare to route web traffic through it.
 
@@ -8,7 +8,7 @@ Note: Updates to Cloudflare's user interface may cause the website's layout to b
 
 # __Instructions__
 
-First, go to [IPchicken](https://ipchicken.com/) to find your router's **global IP address**. It should be of the form **XX.XXX.XXX.XX**. Save this.
+First, go to [IPchicken](https://ipchicken.com/) to find your router's **global IP address**. It should be of the form **XXX.XXX.XXX.XXX**, where each **XXX** can be 1, 2, or 3 digits. **Save this.** It will be used throughout the rest of this instruction page, and for future instructions as well.
 
 Second, go to [Cloudflare's website](https://www.cloudflare.com/) and click the `Sign Up` to make an account. Select the `Free` option.
 
@@ -18,9 +18,9 @@ Once you have an account, go to your [Cloudflare dashboard](https://dash.cloudfl
 
 **NOTE:** If you do not renew your URL when your payment period is finished, you will lose it. If you are using this for secure communication that is a security risk, as someone else could take the URL and pretend to be your secure server.
 
-Return to Cloudflare's `Account Home`. Click the `DNS` (Domain Name System) tab on the left, then click `Add A Record` (you may have to scroll down to find this). Make sure the `Type` field is **A**, the `Name` field is **@**, and the `Proxy Status` switch is set to **Proxied**. Enter the global IP address you found above into the `IPv4 address` field. Then click `Save`. To creates an internet record which lets computers find your device when your URL is typed into a browser.
+Return to Cloudflare's `Account Home`. Click your chosen URL under `Domain`. Click the `DNS` (Domain Name System) tab on the left, then click `Add A Record` (you may have to scroll down to find this). Make sure the `Type` field is **A**, the `Name` field is **@**, and the `Proxy Status` switch is set to **Proxied**. Enter the global IP address you found above into the `IPv4 address` field. Then click `Save`. To creates an internet record which lets computers find your device when your URL is typed into a browser.
 
-<img src="../Media_Repository/Cloudflare_Domain_1.png" alt="Cloudflare DNS button" title="Cloudflare DNS button" width="40%"/> <img src="../Media_Repository/Cloudflare_DNS.png" alt="Cloudflare DNS fields" title="Cloudflare DNS fields" width="40%"/> 
+<img src="../Media_Repository/Cloudflare_Domain_0.png" alt="Cloudflare Domain Selection" title="Cloudflare Domain Selection" width="30%"/> <img src="../Media_Repository/Cloudflare_Domain_1.png" alt="Cloudflare DNS button" title="Cloudflare DNS button" width="30%"/> <img src="../Media_Repository/Cloudflare_DNS.png" alt="Cloudflare DNS fields" title="Cloudflare DNS fields" width="30%"/> 
 
 Note: If you move your equipment so that it is connected to a different internet router, during a home move for example, you will need to use [IPchicken](https://ipchicken.com/) to find your new global IP address and change the `IPv4 address` field here to that new value.
 
@@ -32,7 +32,29 @@ Return to `Account Home` (there is a back arrow in the top left which will take 
 
 <img src="../Media_Repository/Cloudflare_Zero_Trust_4.png" alt="Cloudflare tunnel name field" title="Cloudflare tunnel name field" width="30%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_5.png" alt="Cloudflare connector text" title="Cloudflare connector text" width="30%"/>
 
-Navigate to a folder on your computer you will remember later. Create a new text file in that folder. On Windows, you do this by right clicking inside the folder, scrolling down to `New`, then scrolling down to `New Text Document`. Then **paste** the text you copied into the new text document and save it. We will need this later. Finally, return to the Cloudflare webpage, scroll down, and click `Next` at the bottom of the page.
+Navigate to a folder on your computer you will remember later. Create a new text file in that folder. On Windows, you do this by right clicking inside the folder, scrolling down to `New`, then scrolling down to `New Text Document`. Then **paste** the text you copied into the new text document and save it. We will need this later. Finally, return to the Cloudflare webpage, scroll down, and click `Next` at the bottom of the page. This will take you to the page below.
+
+<img src="../Media_Repository/Cloudflare_New_Text" alt="How to make a new text document.png" title="How to make a new text document" width="40%"/> <img src="../Media_Repository/Cloudflare_Public_Hostname_0.png" alt="Cloudflare Public Hostname Blank" title="Cloudflare Public Hostname Blank" width="40%"/>
+
+What you do next depends on whether you are setting up a full home server, or just a secure communications hub. Follow the instructions below based on your choice. Either way, this next step will set up a series of sub-websites which you will use to access various functions of your Raspberry Pi. For example, `databag.[exampleweburl].org` will take you to your secure communications hub. Meanwhile `nginx.[exampleweburl].org` will take you to part of your device's security interface, and `pihole.[exampleweburl].org` will take you to the control panel for an adblocker which will reduce the number of ads for all devices on your internet.
+
+## __Full Home Server and Secure Communications__
+
+### __nginx__
+
+Once your system is set up, this will take you to part of your device's security interface.
+
+In the `subdomain` section, enter **nginx**. In the `domain` section, select your chosen URL from the drop-down list. Under `type` select **HTTP**. Under `URL`, enter your **Global IP address** followed by **:81**. It should have the form: **XXX.XXX.XXX.XXX:81**.
+
+<img src="../Media_Repository/Cloudflare_Public_Hostname_1.png" alt="Cloudflare Public Hostname nginx" title="Cloudflare Public Hostname nginx" width="30%"/> 
+
+
+
+<img src="../Media_Repository/" alt="" title="" width="30%"/> <img src="../Media_Repository/" alt="" title="" width="30%"/>
+
+
+## __Secure Communications Only__
 
 <img src="../Media_Repository/" alt="" title="" width="30%"/>
 
+under construction
