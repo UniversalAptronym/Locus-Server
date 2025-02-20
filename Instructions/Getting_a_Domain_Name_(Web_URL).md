@@ -1,4 +1,5 @@
 to-do:
+- Add RTC protocol thing for Databag.
 - I'm pretty sure the current configuration I have leaves traffic readable by Cloudflare. Check if there's a way around this other than getting both parties to go through the hassle of Tailscale.  
 - We might also need to change the Zero Trust instructions for dietpi with Secure Communications Only.
 
