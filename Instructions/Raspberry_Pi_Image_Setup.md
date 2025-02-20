@@ -7,7 +7,7 @@ For the safety of your electronics, we highly recommend that all power outlets y
 
 # __Full Home Server (Advanced)__
 
-If you have not already done so, install the [Raspberry Pi Imager](../Software_Repository/Raspberry_Pi_Imager.md) on your computer. This lets you turn your Raspbbery Pi from a lump of silicon into a working computer you can talk to.
+Install the [Raspberry Pi Imager](../Software_Repository/Raspberry_Pi_Imager.md) on your computer. This lets you turn your Raspbbery Pi from a lump of silicon into a working computer you can talk to.
 
 Slot your SSD into your external SSD enclosure, then plug the enclosure's power supply into a power outlet, then plug the enclosure's USB 3.0 cable into your computer. 
 
