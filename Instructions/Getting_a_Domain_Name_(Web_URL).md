@@ -20,7 +20,7 @@ Once you have an account, go to your [Cloudflare dashboard](https://dash.cloudfl
 
 Return to Cloudflare's `Account Home`. Click the `DNS` (Domain Name System) tab on the left, then click `Add A Record` (you may have to scroll down to find this). Make sure the `Type` field is **A**, the `Name` field is **@**, and the `Proxy Status` is **Proxied**. Enter the global IP address you found above into the `IPv4 address` field. Then click `Save`.
 
-<img src="../Media_Repository/Cloudflare_Domain_1.png" alt="Cloudflare DNS button" title="Cloudflare DNS button" width="30%"/> <img src="../Media_Repository/Cloudflare_Domain_DNS.png" alt="Cloudflare DNS fields" title="Cloudflare DNS fields" width="30%"/> <img src="../Media_Repository/" alt="" title="" width="30%"/>
+<img src="../Media_Repository/Cloudflare_Domain_1.png" alt="Cloudflare DNS button" title="Cloudflare DNS button" width="40%"/> <img src="../Media_Repository/Cloudflare_DNS.png" alt="Cloudflare DNS fields" title="Cloudflare DNS fields" width="40%"/> 
 
 Note: If you move your equipment so that it is connected to a different internet router, during a home move for example, you will need to use [IPchicken](https://ipchicken.com/) to find your new global IP address and change the `IPv4 address` field here to that new value.
 
