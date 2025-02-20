@@ -10,7 +10,7 @@ Note: Updates to Cloudflare's user interface may cause the website's layout to b
 
 First, go to [IPchicken](https://ipchicken.com/) to find your router's **global IP address**. It should be of the form **XXX.XXX.XXX.XXX**, where each **XXX** can be 1, 2, or 3 digits. **Save this.** It will be used throughout the rest of this instruction page, and for future instructions as well.
 
-Second, go to [Cloudflare's website](https://www.cloudflare.com/). You should bookmark this website, in case you ever need to manage your account in the future. Click the `Sign Up` button to make an account. Select the `Free` option.
+Second, go to [Cloudflare's website](https://www.cloudflare.com/). You should bookmark this website, in case you ever need to manage your account in the future. Click the `Sign Up` button to make an account. Select the `Free` option. ("Free" means you are opting to not pay for Cloudflare support and extra features, which businesses use. You will still have to pay for the web domain you will be using.)
 
 Once you have an account, go to your [Cloudflare dashboard](https://dash.cloudflare.com). You should be at `Account Home`. If not, click that tab on the left. Click `Add A New Domain`, then `Or register a new domain ->`. Enter your desired URL into the search bar to see if it's available. We recommend selecting a **.org** or **.com** address, as these are open to anyone to register. `Confirm` your desired URL and purchase it. 
 
