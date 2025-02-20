@@ -32,7 +32,7 @@ Return to `Account Home` (there is a back arrow in the top left which will take 
 
 <img src="../Media_Repository/Cloudflare_Zero_Trust_4.png" alt="Cloudflare tunnel name field" title="Cloudflare tunnel name field" width="30%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_5.png" alt="Cloudflare connector text" title="Cloudflare connector text" width="30%"/>
 
-Navigate to a folder on your computer you will remember later. Create a new text file in that folder. On Windows, you do this by right clicking inside the folder, scrolling down to `New`, then scrolling down to `New Text Document`. Then **paste** the text you copied into the new text document and save it. We will need this later. Finally, return to the Cloudflare webpage, scroll down, and click `Next` at the bottom of the page. This will take you to the page below.
+Navigate to a folder on your computer you will remember later. Create a new text file in that folder. On Windows, you do this by right clicking inside the folder, scrolling down to `New`, then scrolling down to `New Text Document`. Then **paste** the text you copied into the new text document and save it. We will need this later. Finally, return to the Cloudflare webpage, scroll down, and click `Next` at the bottom of the page. This will take you to the page below. (Note that the `Save` button will either say `Save Tunnel` or `Save Hostname` depending on what point of the process you are at.)
 
 <img src="../Media_Repository/Cloudflare_New_Text.png" alt="How to make a new text document.png" title="How to make a new text document" width="30%"/> <img src="../Media_Repository/Cloudflare_Public_Hostname_0.png" alt="Cloudflare Public Hostname Blank" title="Cloudflare Public Hostname Blank" width="50%"/>
 
@@ -42,19 +42,38 @@ What you do next depends on whether you are setting up a full home server, or ju
 
 ### __nginx__
 
-Once your system is set up, this will take you to part of your device's security interface.
+Once your system is set up, this URL will take you to part of your device's security interface.
 
-In the `subdomain` section, enter **nginx**. In the `domain` section, select your chosen URL from the drop-down list. Under `type` select **HTTP**. Under `URL`, enter your **Global IP address** followed by **:81**. It should have the form: **XXX.XXX.XXX.XXX:81**.
+In the `subdomain` section, enter **nginx**. In the `domain` section, select your chosen URL from the drop-down list. Under `type` select **HTTP**. Under `URL`, enter your **Global IP address** followed by **:81**. It should have the form: **XXX.XXX.XXX.XXX:81**. Click `Save`. Then select your tunnel name to enter the next public hostname.
 
-<img src="../Media_Repository/Cloudflare_Public_Hostname_ngninx.png" alt="Cloudflare Public Hostname nginx" title="Cloudflare Public Hostname nginx" width="30%"/> 
+<img src="../Media_Repository/Cloudflare_Public_Hostname_nginx.png" alt="Cloudflare Public Hostname nginx" title="Cloudflare Public Hostname nginx" width="40%"/> <img src="../Media_Repository/Cloudflare_Tunnel_Select.png" alt="Cloudflare Tunnel Select" title="Cloudflare Tunnel Select" width="40%"/> 
 
+## __Databag__
 
+Once your system is set up, this URL will take you to your secure communication hub.
 
-<img src="../Media_Repository/" alt="" title="" width="30%"/> <img src="../Media_Repository/" alt="" title="" width="30%"/>
+In the `subdomain` section, enter **databag**. In the `domain` section, select your chosen URL from the drop-down list. Under `type` select **HTTP**. Under `URL`, enter your **Global IP address** followed by **:81**. It should have the form: **XXX.XXX.XXX.XXX:7000**. Click `Save`. Then select your tunnel name to enter the next public hostname.
 
+<img src="../Media_Repository/Cloudflare_Public_Hostname_databag.png" alt="Cloudflare Public Hostname Databag" title="Cloudflare Public Hostname Databag" width="40%"/> <img src="../Media_Repository/Cloudflare_Tunnel_Select.png" alt="Cloudflare Tunnel Select" title="Cloudflare Tunnel Select" width="40%"/> 
+
+## __Nextcloud__
+
+Once your system is set up, this URL will take you to your new cloud server, where you can back up and share files. This will incidentally host a secondary communication hub. 
+
+In the `subdomain` section, enter **nextcloud**. In the `domain` section, select your chosen URL from the drop-down list. Under `type` select **HTTP**. Under `URL`, enter your **Global IP address** followed by **:81**. It should have the form: **XXX.XXX.XXX.XXX:7580**. Click `Save`. Then select your tunnel name to enter the next public hostname.
+
+<img src="../Media_Repository/Cloudflare_Public_Hostname_nextcloud.png" alt="Cloudflare Public Hostname Nextcloud" title="Cloudflare Public Hostname Nextcloud" width="40%"/> <img src="../Media_Repository/Cloudflare_Tunnel_Select.png" alt="Cloudflare Tunnel Select" title="Cloudflare Tunnel Select" width="40%"/> 
+
+## __Pihole__
+
+Once your system is set up, this URL will take you to the control panel for an adblocker which will reduce the number of ads for all devices on your internet.
+
+In the `subdomain` section, enter **pihole**. In the `domain` section, select your chosen URL from the drop-down list. Under `type` select **HTTP**. Under `URL`, enter your **Global IP address** followed by **:81**. It should have the form: **XXX.XXX.XXX.XXX:7580**. Click `Save`. 
+
+<img src="../Media_Repository/Cloudflare_Public_Hostname_pihole.png" alt="Cloudflare Public Hostname Pihole" title="Cloudflare Public Hostname Pihole" width="40%"/> <img src="../Media_Repository/Cloudflare_Tunnel_Select.png" alt="Cloudflare Tunnel Select" title="Cloudflare Tunnel Select" width="40%"/>
+
+You are finished with Cloudflare! Your next step will be to [image an operating system onto your Raspberry Pi](../Instructions/Raspberry_Pi_Image_Decision.md).
 
 ## __Secure Communications Only__
-
-<img src="../Media_Repository/" alt="" title="" width="30%"/>
 
 under construction
