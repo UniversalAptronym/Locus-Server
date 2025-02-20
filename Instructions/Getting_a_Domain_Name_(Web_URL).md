@@ -18,19 +18,21 @@ Once you have an account, go to your [Cloudflare dashboard](https://dash.cloudfl
 
 **NOTE:** If you do not renew your URL when your payment period is finished, you will lose it. If you are using this for secure communication that is a security risk, as someone else could take the URL and pretend to be your secure server.
 
-Return to Cloudflare's `Account Home`. Click the `DNS` (Domain Name System) tab on the left, then click `Add A Record` (you may have to scroll down to find this). Make sure the `Type` field is **A**, the `Name` field is **@**, and the `Proxy Status` is **Proxied**. Enter the global IP address you found above into the `IPv4 address` field. Then click `Save`.
+Return to Cloudflare's `Account Home`. Click the `DNS` (Domain Name System) tab on the left, then click `Add A Record` (you may have to scroll down to find this). Make sure the `Type` field is **A**, the `Name` field is **@**, and the `Proxy Status` switch is set to **Proxied**. Enter the global IP address you found above into the `IPv4 address` field. Then click `Save`. To creates an internet record which lets computers find your device when your URL is typed into a browser.
 
 <img src="../Media_Repository/Cloudflare_Domain_1.png" alt="Cloudflare DNS button" title="Cloudflare DNS button" width="40%"/> <img src="../Media_Repository/Cloudflare_DNS.png" alt="Cloudflare DNS fields" title="Cloudflare DNS fields" width="40%"/> 
 
 Note: If you move your equipment so that it is connected to a different internet router, during a home move for example, you will need to use [IPchicken](https://ipchicken.com/) to find your new global IP address and change the `IPv4 address` field here to that new value.
 
-Next we will set up a "tunnel", which allows encryption and decrytion of information which passes through your web domain to occur safely within you self-hosted server. 
+Next we will set up a "tunnel", which allows encryption and decrytion of the information which passes through your web domain, ensuring it occurs safely within you self-hosted server. 
 
 Return to `Account Home` (there is a back arrow in the top left which will take you there). Click `Zero Trust` on the left. Click `Networks` on the left. Click `Create a tunnel`. Select `Cloudflared`. Enter a tunnel name and click `Save Tunnel`. You do not have to record this name and it will be here on your Cloudflare account if you ever need it again. Select `Docker` (this is one of the operating softwares, like Windows or Mac, underlying what you will install later). Click the two-overlapping-pages icon to **copy** the text which appears.
 
-<img src="../Media_Repository/" alt="" title="" width="30%"/>
+<img src="../Media_Repository/Cloudflare_Zero_Trust_1.png" alt="Cloudflare Networks button" title="Cloudflare Networks button" width="30%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_2.png" alt="Cloudflare tunnel button" title="Cloudflare tunnel button" width="30%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_3.png" alt="Cloudflare Cloudflared button" title="Cloudflare Cloudflared button" width="30%"/>
+
+<img src="../Media_Repository/Cloudflare_Zero_Trust_4.png" alt="Cloudflare tunnel name field" title="Cloudflare tunnel name field" width="30%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_5.png" alt="Cloudflare connector text" title="Cloudflare connector text" width="30%"/>
 
 Navigate to a folder on your computer you will remember later. Create a new text file in that folder. On Windows, you do this by right clicking inside the folder, scrolling down to `New`, then scrolling down to `New Text Document`. Then **paste** the text you copied into the new text document and save it. We will need this later. Finally, return to the Cloudflare webpage, scroll down, and click `Next` at the bottom of the page.
 
-
+<img src="../Media_Repository/" alt="" title="" width="30%"/>
 
