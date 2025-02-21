@@ -5,39 +5,45 @@ to-do:
 
 # __Instructions__
 
-These instructions will get you a web domain, with a unique URL along with the services of an organization known as Cloudflare to route web traffic through it, which as of 2024 costs ~$10/yr. These steps are tedious and may be opaque if you're not familiar with internet backend terminology. But don't worry, none of this is technically complicated, you're just filling out paperwork. Quite literally, this is the paperwork you fill out so that the internet has a contact address for your equipment. It's just that instead of sending letters to a mailbox, it's sending information packets to an IP address (IP means Internet Protocol).
+This section will show you how to get a web domain and sign up for Cloudflare, a company which provides (among other things) web traffic routing services. As of 2025, Cloudflare's services cost about $10/yr. This section may be harder to understand if you're unfamiliar with internet backend terminology, but it's not technically complicated. In essence, you're filling out paperwork.
 
-Note: Updates to Cloudflare's user interface may cause the website's layout to be different than the following pictures. Hopefully they will still be a helpful visual aid even if that happens. Please leave a note in the `Issues` tab of the Locus Server's Github repository, if that happens.
+Note: Updates to Cloudflare's website may cause its user interface or layout to be different than it's shown in the following pictures. If this is the case, please leave a note in the `Issues` tab of the Locus Server's Github repository.
 
-First, go to [IPchicken](https://ipchicken.com/) to find your router's **global IP address**. It should be of the form **XXX.XXX.XXX.XXX**, where each **XXX** can be 1, 2, or 3 digits. This is the mailbox for your piece of the internet. **Write this down.** It will be used throughout the rest of this instruction page, and for future instructions as well.
+1. Go to [IPchicken](https://ipchicken.com/) to find your router's **global IP address**. It should be of the form **XXX.XXX.XXX.XXX**, where each **XXX** can be 1, 2, or 3 digits. This is the mailbox for your piece of the internet. **Write this down.** It will be used in this section and future sections.
 
-Second, go to [Cloudflare's website](https://www.cloudflare.com/). You should bookmark this website, in case you ever need to manage your account in the future. Click the `Sign Up` button to make an account. Select the `Free` option. ("Free" means you are opting to not pay for Cloudflare support and extra features, which businesses use. You will still have to pay for the web domain you will be using.)
+2. Go to [Cloudflare's website](https://www.cloudflare.com/). We recommend bookmarking this website in case you ever need to manage your account in the future. Click the `Sign Up` button to make an account. Select the `Free` option. ("Free" means you are opting to not pay for Cloudflare support and extra features. Businesses need these features, but you do not. You will still have to pay for the web domain you will be using.)
 
-Once you have an account, go to your [Cloudflare dashboard](https://dash.cloudflare.com). You should be at `Account Home`. If not, click that tab on the left. Click `Add A New Domain`, then `Or register a new domain ->`. Enter your desired URL into the search bar to see if it's available. We recommend selecting a **.org** or **.com** address, as these are open to anyone to register. `Confirm` your desired URL and purchase it. 
+3. Once you have an account, go to your [Cloudflare dashboard](https://dash.cloudflare.com). You should be at `Account Home`. If not, click that tab on the left. Click `Add A New Domain`, then `Or register a new domain ->`. Enter your desired URL into the search bar to see if it's available. We recommend selecting a **.org** or **.com** address, as these are open to anyone to register. `Confirm` your desired URL and purchase it. 
 
 <img src="../Media_Repository/Cloudflare_Account_Home.png" alt="Cloudflare account home" title="Cloudflare account home" width="35%"/> <img src="../Media_Repository/Cloudflare_New_Domain_1.png" alt="Cloudflare new domain 1" title="Cloudflare new domain 1" width="25%"/> <img src="../Media_Repository/Cloudflare_New_Domain_2.png" alt="Cloudflare new domain 2" title="Cloudflare new domain 2" width="30%"/> 
 
-**NOTE:** If you do not renew your URL when your payment period is finished, you will lose it. If you are using this for secure communication that is a security risk, as someone else could take the URL and pretend to be your secure server.
+**Warning:** If you do not renew your URL when your payment period is finished, you will lose it. If you are using this for secure communication that is a security risk, as someone else could take the URL and pretend to be your secure server.
 
-Return to Cloudflare's `Account Home`. Click your chosen URL under `Domain`. Click the `DNS` (Domain Name System) tab on the left, then click `Add A Record` (you may have to scroll down to find this). Make sure the `Type` field is **A**, the `Name` field is **@**, and the `Proxy Status` switch is set to **Proxied**. Enter the global IP address you found above into the `IPv4 address` field. Then click `Save`. To creates an internet record which lets computers find your device when your URL is typed into a browser.
+4. Return to Cloudflare's `Account Home`. Click your chosen URL under `Domain`. Click the `DNS` (Domain Name System) tab on the left, then click `Add A Record`. You may have to scroll down to find `Add A Record`. Make sure the `Type` field is **A**, the `Name` field is **@**, and the `Proxy Status` switch is set to **Proxied**. Enter the global IP address you found in Step 1 into the `IPv4 address` field. Then click `Save`. You now have an internet record which lets computers find your device by using your chosen URL.
 
 <img src="../Media_Repository/Cloudflare_Domain_0.png" alt="Cloudflare Domain Selection" title="Cloudflare Domain Selection" width="30%"/> <img src="../Media_Repository/Cloudflare_Domain_1.png" alt="Cloudflare DNS button" title="Cloudflare DNS button" width="30%"/> <img src="../Media_Repository/Cloudflare_DNS.png" alt="Cloudflare DNS fields" title="Cloudflare DNS fields" width="30%"/> 
 
-Note: If you move your equipment so that it is connected to a different internet router, during a home move for example, you will need to use [IPchicken](https://ipchicken.com/) to find your new global IP address and change the `IPv4 address` field here to that new value.
+**Caution**: If you move your equipment so that it is connected to a different internet router (if you move apartments, for example), your global IP address will change. Repeat Step 1 to find your new global IP address, then change the `IPv4 address` field in this Step to that new value.
 
-Next we will set up a "tunnel", which allows encryption and decrytion of the information which passes through your web domain, ensuring it occurs safely within you self-hosted server. 
+Next, you will set up a "tunnel". This allows encryption of the information which is sent to your web domain and ensures that encrypted information is only decrypted within the safety of your self-hosted server. 
 
-Return to `Account Home` (there is a back arrow in the top left which will take you there). Click `Zero Trust` on the left. Click `Networks` on the left. Click `Create a tunnel`. Select `Cloudflared`. Enter a tunnel name and click `Save Tunnel`. You do not have to record this name and it will be here on your Cloudflare account if you ever need it again. Select `Docker` (this is one of the operating softwares, like Windows or Mac, underlying what you will install later). Click the two-overlapping-pages icon to **copy** the text which appears.
+5. Return to `Account Home`. On the left-hand side of your screen, click `Zero Trust`, then `Networks`, and finally `Create a tunnel`. Select `Cloudflared`. Enter a name for your tunnel and click `Save Tunnel`. You do not have to record this name - it will be here on your Cloudflare account if you ever need it again. Select `Docker`. Select the text which appears, then either click the **Copy** icon or press **CTRL + C** (for Linux or Windows) or **CMD + C** (for Mac) to *Copy* that text.
 
 <img src="../Media_Repository/Cloudflare_Zero_Trust_1.png" alt="Cloudflare Networks button" title="Cloudflare Networks button" width="30%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_2.png" alt="Cloudflare tunnel button" title="Cloudflare tunnel button" width="30%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_3.png" alt="Cloudflare Cloudflared button" title="Cloudflare Cloudflared button" width="30%"/>
 
 <img src="../Media_Repository/Cloudflare_Zero_Trust_4.png" alt="Cloudflare tunnel name field" title="Cloudflare tunnel name field" width="30%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_5.png" alt="Cloudflare connector text" title="Cloudflare connector text" width="30%"/>
 
-Navigate to a folder on your computer you will remember later. Create a new text file in that folder. On Windows, you do this by right clicking inside the folder, scrolling down to `New`, then scrolling down to `New Text Document`. Then **paste** the text you copied into the new text document and save it. We will need this later. Finally, return to the Cloudflare webpage, scroll down, and click `Next` at the bottom of the page. This will take you to the page below. (Note that the `Save` button will either say `Save Tunnel` or `Save Hostname` depending on what point of the process you are at.)
+6. If you haven't already, create a dedicated folder for information about your server on your computer. Open this folder. If you already have a dedicated folder, navigate to it.
+  
+7. Within this folder, create a new plaintext file (plaintext files have the file extension **.txt**). Open this file, then press **CTRL + V** (for Linux or Windows) or **CMD + V** (for Mac) to *Paste* the text you copied in Step 5 into the file. Save this file and leave it open. You will need this later.
+
+8. Finally, return to the Cloudflare webpage, scroll down, and click `Next` at the bottom of the page. This will take you to the page pictured below.
+  
+**Note:** Depending on what part of the process you're at, the `Save` button will either say `Save Tunnel` or `Save Hostname`.
 
 <img src="../Media_Repository/Cloudflare_New_Text.png" alt="How to make a new text document.png" title="How to make a new text document" width="30%"/> <img src="../Media_Repository/Cloudflare_Public_Hostname_0.png" alt="Cloudflare Public Hostname Blank" title="Cloudflare Public Hostname Blank" width="50%"/>
 
-What you do next depends on whether you are setting up a full home server, or just a secure communications hub. Follow the instructions below based on your choice. Either way, this next step will set up a series of sub-websites which you will use to access various functions of your Raspberry Pi. For example, `databag.[exampleweburl].org` will take you to your secure communications hub. Meanwhile `nginx.[exampleweburl].org` will take you to part of your device's security interface, and `pihole.[exampleweburl].org` will take you to the control panel for an adblocker which will reduce the number of ads for all devices on your internet.
+What you do next depends on whether you are setting up a full home server or only a secure communications hub. Follow the instructions below based on your choice. Either way, this next step will set up a series of sub-websites which you will use to access various functions of your Raspberry Pi. For example, `databag.[exampleweburl].org` will take you to your secure communications hub. Meanwhile `nginx.[exampleweburl].org` will take you to part of your device's security interface, and `pihole.[exampleweburl].org` will take you to the control panel for an adblocker which will reduce the number of ads for all devices on your internet.
 
 ## __Full Home Server and Secure Communications__
 
@@ -77,4 +83,4 @@ You are finished with Cloudflare! Hallelujah! Your next step will be to [image a
 
 ## __Secure Communications Only__
 
-under construction
+*Under construction. Please check back later!*
