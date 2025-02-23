@@ -1,14 +1,13 @@
 to-do: 
 - Check if `pi` and `raspberry` are the default root username and password like this, and if there's a seperate `root` user by default, whose password needs to be changed.
 - Add a section about how to change your wifi name and password if those change.
+- Include instructions for Macs and Ubuntu.
 
 # __SSH Setup__
 
-To-do: Include instructions for Macs and Ubuntu.
-
 SSH means "Secure Shell", referring to the Secure Shell Protocol. An SSH program (like PuTTY) lets you talk to your Pi from your computer in a secure way. If you are using Windows, download and install [PuTTY](../Software_Repository/SSH.md). Make sure to create a desktop shortcut for PuTTY, and open it up.
 
-In a previous step you create a Pi hostname, Pi username, and Pi password. Make sure you have all three ready for this step.
+0. In a previous step you create a Pi hostname, Pi username, and Pi password. Make sure you have all three ready for this step.
 
 <img src="../Media_Repository/Pi_Imager_OS_settings_1.png" alt="Previous screen where you entered your Pi hostname" title="Previous screen where you entered your Pi hostname" width="40%"/>
 
@@ -23,8 +22,6 @@ If this does not work you probably got your wifi details wrong in the previous s
 Next we need to update your Raspberry Pi. Type `sudo apt update` and hit enter. This tells your Pi's Advanced Package Tool (APT) to run an update. `sudo` indicates that you are using administrator privileges to do so (you are telling it to update very sternly). Some text will scroll across your screen, about what is getting updated. When that is finished, type `sudo apt upgrade -y`. This tells your Pi's Advanced Package Tool (APT) to upgrade all of the underlying code packages and modules, and `-y` tells it to say yes to any "are you sure you want to upgrade this?" questions. More text will scroll across your screen, about what is getting updated.
 
 <img src="../Media_Repository/PuTTY_terminal_update_1.png" alt="PuTTY update 1" title="PuTTY update 1" width="40%"/> <img src="../Media_Repository/PuTTY_terminal_update_2.png" alt="PuTTY update 2" title="PuTTY update 2" width="40%"/>
-
-~~
 
 Finally, we need to give your Raspberry Pi a static **local IP address**. If your router's **global IP address** is the mailbox for your piece of the internet, this is the room your Pi lives in. Normally devices connected to your internet are free to change addresses as needed (crash in whatever room is available), but we need a permanent home for your Pi.
 
