@@ -63,8 +63,8 @@ Before we start, you should to decide on certain usernames, passcodes, etc. You 
 - Nextcloud password (this is the password you use to log into your home server storage, and an alternative secure communication service)
 ### __Recorded information__
 You will also learn the following information during this installation. You should record this somewhere offline, where you won't lose it.
-- Your Raspberry Pi's IP address
-- Your network router's IP address
+- Your Raspberry Pi's local IP address
+- Your network router's local IP address
 - Your network router's global IP address
 
 # __Let's Get Started!__
