@@ -24,12 +24,11 @@ SSH means "Secure Shell", referring to the Secure Shell Protocol. An SSH program
 
 <img src="../Media_Repository/PuTTY_terminal_update_1.png" alt="PuTTY update 1" title="PuTTY update 1" width="40%"/> <img src="../Media_Repository/PuTTY_terminal_update_2.png" alt="PuTTY update 2" title="PuTTY update 2" width="40%"/>
 
-4. Next we need to get your internet router's **local IP address**. If your router's **global IP address** is the mailing address for your piece of the internet, this is the personal name of the doorkeeper who brings the mail in. Type `ip -br route` and press Enter. One of the lines which pops up will say **default via XXX.XXX.XXX.XXX**, where each **XXX** can be 1, 2, or 3 digits. This is your internet router's **local IP address**, record it.
+4. Next we need to get your internet router's **local IP address**. If your router's **global IP address** is the mailing address for your piece of the internet, this is the personal name of the doorkeeper who brings the mail in. Type `ip -br route` and press Enter. This tells your Raspberry Pi to give you **local IP address** of your router, and to be 'brief' about how much information it gives you. One of the lines which pops up will say **default via XXX.XXX.XXX.XXX ...**, where each **XXX** can be 1, 2, or 3 digits. This is your internet router's **local IP address**, record it.
 
- 
+<img src="../Media_Repository/PuTTY_terminal_ip_route.png" alt="PuTTY ip route" title="PuTTY PuTTY ip route" width="40%"/>
 
-5. Finally, we need to give your Raspberry Pi a static **local IP address**. If your router's **global IP address** is the mailing address for your piece of the internet, this is the room your Pi lives in. Normally devices connected to your internet are free to change addresses as needed (crash in whatever room is available), but we need a permanent home for your Pi.
-  - First we need to start by getting the **local IP address** for your internet router. Your router is like the doorkeeper who will deliver the letter to the your 
+5. Finally, we need to give your Raspberry Pi a static **local IP address**. This is different from your router's **local IP address**. If your router's **local IP address** is the name of the doorkeeper, this is the name of the person mail is addressed to.
   - Type `sudo nmtui`. 
 
 
