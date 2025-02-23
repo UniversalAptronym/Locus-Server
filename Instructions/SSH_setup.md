@@ -26,12 +26,11 @@ SSH means "Secure Shell", referring to the Secure Shell Protocol. An SSH program
 
 4. Next we need to get your internet router's **local IP address**. If your router's **global IP address** is the mailing address for your piece of the internet, this is the personal name of the doorkeeper who brings the mail in. Type `ip -br route` and press Enter. This tells your Raspberry Pi to give you **local IP address** of your router, and to be 'brief' about how much information it gives you. One of the lines which pops up will say **default via XXX.XXX.XXX.XXX ...**, where each **XXX** can be 1, 2, or 3 digits. This is your internet router's **local IP address**, record it.
 
-<img src="../Media_Repository/PuTTY_terminal_ip_route.png" alt="PuTTY ip route" title="PuTTY PuTTY ip route" width="40%"/>
+<img src="../Media_Repository/PuTTY_ip_route.png" alt="PuTTY ip route" title="PuTTY PuTTY ip route" width="40%"/>
 
-5. Finally, we need to give your Raspberry Pi a static **local IP address**. This is different from your router's **local IP address**. If your router's **local IP address** is the name of the doorkeeper, this is the name of the person mail is addressed to.
-  - Type `sudo nmtui`. 
+5. Finally, we need to give your Raspberry Pi a static **local IP address**. This is different from your router's **local IP address**. If your router's **local IP address** is the name of the doorkeeper, this is the name of the person mail is addressed to. First, type `sudo nmtui` and press Enter. This will take you to the Network Manager Tool User Interface, and you should see `Edit a Connection` highlighted in red. Press Enter to select it. Next, press the **right arrow key** to move your selection over to `Add` and press enter again.
 
-
+<img src="../Media_Repository/PuTTY_nmtui_0.png" alt="PuTTY nmtui commands 0" title="PuTTY nmtui commands 0" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_1.png" alt="PuTTY nmtui commands 1" title="PuTTY nmtui commands 1" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_2.png" alt="PuTTY nmtui commands 2" title="PuTTY nmtui commands 2" width="30%"/>
 
 If all this works, you are ready for the next step. Follow the link below which matches the setup you want.
 
