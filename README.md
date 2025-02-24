@@ -45,12 +45,12 @@ Don't be intimidated if this seems like a lot; most of these steps are actually 
 
 Before we start, you should to decide on certain usernames, passcodes, etc. You will need these later, and they are very important for your security. **Make sure these are usernames and passwords you can remember, which do not rely on simple patterns. If you absolutely must write them down, store them in a secure *offline* location. None of these passwords should be a copy of other passwords you use.** You will need:
 
+- **Web URL** (this is the URL you and others will use to access your Pi's services) **(IMPORTANT: This is public facing and SHOULD NOT MATCH ANY USERNAMES BELOW)**
 - **Raspberry Pi hostname** (`hostname`.local is the name your Pi goes by when your computer talks to it) 
 - **Raspberry Pi username** (this is the username you use to log into your Pi through the terminal [if you don't know what that is yet, don't worry])
 - **Raspberry Pi password** (this is the password you use to log into your Pi through the terminal)
 - **Cloudflare email** (this is the email you use for a free account with a service which lets you receive and manage your web URL)
 - **Cloudflare password** (this is the password you use to receive and manage your web URL)
-- **Web URL** (this is the URL you and others use to access your Pi's services)
 - **Nginx email** (this is the email you use for a free account with a service which lets you send your computer passwords without other people intercepting them) 
 - **Nginx password** (this is your password for an application which lets you send your computer passwords without other people intercepting them)
 - **Databag username** (this is your username for the secure communication app) (Important: Do not ever set your browser to autocomplete this username)
