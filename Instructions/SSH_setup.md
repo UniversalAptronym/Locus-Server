@@ -5,9 +5,9 @@ to-do:
 
 # __SSH Setup__
 
-SSH means "Secure Shell", referring to the Secure Shell Protocol. An SSH program (like PuTTY) lets you talk to your Pi from your computer in a secure way.
+SSH means "Secure Shell", referring to the Secure Shell Protocol. An SSH program (like PuTTY) lets you talk to your Pi from your computer in a secure way. This lets us type commands into a text field, press enter, and have the Raspberry Pi execute those commands.
 
-0. In a previous step you created a Pi hostname, Pi username, and Pi password. Make sure you have all three ready for this step.
+0. In a previous step you created a **Pi hostname**, **Pi username**, and **Pi password**. Make sure you have all three ready for this step. During these steps you will also learn your **router's local IP address**, and set your **Pi's local IP address**. These should both be written down and saved permanently.
 
 1. If you are using Windows, download and install [PuTTY](../Software_Repository/SSH.md). Make sure to create a desktop shortcut for PuTTY, and open it up.
 
@@ -24,21 +24,43 @@ SSH means "Secure Shell", referring to the Secure Shell Protocol. An SSH program
 
 <img src="../Media_Repository/PuTTY_terminal_update_1.png" alt="PuTTY update 1" title="PuTTY update 1" width="40%"/> <img src="../Media_Repository/PuTTY_terminal_update_2.png" alt="PuTTY update 2" title="PuTTY update 2" width="40%"/>
 
-4. Next you need to get your internet router's **local IP address**. If your router's **global IP address** is the mailing address for your piece of the internet, this is the personal name of the doorkeeper who brings the mail in. Type `ip -br route` and press Enter. This tells your Raspberry Pi to give you **local IP address** of your router, and to be 'brief' about how much information it gives you. One of the lines which pops up will say **default via XXX.XXX.XXX.XXX ...**, where each **XXX** can be 1, 2, or 3 digits. This is your internet router's **local IP address**, record it.
+4. Next you need to get your  **router's local IP address**. If your **router's global IP address** is the mailing address for your piece of the internet, this is the personal name of the doorkeeper who brings the mail in. Type `ip -br route` and press Enter. This tells your Raspberry Pi to tell you your **router's local IP address**, and to be brief (-br) about how much information it gives you. One of the lines which pops up will say **default via XXX.XXX.XXX.XXX ...**, where each **XXX** can be 1, 2, or 3 digits. This is your **router's local IP address**, record it.
 
 <img src="../Media_Repository/PuTTY_ip_route.png" alt="PuTTY ip route" title="PuTTY PuTTY ip route" width="50%"/>
 
-5. Next you need to check what other devices are using your internet router, and what IP addresses they have, so you don't accidentally give your Raspberry Pi the same address your phone is using. Type `ip -br neighbor` and press enter. You're going to see some lines of text. You care about any lines which start with the same first three **XXX** sequences as your internet router's **local IP address**, including your router's **local IP address** itself. These are "neighboring" devices which your Pi's new address needs to not conflict with. Write down the last **XXX** sequence (which can be 1, 2, or 3 digits) of each such sequence.
+Finally, you need to declare your **Pi's local IP address**. This is different from your **router's local IP address**. If your **router's local IP address** is the name of the doorkeeper, this is the name of the person mail is addressed to.
+
+5. First you need to check what other **local IP addresses** are currently in use, because it would cause problems if gave your Pi the same address as your phone. Type `ip -br neighbor` and press enter. You're going to see some lines of text. You care about any lines which start with the same first three **XXX** sequences as your **router's local IP address**, including your **router's local IP address** itself. These are "neighboring" devices connected to your router, like your phone or computer. Write down the last **XXX** digits (which can be 1, 2, or 3 digits) of each such sequence.
 
 <img src="../Media_Repository/PuTTY_ip_neighbor.png" alt="PuTTY ip neighbor" title="PuTTY PuTTY ip neighbor" width="50%"/>
 
-6. Finally, you need to give your Raspberry Pi a static **local IP address**. This is different from your router's **local IP address**. If your router's **local IP address** is the name of the doorkeeper, this is the name of the person mail is addressed to. First, type `sudo nmtui` and press Enter. This will take you to the Network Manager Tool User Interface, and you should see `Edit a Connection` highlighted in red. Press Enter to select it. Next, press the **right arrow key** to move your selection over to `Add` and press enter again.
+6. type `sudo nmtui` and press Enter. This will take you to the Network Manager Tool User Interface, and you should see `Edit a Connection` highlighted in red. Press Enter to select it. Next, use the `right arrow key` to move your selection over to `Add` and press enter again.
 
 <img src="../Media_Repository/PuTTY_nmtui_0.png" alt="PuTTY nmtui commands 0" title="PuTTY nmtui commands 0" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_1.png" alt="PuTTY nmtui commands 1" title="PuTTY nmtui commands 1" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_2.png" alt="PuTTY nmtui commands 2" title="PuTTY nmtui commands 2" width="30%"/>
 
-7. This next step depends on if you are using a wired ethernet connection to connect your Raspberry Pi to your internet router (recommended!), or using a wireless wifi connection. If you plugged your Pi into your router during the [Raspberry Pi Assembly step](../Instructions/Raspberry_Pi_Assembly.md), you are using a wired ethernet connection. Use the arrows keys to scroll down to `Ethernet` or `Wi-Fi`, depending on your choice, and press Enter.
+7. This next step depends on if you are using a wired ethernet connection to connect your Raspberry Pi to your internet router (recommended!), or using a wireless wifi connection. If you plugged your Pi into your router during the [Raspberry Pi Assembly step](../Instructions/Raspberry_Pi_Assembly.md), you are using a wired ethernet connection. Use the `up/down arrow keys` to select `Ethernet` or `Wi-Fi`, depending on your choice, and press Enter.
 
+<img src="../Media_Repository/PuTTY_nmtui_3.png" alt="PuTTY nmtui commands 3" title="PuTTY nmtui commands 3" width="40%"/> 
 
+8. Use the `arrow keys` to select the `<Show>` button to the right of the text which says `IPv4 CONFIGURATION`. Press enter. This will open a menu where you can tell your Raspberry Pi what its **local IP address** should be. Use the `arrow keys` to navigate to each of the following fields, and enter the following information:
+
+<img src="../Media_Repository/PuTTY_nmtui_4.png" alt="PuTTY nmtui commands 4" title="PuTTY nmtui commands 4" width="40%"/> <img src="../Media_Repository/PuTTY_nmtui_5.png" alt="PuTTY nmtui commands 5" title="PuTTY nmtui commands 5" width="40%"/>
+  
+  - `Addresses`: Highlight `<Add...>` and press Enter. Type the first three parts of your **router's local IP address**, with a period **.** after each part. This will be of the form: **XXX.XXX.XXX.**, where each **XXX** can be 1, 2, or 3 digits. Now check your list of "neighboring" device numbers from step 5, and type in any number from **1-999** which is not on that list. (You do not need to press Enter after this.) 
+
+<img src="../Media_Repository/PuTTY_nmtui_6.png" alt="PuTTY nmtui commands 6" title="PuTTY nmtui commands 6" width="40%"/> <img src="../Media_Repository/PuTTY_nmtui_7.png" alt="PuTTY nmtui commands 7" title="PuTTY nmtui commands 7" width="40%"/>
+
+  - `Gateway`: Select this field. You will know you are in the right field by the bright green cursor. Type your **router's local IP address**. This tells your Raspberry Pi that it will be recieving information packets from your router.
+
+<img src="../Media_Repository/PuTTY_nmtui_8.png" alt="PuTTY nmtui commands 8" title="PuTTY nmtui commands 8" width="40%"/>
+
+- `DNS Servers`: These are "Domain Name Servers", which are address books like the Yellow Pages where all of the internet's **global IP addresses** can be found. Highlight `<Add...>`, press Enter, and type in `1.1.1.1`. Go down, highlight the new `<Add...>` button, press Enter, and type in `8.8.8.8`. This tells your Raspberry Pi to first ask Cloudflare (1.1.1.1) if it needs an address, and then Google (8.8.8.8) if Cloudflare doesn't know.
+
+<img src="../Media_Repository/PuTTY_nmtui_9.png" alt="PuTTY nmtui commands 9" title="PuTTY nmtui commands 9" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_13.png" alt="PuTTY nmtui commands 13" title="PuTTY nmtui commands 13" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_11.png" alt="PuTTY nmtui commands 11" title="PuTTY nmtui commands 11" width="30%"/> 
+
+9. Use the `arrow keys` to scroll all the way down to `<OK>` and press Enter. Use the `right arrow key` and then the `down arrow key` to select `<Back>` and press Enter. Use the `down arrow key` to scroll down to `Quit` and press Enter.
+
+<img src="../Media_Repository/PuTTY_nmtui_12.png" alt="PuTTY nmtui commands 12" title="PuTTY nmtui commands 12" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_10.png" alt="PuTTY nmtui commands 10" title="PuTTY nmtui commands 10" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_14.png" alt="PuTTY nmtui commands 14" title="PuTTY nmtui commands 14" width="30%"/> 
 
 You are ready for the next step, where we will finally leave all this terminal business behind! Follow the link below that matches the setup you want.
 
