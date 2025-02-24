@@ -7,6 +7,8 @@ to-do:
 
 SSH means "Secure Shell", referring to the Secure Shell Protocol. An SSH program (like PuTTY) lets you talk to your Pi from your computer in a secure way. This lets us type commands into a text field, press enter, and have the Raspberry Pi execute those commands.
 
+Note: Terminal windows often do not accept `ctrl+v` commands to paste content. If you want to paste the following commands, you may have to right-click in the terminal window (on some systems this automatically pastes text) or right-click and select paste.
+
 0. In a previous step you created a **Pi hostname**, **Pi username**, and **Pi password**. Make sure you have all three ready for this step. During these steps you will also learn your **router's local IP address**, and set your **Pi's local IP address**. These should both be written down and saved permanently.
 
 1. If you are using Windows, download and install [PuTTY](../Software_Repository/SSH.md). Make sure to create a desktop shortcut for PuTTY, and open it up.
