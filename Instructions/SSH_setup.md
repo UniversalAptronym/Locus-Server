@@ -56,11 +56,11 @@ Finally, you need to declare your **Pi's local IP address**. This is different f
 
 - `DNS Servers`: These are "Domain Name Servers", which are address books like the Yellow Pages where all of the internet's **global IP addresses** can be found. Highlight `<Add...>`, press Enter, and type in `1.1.1.1`. Go down, highlight the new `<Add...>` button, press Enter, and type in `8.8.8.8`. This tells your Raspberry Pi to first ask Cloudflare (1.1.1.1) if it needs an address, and then Google (8.8.8.8) if Cloudflare doesn't know.
 
-<img src="../Media_Repository/PuTTY_nmtui_9.png" alt="PuTTY nmtui commands 9" title="PuTTY nmtui commands 9" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_13.png" alt="PuTTY nmtui commands 13" title="PuTTY nmtui commands 13" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_11.png" alt="PuTTY nmtui commands 11" title="PuTTY nmtui commands 11" width="30%"/> 
+<img src="../Media_Repository/PuTTY_nmtui_9.png" alt="PuTTY nmtui commands 9" title="PuTTY nmtui commands 9" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_10.png" alt="PuTTY nmtui commands 10" title="PuTTY nmtui commands 10" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_11.png" alt="PuTTY nmtui commands 11" title="PuTTY nmtui commands 11" width="30%"/> 
 
 9. Use the `arrow keys` to scroll all the way down to `<OK>` and press Enter. Use the `right arrow key` and then the `down arrow key` to select `<Back>` and press Enter. Use the `down arrow key` to scroll down to `Quit` and press Enter.
 
-<img src="../Media_Repository/PuTTY_nmtui_12.png" alt="PuTTY nmtui commands 12" title="PuTTY nmtui commands 12" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_10.png" alt="PuTTY nmtui commands 10" title="PuTTY nmtui commands 10" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_14.png" alt="PuTTY nmtui commands 14" title="PuTTY nmtui commands 14" width="30%"/> 
+<img src="../Media_Repository/PuTTY_nmtui_12.png" alt="PuTTY nmtui commands 12" title="PuTTY nmtui commands 12" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_13.png" alt="PuTTY nmtui commands 13" title="PuTTY nmtui commands 13" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_14.png" alt="PuTTY nmtui commands 14" title="PuTTY nmtui commands 14" width="30%"/> 
 
 You are ready for the next step, where we will finally leave all this terminal business behind! Follow the link below that matches the setup you want.
 
