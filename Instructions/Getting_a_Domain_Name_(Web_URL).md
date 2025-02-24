@@ -51,7 +51,7 @@ Next, you will set up a "tunnel". This allows encryption of the information whic
 
 What you do next depends on whether you are setting up a full home server or only a secure communications hub. Follow the instructions below based on your choice. Either way, this next step will set up a series of sub-websites which you will use to access various functions of your Raspberry Pi. For example, `databag.[exampleweburl].org` will take you to your secure communications hub. Meanwhile `nginx.[exampleweburl].org` will take you to part of your device's security interface, and `pihole.[exampleweburl].org` will take you to the control panel for an adblocker which will reduce the number of ads for all devices on your internet.
 
-## __Full Home Server and Secure Communications__
+## __Full Home Server (includes Secure Communications)__
 
 ### __nginx__
 
