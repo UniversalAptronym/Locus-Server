@@ -49,7 +49,7 @@ Before we start, you should to decide on certain usernames, passcodes, etc. You 
 - **Raspberry Pi username** (this is the username you use to log into your Pi through the terminal [if you don't know what that is yet, don't worry])
 - **Raspberry Pi password** (this is the password you use to log into your Pi through the terminal)
 - **Cloudflare email** (this is the email you use for a free account with a service which lets you receive and manage your web URL)
-- **Cloudflare username** (this is the username you use to receive and manage your web URL)
+- **Cloudflare password** (this is the password you use to receive and manage your web URL)
 - **Web URL** (this is the URL you and others use to access your Pi's services)
 - **Nginx email** (this is the email you use for a free account with a service which lets you send your computer passwords without other people intercepting them) 
 - **Nginx password** (this is your password for an application which lets you send your computer passwords without other people intercepting them)
