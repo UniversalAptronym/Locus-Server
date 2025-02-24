@@ -29,7 +29,11 @@ Note: Updates to Cloudflare's website may cause its user interface or layout to 
 
 Next, you will set up a "tunnel". This allows encryption of the information which is sent to your web domain and ensures that encrypted information is only decrypted within the safety of your self-hosted server. 
 
-5. Return to `Account Home`. On the left-hand side of your screen, click `Zero Trust`, then `Networks`, and finally `Create a tunnel`. Select `Cloudflared`. Enter a name for your tunnel and click `Save Tunnel`. You do not have to record this name - it will be here on your Cloudflare account if you ever need it again. Select `Docker`. Select the text which appears, then either click the **Copy** icon or press **CTRL + C** (for Linux or Windows) or **CMD + C** (for Mac) to *Copy* that text.
+5. Return to `Account Home`. On the left-hand side of your screen, click `Zero Trust`. This will take you to a screen where you enter a team name. Enter whatever you want, you don't have to record this.
+
+<img src="../Media_Repository/Cloudflare_Zero_Trust_0.png" alt="Cloudflare Team Name" title="Cloudflare Team Name" width="40%"/> 
+
+6. Next click `Networks`, and finally `Create a tunnel`. Select `Cloudflared`. Enter a name for your tunnel and click `Save Tunnel`. You do not have to record this name - it will be here on your Cloudflare account if you ever need it again. Select `Docker`. Select the text which appears, then either click the **Copy** icon or press **CTRL + C** (for Linux or Windows) or **CMD + C** (for Mac) to *Copy* that text.
 
 <img src="../Media_Repository/Cloudflare_Zero_Trust_1.png" alt="Cloudflare Networks button" title="Cloudflare Networks button" width="30%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_2.png" alt="Cloudflare tunnel button" title="Cloudflare tunnel button" width="30%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_3.png" alt="Cloudflare Cloudflared button" title="Cloudflare Cloudflared button" width="30%"/>
 
