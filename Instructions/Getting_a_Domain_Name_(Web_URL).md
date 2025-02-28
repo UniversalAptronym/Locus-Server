@@ -33,17 +33,17 @@ Next, you will set up a "tunnel". This allows encryption of the information whic
 
 <img src="../Media_Repository/Cloudflare_Zero_Trust_1.png" alt="Cloudflare Networks button" title="Cloudflare Networks button" width="40%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_1a.png" alt="Cloudflare Team Name" title="Cloudflare Team Name" width="30%"/> 
 
-6. Next click `Networks`, and finally `Create a tunnel`. Select `Cloudflared`. Enter a name for your tunnel and click `Save Tunnel`. You do not have to record this name - it will be here on your Cloudflare account if you ever need it again. Select `Docker`. Click the text which begins with `$ docker run` to *Copy* that text.
+6. In the home page for `Zero Trust`, click `Networks`, then click `Create a tunnel`. Select `Cloudflared`. Enter a name for your tunnel and click `Save Tunnel`. You do not have to record this name - it will be here on your Cloudflare account if you ever need it again. Select `Docker`. Click the text which begins with `$ docker run` to *Copy* that text.
 
 <img src="../Media_Repository/Cloudflare_Zero_Trust_2.png" alt="Cloudflare tunnel button" title="Cloudflare tunnel button" width="30%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_3.png" alt="Cloudflare Cloudflared button" title="Cloudflare Cloudflared button" width="30%"/>
 
 <img src="../Media_Repository/Cloudflare_Zero_Trust_4.png" alt="Cloudflare tunnel name field" title="Cloudflare tunnel name field" width="30%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_5.png" alt="Cloudflare connector text" title="Cloudflare connector text" width="30%"/>
 
-6. If you haven't already, create a dedicated folder for information about your server on your computer. Open this folder. If you already have a dedicated folder, navigate to it.
+7. If you haven't already, create a dedicated folder for information about your server on your computer. Open this folder. If you already have a dedicated folder, navigate to it.
   
-7. Within this folder, create a new plaintext file (plaintext files have the file extension **.txt**). Open this file, then press **CTRL + V** (for Linux or Windows) or **CMD + V** (for Mac) to *Paste* the text you copied in Step 5 into the file. Save this file and leave it open. You will need this later.
+8. Within this folder, create a new plaintext file (plaintext files have the file extension **.txt**). Open this file, then press **CTRL + V** (for Linux or Windows) or **CMD + V** (for Mac) to *Paste* the text you copied in Step 5 into the file. Save this file and leave it open. You will need this later.
 
-8. Finally, return to the Cloudflare webpage, scroll down, and click `Next` at the bottom of the page. This will take you to the page pictured below.
+9. Finally, return to the Cloudflare webpage, scroll down, and click `Next` at the bottom of the page. This will take you to the page pictured below.
   
 **Note:** Depending on what part of the process you're at, the `Save` button will either say `Save Tunnel` or `Save Hostname`.
 
