@@ -28,6 +28,8 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 4. Next you need to get your  **router's local IP address**. If your **router's global IP address** is the mailing address for your piece of the internet, this is the personal name of the doorkeeper who brings the mail in. Type `ip -br route` and press Enter. This tells your Raspberry Pi to tell you your **router's local IP address**, and to be brief (-br) about how much information it gives you. One of the lines which pops up will say **default via XXX.XXX.XXX.XXX ...**, where each **XXX** can be 1, 2, or 3 digits. This is your **router's local IP address**, record it.
 
+  - If you are connecting your Pi to your router via ethernet, you may see two lines saying **default via XXX.XXX.XXX.XXX ...**. If so the numbers in **XXX.XXX.XXX.XXX** should be the same for both. If not, use the line which has **eth0** in it. This is your **router's local IP address**, specifically for ethernet.
+
 <img src="../Media_Repository/PuTTY_ip_route.png" alt="PuTTY ip route" title="PuTTY PuTTY ip route" width="50%"/>
 
 Finally, you need to declare your **Pi's local IP address**. This is different from your **router's local IP address**. If your **router's local IP address** is the name of the doorkeeper, this is the name of the person mail is addressed to.
