@@ -17,9 +17,10 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 2. In the field for `Host Name (or IP address)`, enter your Pi hostname followed by ".local", like this `[exampleHostname].local`. This will take you to a mostly black window with only text saying `login as:`. This is known as the "terminal" window. Enter your Pi username and press Enter. Enter your Pi password (no text will appear, this is a normal security measure) and press Enter.
   - If this works, some more text will appear and the bottom line will read `[exampleHostame].[exampleUsername]:~ $`. This means your computer is speaking to a machine named `exampleHostname` (this is your Pi), and you are logged in as `[exampleUsername]`. Additionally, the `~` means you are accessing the home directory of your Pi, and the `$` means you are a normal user.
-
-  - If this does not work you probably got your wifi details wrong in the previous step, or entered the password wrong. If this is the case and retrying your password more carefully does not work, you may have to repeat the previous step with the Raspberry Pi Imager.
-
+  - If you get a black screen without text, your Pi is probably not finished setting up. Exit the screen and try again in a few minutes.
+  - If you get an error message, particularly anything about a software error, you probably got your wifi details wrong in the previous step.
+  - If your password does not work, you may have entered the password wrong. If retrying your password more carefully does not work, you may have entered it wrong in the Raspberry Pi Imager. [Repeat that step.](../Instructions/Raspberry_Pi_Setup.md)
+ 
 <img src="../Media_Repository/PuTTY_username.png" alt="PuTTY username input" title="PuTTY username input" width="30%"/> <img src="../Media_Repository/PuTTY_password.png" alt="PuTTY password input" title="PuTTY password input" width="30%"/> <img src="../Media_Repository/PuTTY_terminal_input.png" alt="PuTTY terminal input" title="PuTTY terminal input" width="30%"/>
 
 3. Next you need to update your Raspberry Pi. Type `sudo apt update` and hit enter. This tells your Pi's Advanced Package Tool (APT) to run an update. `sudo` indicates that you are using administrator privileges to do so (you are telling it to update very sternly). Some text will scroll across your screen, about what is getting updated. When that is finished, type `sudo apt upgrade -y`. This tells your Pi's Advanced Package Tool (APT) to upgrade all of the underlying code packages and modules, and `-y` tells it to say yes to any "are you sure you want to upgrade this?" questions. More text will scroll across your screen, about what is getting updated.
