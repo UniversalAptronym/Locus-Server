@@ -19,7 +19,7 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
   - If this works, some more text will appear and the bottom line will read `[exampleHostame].[exampleUsername]:~ $`. This means your computer is speaking to a machine named `exampleHostname` (this is your Pi), and you are logged in as `[exampleUsername]`. Additionally, the `~` means you are accessing the home directory of your Pi, and the `$` means you are a normal user.
   - If you get a black screen without text, your Pi is probably not finished setting up. Exit the screen and try again in a few minutes.
   - If you get an error message, particularly anything about a software error, you probably got your wifi details wrong in the previous step.
-  - If your password does not work, you may have entered the password wrong. If retrying your password more carefully does not work, you may have entered it wrong in the Raspberry Pi Imager. [Repeat that step.](../Instructions/Raspberry_Pi_Setup.md)
+  - If your password does not work, you may have entered the password wrong. If retrying your password more carefully does not work, you may have entered it wrong in the Raspberry Pi Imager. [Repeat that step.](../Instructions/Raspberry_Pi_Image_Setup.md)
  
 <img src="../Media_Repository/PuTTY_username.png" alt="PuTTY username input" title="PuTTY username input" width="30%"/> <img src="../Media_Repository/PuTTY_password.png" alt="PuTTY password input" title="PuTTY password input" width="30%"/> <img src="../Media_Repository/PuTTY_terminal_input.png" alt="PuTTY terminal input" title="PuTTY terminal input" width="30%"/>
 
