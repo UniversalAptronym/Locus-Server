@@ -44,3 +44,5 @@ Your computer may have an SD card slot, in which case you need to put your micro
 If your computer does not have either of those slots, you may need to put your micro SD card in a USB adapter (found in [Equipment_List](../Equipment_List#optional-hardware)), then plug that into your computer.
 
 <img src="../Media_Repository/micro_SD_card_stuff.jpg" alt="micro SD card with SD card adapater and USB adapter" title="micro SD card with SD card adapater and USB adapter" width="30%"/> <img src="../Media_Repository/micro_SD_card_in_USB_adapter.jpg" alt="micro SD card in USB adapter" title="micro SD card in USB adapter" width="30%"/> to-do: last image
+
+to-do: SSH_setup for Secure Communications Only
