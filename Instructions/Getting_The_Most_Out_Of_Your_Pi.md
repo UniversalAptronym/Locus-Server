@@ -1,11 +1,8 @@
 ## __Optional: Overclocking__
 
-This section is optional!
-
 If you are using a Raspberry Pi 4 or 5, you can do something called "overclocking" your Pi to improve performance. This means that your Pi will temporarily run faster for short periods of time when needed, such as when you give it a big file to transfer. This increases the heat your Pi generates above the threshold at which it could run safely forever, but below the threshold at which it would immediately be damaged. 
 
 If you have a cooling fan (which you should if you followed the instructions), are conservative with how much you overclock your Pi (which the settings below are), and don't live somewhere extremely hot, this is perfectly safe. 
-
 
 The below is for the Raspberry Pi 5.
 ```
