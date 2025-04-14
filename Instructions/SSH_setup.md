@@ -67,6 +67,10 @@ Finally, you need to declare your **Pi's local IP address**. This is different f
 
 <img src="../Media_Repository/PuTTY_nmtui_12.png" alt="PuTTY nmtui commands 12" title="PuTTY nmtui commands 12" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_13.png" alt="PuTTY nmtui commands 13" title="PuTTY nmtui commands 13" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_14.png" alt="PuTTY nmtui commands 14" title="PuTTY nmtui commands 14" width="30%"/> 
 
+10. Now one more thing. As is, your Pi will time out and drop connections to other devices if those connections are left idle for too long. That's not good for a home server, which might need to keep connections open for a long time without input to transfer data. Type in `sudo nano /etc/ssh/sshd_config`. This tells `nano`, the Linux program which is used to edit text, to open up the file containing your SSH (Secure Shell Protocol) settings. (Remember, you're using an SSH program to connect to your Pi right now.)
+
+
+
 You are ready for the next step, where we will finally leave all this terminal business behind! Follow the link below that matches the setup you want.
 
 [Full Home Server](../Instructions/CasaOS_Setup.md) 
