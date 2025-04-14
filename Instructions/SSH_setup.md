@@ -84,7 +84,7 @@ Finally, you need to declare your **Pi's local IP address**. This is different f
 
 <img src="../Media_Repository/PuTTY_ssh_config_4.png" alt="PuTTY ssh config 4" title="PuTTY ssh config 4" width="40%"/>
 
-13. Press `ctrl` + `x` at the same time to save your edits to this file. Then enter `y` and press `Enter` to confirm your changes. Then press `Enter` to confirm you are keeping the file's name as it is, and take you back to the normal terminal window.
+13. Press `ctrl` + `x` at the same time to save your edits to this file. Then type `y` and press `Enter` to confirm your changes. Then press `Enter` to confirm you are keeping the file's name as it is, and take you back to the normal terminal window.
 
 <img src="../Media_Repository/PuTTY_ssh_config_5.png" alt="PuTTY ssh config 5" title="PuTTY ssh config 5" width="40%"/> <img src="../Media_Repository/PuTTY_ssh_config_6.png" alt="PuTTY ssh config 6" title="PuTTY ssh config 6" width="40%"/>
 
