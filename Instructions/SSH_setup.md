@@ -69,7 +69,7 @@ Finally, you need to declare your **Pi's local IP address**. This is different f
 
 10. Now one more thing. As is, your Pi will time out and drop connections to other devices if those connections are left idle for too long. That's not good for a home server, which might need to keep connections open for a long time without input to transfer data. Type in `sudo nano /etc/ssh/sshd_config`. This tells `nano`, the Linux program which is used to edit text, to open up the file containing your SSH (Secure Shell Protocol) settings. (Remember, you're using an SSH program to connect to your Pi right now.) You should see the following text.
 
-<img src="../Media_Repository/PuTTY_ssh_config_1.png" alt="PuTTY ssh config 1" title="PuTTY ssh config 1" width="30%"/> <img src="../Media_Repository/PuTTY_ssh_config_2.png" alt="PuTTY ssh config 2" title="PuTTY ssh config 2" width="30%"/>
+<img src="../Media_Repository/PuTTY_ssh_config_1.png" alt="PuTTY ssh config 1" title="PuTTY ssh config 1" width="40%"/> <img src="../Media_Repository/PuTTY_ssh_config_2.png" alt="PuTTY ssh config 2" title="PuTTY ssh config 2" width="40%"/>
 
 11. Use the `down arrow key` to move the text cursor (outlined above in red) down. When it reaches the bottom of the screen the text will scroll with the cursor. Scroll until you see the following text (outlined below in red). The `#` and blue color of this text indicate that it is "commented out", that these settings are not active.
 
@@ -78,7 +78,15 @@ Finally, you need to declare your **Pi's local IP address**. This is different f
 #ClientAliveCountMax 3
 ```
 
-<img src="../Media_Repository/PuTTY_ssh_config_3.png" alt="PuTTY ssh config 3" title="PuTTY ssh config 3" width="30%"/>
+<img src="../Media_Repository/PuTTY_ssh_config_3.png" alt="PuTTY ssh config 3" title="PuTTY ssh config 3" width="40%"/>
+
+12. Use the `arrow keys` and your keyboard to edit `#ClientAliveInterval 0` to read `ClientAliveInterval 1000000`. This tells your Pi to leave SSH connections open for 1,000,000 seconds (more than a week, i.e. forever) before checking "Hey, are you still there?". Next edit `#ClientAliveInterval 0` to read `ClientAliveCountMax 3`. This tells your Pi to check if a connection is dropped 3 times before closing a connection.
+
+<img src="../Media_Repository/PuTTY_ssh_config_4.png" alt="PuTTY ssh config 4" title="PuTTY ssh config 4" width="40%"/>
+
+13. Press `ctrl` + `x` at the same time to save your edits to this file. Then enter `y` and press `Enter` to confirm your changes. Then press `Enter` to confirm you are keeping the file's name as it is, and take you back to the normal terminal window.
+
+<img src="../Media_Repository/PuTTY_ssh_config_5.png" alt="PuTTY ssh config 5" title="PuTTY ssh config 5" width="40%"/> <img src="../Media_Repository/PuTTY_ssh_config_6.png" alt="PuTTY ssh config 6" title="PuTTY ssh config 6" width="40%"/>
 
 You are ready for the next step, where we will finally leave all this terminal business behind! Follow the link below that matches the setup you want.
 
