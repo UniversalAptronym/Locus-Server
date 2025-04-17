@@ -4,7 +4,7 @@
 
 [Setup and Installation Guide](../../wiki/Setup-and-Installation)
 
-Welcome to the Locus Server project. Our primary goal is to provide an easy to use and fairly inexpensive method for oppressed and at-risk groups (such as the LGBT+ community and religious or ethnic minorities) to communicate securely without fear of surveillance, censorship, or government violence. Our secondary goal is to make it easier for people to manage and store their own data online, without relying on expensive, intrusive tech monopolies.
+Welcome to the Locus Server project. Our primary goal is to provide an easy to use and affordable method for oppressed and at-risk groups (such as the LGBT+ community and religious or ethnic minorities) to communicate securely without fear of surveillance, censorship, or government violence. Our secondary goal is to make it easier for people to manage and store their own data online, without relying on expensive, intrusive tech monopolies.
 
 This guide will show you how to set up a secure, end-to-end encrypted, self-hosted communication server which includes text, voice, and video chat, and which can be modified to include encrypted, remotely-accessible cloud storage and ad-blocking. In simple terms: You will have a small box. You will plug that box into your house and your wifi. This box will host a website which you can access from anywhere in the world with a web browser or mobile app. This website lets you communicate with other people in a secure, encrypted manner which cannot be intercepted and read en-route. It can also host a website where you can store your data, just like Google Drive, iCloud, or Dropbox, and can block many advertisers and trackers. 
 
