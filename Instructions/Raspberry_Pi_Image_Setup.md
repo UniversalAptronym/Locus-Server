@@ -1,16 +1,19 @@
 To-do: 
-(plenty of pictures for all of this!)
-- List of passwords, usernames, etc that people will need to make, right at the beginning. 
-- - Advice on password security.
-- How to connect to the Pi for the first time.
-- How to set up Raspberry Pi OS / dietPi.
-- - How to set up CasaOS, if it's being used.
+Secure communication only section, with dietpi.
+
+### __Surge Protection__
+
+For the safety of your electronics, we highly recommend that all power outlets you plug your equipment to are part of surge-protector, or a power strip with surge protection, to avoid losing your equipment and data to a power surge.
 
 # __Full Home Server (Advanced)__
 
-If you have not already done so, install the [Raspberry Pi Imager](../Software_Repository/Raspberry_Pi_Imager.md) on your computer. This lets you turn your Raspbbery Pi from a lump of silicon into a working computer you can talk to.
+Install the [Raspberry Pi Imager](../Software_Repository/Raspberry_Pi_Imager.md) on your computer. This lets you turn your Raspbbery Pi from a lump of silicon into a working computer you can talk to.
 
-Place your SSD into your external SSD enclosure. Plug the enclosure's power supply into a wall outlet. Plug the enclosure's USB 3.0 cable into your computer. Open up the Raspberry Pi Imager.
+Slot your SSD into your external SSD enclosure, then plug the enclosure's power supply into a power outlet, then plug the enclosure's USB 3.0 cable into your computer. 
+
+<img src="../Media_Repository/SSD_exposed.jpg" alt="SSD exposed" title="SSD exposed" width="30%"/> <img src="../Media_Repository/SSD_enclosed.jpg" alt="SSD enclosed" title="SSD enclosed" width="30%"/> 
+
+Open up the Raspberry Pi Imager on your computer.
 
 <img src="../Media_Repository/Pi_Imager_search.png" alt="Searching for Pi imager" title="Searching for Pi imager" width="30%"/> <img src="../Media_Repository/Pi_Imager_landing_page.png" alt="Pi imager landing page" title="Pi imager landing page" width="30%"/> 
 
@@ -24,9 +27,9 @@ Under `Wireless LAN`, for `SSID`, enter the name of your wifi. Under `Wireless L
 
 <img src="../Media_Repository/Pi_Imager_OS_settings_1.png" alt="Pi imager OS other" alt="Pi imager OS settings" title="Pi imager OS settings" width="30%"/> <img src="../Media_Repository/Pi_Imager_OS_settings_2.png" alt="Pi imager OS settings" title="Pi imager OS settings" width="30%"/> 
 
-Remove the USB plug of the SSD enclosure from your PC. Make sure your Pi is unplugged from any wall outlet. Plug the USB plug of the SSD enclosure into the Pi. Plug your Pi into a wall outlet. Wait one minute while your Pi boots up. You now have a tiny functioning computer! 
+Remove the USB plug of the SSD enclosure from your PC. Make sure your Pi is unplugged from any power outlet. Plug the USB plug of the SSD enclosure into the Pi. Plug your SSD enclosure's power outlet into a power outlet. Plug your Pi into a power outlet. Wait one minute while your Pi boots up. You now have a tiny functioning computer! 
 
-Your next step, to talk to the Pi, is to [use SSH to connect to your Pi](../Instructions/SSH_setup.md). After that, [install CasaOS](../Instructions/CasaOS_Setup.md), a free and open source operating system which goes on top of your Raspberry Pi OS and makes it easier to work with. 
+Your next step, to talk to the Pi, is to [use SSH to connect to your Pi](../Instructions/SSH_setup.md).
 
 # __Secure Communication Only (Advanced)__
 
@@ -41,3 +44,5 @@ Your computer may have an SD card slot, in which case you need to put your micro
 If your computer does not have either of those slots, you may need to put your micro SD card in a USB adapter (found in [Equipment_List](../Equipment_List#optional-hardware)), then plug that into your computer.
 
 <img src="../Media_Repository/micro_SD_card_stuff.jpg" alt="micro SD card with SD card adapater and USB adapter" title="micro SD card with SD card adapater and USB adapter" width="30%"/> <img src="../Media_Repository/micro_SD_card_in_USB_adapter.jpg" alt="micro SD card in USB adapter" title="micro SD card in USB adapter" width="30%"/> to-do: last image
+
+to-do: SSH_setup for Secure Communications Only
