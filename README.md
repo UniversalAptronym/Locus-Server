@@ -16,13 +16,13 @@ Should you build a self-hosted server? It depends. If you're a member of an at-r
 
 If you are not part of an at-risk group and don't know anyone who is, you don't care about ads, and you are not paying for cloud or communication services, you may still want to consider self-hosting on privacy grounds. Most major communication programs are neither secure nor private, and often sell your data or give it to the police without a warrant; most online file-storage programs (such as Google Drive, Microsoft OneDrive, and Adobe Creative Cloud storage) store your files unencrypted, and some even use the files you store on them to train AI models. If you, like us, consider this a gross invasion of privacy, then you should consider building a self-hosted server.
 
-*Author's note, 29 December 2024: This is a new project, and therefore a work in progress. Much of the content is missing from this guide. Please be patient while we fill it out.*
+*Authors' note, 16 April 2025: This is a new project, and therefore a work in progress. Much of the content is missing from this guide. Please be patient while we fill it out.*
 
 # __Instructions__
 
 Follow these instructions step by step to make a secure communication hub / home server. Each step links to a detailed list of instructions.
 
-Don't be intimidated if this seems like a lot; most of these steps are actually very simple. The reason there's so many lists of instructions is that we try to document each step in as much detail as possible. Most users will probably find themselves bored to tears and rolling their eyes over how much overexplaining is done in the Locus Server project. But our goal is to make it so that _anyone_ can make a home server. Whether because you're a novice with computers and need your hand held through each step, or if you're an IT expert who happens to trip over something specific, we don't want anyone to give up on making a home server because we didn't explain it carefully enough.
+Don't be intimidated if this seems like a lot; most of these steps are actually very simple. The reason there's so many lists of instructions is that we try to document each step in as much detail as possible. Most users will probably find themselves bored to tears and rolling their eyes over how much overexplaining is done in the Locus Server project. But our goal is to make it so that _anyone_ can make a home server. Whether you are a novice with computers and need your hand held through each step, or if you're an IT expert who happens to trip over some particular pain point, we don't want anyone to give up on making a home server because we didn't explain it carefully enough.
 
  1. Decide what you're getting.
     1. [Full Home Server with Cloud Storage and Secure Communication](Equipment_List/Description_Full_Home_Server.md) (~$150-200 + $10/yr)
