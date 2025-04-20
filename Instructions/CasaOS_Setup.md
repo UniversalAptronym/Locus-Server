@@ -15,5 +15,5 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 2. This is the end of your time with terminal! In the final lines of CasaOS's installation output, you should see `- http://XXX.XXX.XXX.XXX (eth0)`. The **XXX.XXX.XXX.XXX** should be the same as the **local IP address** you gave to your Pi and recorded in the previous section. (Remember that **XXX** represents 1-3 digits, and **(eth0)** may be **(wlan0)** if you opted for a non-ethernet connection.)
 
-<img src="CasaOS_Terminal_IP_Address.png" alt="CasaOS Local IP Address" title="CasaOS Local IP Address" width="40%"/>
+<img src="CasaOS_Terminal_IP_Address.png" alt="CasaOS Local IP Address" title="CasaOS Local IP Address" width="40%"/> 
 
