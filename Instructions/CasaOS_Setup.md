@@ -33,3 +33,5 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 6. Take some time to familiarize yourself with this space. There's not much here yet, but we're going to fill it up with stuff and it's worth being comfortable with before you move on. As an exercise, type something into the search bar and see what happens. Using the Settings button in the top left to change your background, as in the image below.
 
 <img src="../Media_Repository/CasaOS_Layout_Settings.png" alt="CasaOS Layout Settings" title="CasaOS Layout Settings" width="50%"/>
+
+Now on to the next step! We're doing to set up a [home cloud server using Nextcloud](Nextcloud_Setup_Local.md)!
