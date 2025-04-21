@@ -34,7 +34,7 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 <img src="../Media_Repository/CasaOS_Layout_Settings.png" alt="CasaOS Layout Settings" title="CasaOS Layout Settings" width="50%"/>
 
-7. Add BigBear appstore.
+7. To-do: Add BigBear appstore.
 
 Now on to the next step. As a gentle introduction to CasaOS, you are going to set up an advertisement / tracker blocker, called Pihole, which will block many ads you might otherwise see while browsing the internet. [Click here to install Pihole](../Instructions/Pihole_Installation.md).
 
