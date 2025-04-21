@@ -5,7 +5,7 @@ Secure communication only section, with dietpi.
 
 For the safety of your electronics, we highly recommend that all power outlets you plug your equipment to are part of surge-protector, or a power strip with surge protection, to avoid losing your equipment and data to a power surge.
 
-# __Full Home Server (Advanced)__
+# __Full Home Server__
 
 Install the [Raspberry Pi Imager](../Software_Repository/Raspberry_Pi_Imager.md) on your computer. This lets you turn your Raspbbery Pi from a lump of silicon into a working computer you can talk to.
 
@@ -31,7 +31,9 @@ Remove the USB plug of the SSD enclosure from your PC. Make sure your Pi is unpl
 
 Your next step, to talk to the Pi, is to [use SSH to connect to your Pi](../Instructions/SSH_setup.md).
 
-# __Secure Communication Only (Advanced)__
+# __Secure Communication Only__
+
+*This section is currently under construction.*
 
 Plug your micro SD card into your computer. You computer may have a micro SD card slot like this, in which case you can plug it in directly. 
 
@@ -45,4 +47,4 @@ If your computer does not have either of those slots, you may need to put your m
 
 <img src="../Media_Repository/micro_SD_card_stuff.jpg" alt="micro SD card with SD card adapater and USB adapter" title="micro SD card with SD card adapater and USB adapter" width="30%"/> <img src="../Media_Repository/micro_SD_card_in_USB_adapter.jpg" alt="micro SD card in USB adapter" title="micro SD card in USB adapter" width="30%"/>
 
-to-do: SSH_setup for Secure Communications Only
+to-do: dietpi setup for Secure Communications Only
