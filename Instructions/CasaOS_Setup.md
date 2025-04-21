@@ -20,4 +20,16 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 3. Open an internet browser, type `http://XXX.XXX.XXX.XXX` (your **Raspberry Pi's local IP address**) into the URL bar, and press Enter. This will bring you to a browser webpage where you can access CasaOS, which is now running on your Raspberry Pi! You now have a fully functional mini-computer you can access through your internet browser.
 - Note: You can only access your Raspberry Pi using your **Pi's local IP address** from devices which are all connected to the same internet router. We will be making it so that you can access your Pi from anywhere in the world in later sections.
 
-<img src="../Media_Repository/CasaOS_Browser_1.png" alt="CasaOS Browser Local IP Address in URL Bar" title="CasaOS Browser Local IP Address in URL Bar" width="40%"/> 
+<img src="../Media_Repository/CasaOS_Browser_1.png" alt="CasaOS Browser Local IP Address in URL Bar" title="CasaOS Browser Local IP Address in URL Bar" width="50%"/> 
+
+4. Create a CasaOS account using the **CasoOS username** and **CasaOS password** you decided on and recorded earlier. This username and password will be how you log into CasaOS from now on.
+
+<img src="../Media_Repository/CasaOS_Browser_2.png" alt="CasaOS Browser Account Setup 1" title="CasaOS Browser Account Setup 1" width="40%"/> <img src="../Media_Repository/CasaOS_Browser_3.png" alt="CasaOS Browser Account Setup 2" title="CasaOS Browser Account Setup 2" width="40%"/> 
+
+5. You should see a page which looks like the following, with some minor differences. (I have altered my background, removed the Time widget, removed the news and recommended app feeds, and changed the default search bar to Duckduckgo. Duckduckgo is a search system like Google, but unlike Google it doesn't spy on you to sell your search history to advertisers.) 
+
+<img src="../Media_Repository/CasaOS_Layout.png" alt="CasaOS Layout" title="CasaOS Layout" width="50%"/> <img src="../Media_Repository/CasaOS_Layout_Explained.png" alt="CasaOS Layout Explained" title="CasaOS Layout Explained" width="50%"/>
+
+6. Take some time to familiarize yourself with this space. There's not much here yet, but we're going to fill it up with stuff and it's worth being comfortable with before you move on. As an exercise, type something into the search bar and see what happens. Using the Settings button in the top left to change your background, as in the image below.
+
+<img src="../Media_Repository/CasaOS_Layout_Settings.png" alt="CasaOS Layout Settings" title="CasaOS Layout Settings" width="50%"/>
