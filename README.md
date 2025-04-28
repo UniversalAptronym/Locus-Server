@@ -36,7 +36,7 @@ Don't be intimidated if this seems like a lot; most of these steps are actually 
 5. [Assemble your Raspberry Pi](Instructions/Raspberry_Pi_Assembly.md).
 6. [Image an operating system](Instructions/Raspberry_Pi_Image_Setup.md) onto your Micro SD Card (Secure Communication Only) or your SSD (Full Home Server). These are the storage devices which will hold all the operational software for your equipment.
 7. [Install SSH software](Instructions/SSH_setup.md) (this lets your computer talk to your Raspberry Pi during the installation).
-8. Log into your Pi and complete the installation.
+8. [Log into your Pi and complete the installation](Instructions/CasaOS_Setup.md).
 9. Set up your Databag server. 
 10. (For full home server users). Set up your Nextcloud system.
 11. Talk to your friends and say hi to others.
