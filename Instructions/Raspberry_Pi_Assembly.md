@@ -24,7 +24,7 @@ Follow these instructions to assemble your Raspberry Pi.
 
 ## Parts of the Raspberry Pi 5
 
-Figure 0: Relevant parts of the Raspberry Pi 5
+Figure 0: Relevant components of the Raspberry Pi 5
 
 1. Motherboard (green plastic printed circuit board)
 2. CPU
@@ -49,6 +49,8 @@ Figure 1: Raspberry Pi Temperature Monitor
 
 	Figure 2: Raspberry Pi parts (mostly in their packaging)
 
+<img src="../Media_Repository/RPi5_HardwareSetup/0_PiAssembly_Parts.png" alt="Raspberry Pi parts. The Pi itself, case, power supply, and heatsinks are still in their packaging. The SSD and external SSD enclosure have been removed from their packaging." title:"Raspberry Pi parts" width="30%"/>
+
 	1. The Pi motherboard
 	2. The case and case fan
 	3. The power supply
@@ -57,11 +59,11 @@ Figure 1: Raspberry Pi Temperature Monitor
 	6. The enclosure and USB cable for the SSD
 	7. An ethernet cable (optional, not pictured)
 
-2. Place the Pi motherboard in the base of the case as shown in Figure 3. The USB and Ethernet ports should be on the side of the case with lower walls.
+3. Place the Pi motherboard in the base of the case as shown in Figure 3. The USB and Ethernet ports should be on the side of the case with lower walls.
 
 	Figure 3: Raspberry Pi within the bottom of the case
 
-3. Apply the four heatsinks as shown in Figure 4. You should test fit the heatsinks before applying them permanently.
+4. Apply the four heatsinks as shown in Figure 4. You should test fit the heatsinks before applying them permanently.
 
 	**Note:** The heatsinks are not exactly the same size as the components you apply them to. This is normal.
 	
@@ -78,9 +80,9 @@ Figure 1: Raspberry Pi Temperature Monitor
 
 	  Figure 4: The Raspberry Pi with heatsinks applied
 
-4. Gently remove the cover on the case fan connector (see Figure 0), then plug the case fan into the motherboard.
+5. Gently remove the cover on the case fan connector (see Figure 0), then plug the case fan into the motherboard.
 
-5. Attach the case fan to the base of the base.
+6. Attach the case fan to the base of the base.
 	1. Align the locking tab on the case fan mount with the locking tab slot on the base of the case, then insert the tab into the slot. You will need to angle the case fan mount to insert the tab (see Figure 5).
 	2. Lower the case fan mount onto the base.
 
@@ -89,6 +91,6 @@ Figure 1: Raspberry Pi Temperature Monitor
 	1. Locking tab
 	2. Locking tab slot
 
-6. Set the case cover on top of the case fan mount.
+7. Set the case cover on top of the case fan mount.
 
 	  Figure 6: Completed Raspberry Pi 5
