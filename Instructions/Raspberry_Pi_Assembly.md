@@ -49,7 +49,7 @@ Figure 1: Raspberry Pi Temperature Monitor
 
 	Figure 2: Raspberry Pi parts (mostly in their packaging)
 
-<img src="../Media_Repository/RPi5_HardwareSetup/0_PiAssembly_Parts.png" alt="Raspberry Pi parts. The Pi itself, case, power supply, and heatsinks are still in their packaging. The SSD and external SSD enclosure have been removed from their packaging." title:"Raspberry Pi parts" width="30%"/>
+![Raspberry Pi parts. The Pi itself, case, power supply, and heatsinks are still in their packaging. The SSD and external SSD enclosure have been removed from their packaging.](/Media_Repository/RPi5_HardwareSetup/0_PiAssembly_Parts.png "Raspberry Pi parts")
 
 	1. The Pi motherboard
 	2. The case and case fan
