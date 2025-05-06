@@ -23,7 +23,9 @@ Follow these instructions step by step to make a secure communication hub / home
 We want to make this project accessible to _as many people as possible_, which means these instructions are written for people with little to no experience building computers, making websites, or self-hosting. Consequently, we've made individual steps in this guide as simple as possible. That also means that there are a lot of steps. Don't let the length of the guide intimidate you! (If you're an IT expert, you may find these instructions overly detailed; we hope they're still useful to you.) Whether you're a novice with computers and need your hand held through each step, or if you're an IT expert who happens to trip over some particular pain point, we don't want anyone to give up on making a home server because we didn't explain it carefully enough.
 
  1. Decide what you're getting.
+
     (_Authors' Note:_ If you're in the United States, the recent tariffs have substantially increased the prices for electronics. The prices listed in this guide will no longer be accurate, but the market is too volatile to keep them updated. We suggest buying refurbished equipment other than hard drives if possible. If you choose to purchase refurbished hard drives as well, be aware they they can be unreliable and you should aggressively back up your server.)
+
     1. [Full Home Server with Cloud Storage and Secure Communication](Equipment_List/Description_Full_Home_Server.md) (~$150-200 + $10/yr)
     2. [Secure Communication Only](Equipment_List/Description_Secure_Communication_Only.md) (~$50-70 + $10/yr)
  2. Buy the equipment you need from [this list](Equipment_List/README.md).
