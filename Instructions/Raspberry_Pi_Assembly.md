@@ -76,7 +76,7 @@ Figure 1: Raspberry Pi Temperature Monitor
 	2. Align the heatsink with the appropriate component and gently set it on the component. *Gently* press the heatsink onto the component to secure it.
 	3. Repeat this process for the rest of the heatsinks.
 
-  Figure 4: The Raspberry Pi with heatsinks applied
+	  Figure 4: The Raspberry Pi with heatsinks applied
 
 4. Gently remove the cover on the case fan connector (see Figure 0), then plug the case fan into the motherboard.
 
