@@ -7,7 +7,7 @@ Follow these instructions to assemble your Raspberry Pi.
 ## Terms Used in This Section
 
 - Electrostatic Discharge: Commonly known as "static electricity". Caused when there is a substantial difference in the electrical charge between two objects. Electrostatic discharge can damage computer components.
-- Motherboard: A printed circuit board with various chips and ports soldered to it. All the parts of a computer attach to the motherboard in some way. Think of it like the computer's nervous system.
+- Motherboard: A printed circuit board with various chips, ports, and other components soldered to it. All the parts of a computer attach to the motherboard in some way. Think of it like the computer's nervous system.
 - Solid State Drive (SSD): A more modern primary local storage device for computers. These serve as a computer's permanent memory, and are commonly mounted directly on the motherboard. Solid state drives have no moving parts, so they can store more information in a much smaller space and can read and write that information much more quickly than hard disk drives (HDDs) can. Modern SSDs are also somewhat more reliable than comparable HDDs. However, they cost more per amount of storage capacity than HDDs. SSDs are *not* the same as SD/microSD cards, and are *not* interchangeable.
 - Hard Disk Drive (HDD): Also known as "hard drives" or "hard disks". An older primary local storage device for computers which serve as a computer's permanent memory, and are commonly mounted within the computer case. Hard drives store information on spinning magnetic disks. Because HDDs have many moving parts, they take up more space and have slower read and write times than comparable SSDs. However, they are cheaper than SSDs (as of this writing, a 20 terabyte external HDD cost about $280. An external SSD with the same capacity would cost at least 3-4x that much).
 - Universal Serial Bus (USB) port: An interface which lets users connect peripheral devices to computers. USB ports let computers and their peripheral devices exchange data and supply power. USB ports are famous for being nearly impossible to connect on the first try. On the Raspberry Pi, these are metal enclosures soldered to one side of the motherboard.
@@ -39,7 +39,9 @@ Figure 0: Relevant parts of the Raspberry Pi 5
 
 **Warning:** The Raspberry Pi is a temperature sensitive device. Excessive heat can degrade its performance, and extreme heat could damage it. When in operation, keep your Pi in a shaded location with good airflow and away from sources of heat. If your Pi is regularly running at over 45 C, move it to a cooler location and/or follow this link for [Raspberry Pi cooling advice](../Instructions/Getting_The_Most_Out_Of_Your_Pi.md). If you live in a hot climate, pay attention to the temperature monitor (this which will be discussed later in the guide).
 
-<img src="../Media_Repository/Raspberry_Pi_Assembly_Temperature.png" alt="Raspberry Pi temperature monitor" title="Figure 1: Raspberry Pi temperature monitor" width="40%"/>
+Figure 1: Raspberry Pi Temperature Monitor
+
+<img src="../Media_Repository/Raspberry_Pi_Assembly_Temperature.png" alt="Raspberry Pi temperature monitor" title="Raspberry Pi temperature monitor" width="40%"/>
 
 ## Assembly Instructions
 
