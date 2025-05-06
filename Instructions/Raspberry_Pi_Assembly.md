@@ -91,4 +91,4 @@ Figure 1: Raspberry Pi Temperature Monitor
 
 6. Set the case cover on top of the case fan mount.
 
-  Figure 6: Completed Raspberry Pi 5
+	  Figure 6: Completed Raspberry Pi 5
