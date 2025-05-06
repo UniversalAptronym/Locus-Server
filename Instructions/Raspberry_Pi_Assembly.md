@@ -35,7 +35,7 @@ Figure 0: Relevant parts of the Raspberry Pi 5
 6. Ethernet port
 7. Case fan connector
 
-**Caution:** Discharge static electricity before working with electrical components such as motherboards, SSDs, or HDDs. While working with electrical components, you should also remain electrically grounded. If you don't, electrostatict discharge (a.k.a. static electricity) could damage your computer. To discharge static electricity, touch a metal object which is touching the ground such as the leg of a desk, table, or a light switch. To remain electrically grounded, remain in contact with the work surface.
+**Caution:** Discharge static electricity before working with electrical components such as motherboards, SSDs, or HDDs. While working with electrical components, you should also remain electrically grounded. If you don't, electrostatic discharge (a.k.a. static electricity) could damage your computer. To discharge static electricity, touch a metal object which is touching the ground such as the leg of a desk, table, or a light switch. To remain electrically grounded, remain in contact with the work surface.
 
 **Warning:** The Raspberry Pi is a temperature sensitive device. Excessive heat can degrade its performance, and extreme heat could damage it. When in operation, keep your Pi in a shaded location with good airflow and away from sources of heat. If your Pi is regularly running at over 45 C, move it to a cooler location and/or follow this link for [Raspberry Pi cooling advice](../Instructions/Getting_The_Most_Out_Of_Your_Pi.md). If you live in a hot climate, pay attention to the temperature monitor (this which will be discussed later in the guide).
 
