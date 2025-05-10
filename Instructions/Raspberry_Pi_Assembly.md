@@ -23,7 +23,8 @@ Figure 0: Relevant components of the Raspberry Pi 5
 
 **Warning:** The Raspberry Pi is a temperature sensitive device. Excessive heat can degrade its performance, and extreme heat could damage it. When in operation, keep your Pi in a shaded location with good airflow and away from sources of heat. If your Pi is regularly running at over 45 C, move it to a cooler location and/or follow this link for [Raspberry Pi cooling advice](../Instructions/Getting_The_Most_Out_Of_Your_Pi.md). If you live in a hot climate, pay attention to the temperature monitor (this which will be discussed later in the guide).
 
-Figure 1: Raspberry Pi Temperature Monitor
+Figure 1: Raspberry Pi Temperature Monitor 
+(You will see how to access this temperature monitor in a [later sectioon](../Instructions/CasaOS_Setup.md).
 
 <img src="../Media_Repository/Raspberry_Pi_Assembly_Temperature.png" alt="Raspberry Pi temperature monitor" title="Raspberry Pi temperature monitor" width="40%"/>
 
