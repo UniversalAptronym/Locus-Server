@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/175300f7-67e6-4c48-961f-f29c298f47a5)
 # __CasaOS Setup__
 
 If typing into the terminal window was intimidating, don't worry! We exactly have one more line to enter. Type the following line into terminal and press Enter. A lot of text will start scrolling. Wait for this to finish.
