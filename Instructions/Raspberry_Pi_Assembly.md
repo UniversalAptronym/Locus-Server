@@ -2,25 +2,9 @@
 
 Follow these instructions to assemble your Raspberry Pi.
 
-**Note:** These instructions are specific to the Raspberry Pi 5. They may be generally applicable to other models of Raspberry Pi, but this isn't guaranteed. We will add additional instructions for other Pi models as we're able.
+**Note:** These instructions are specific to the Raspberry Pi 5. They may be generally applicable to other models of Raspberry Pi, but this isn't guaranteed. We will add additional instructions for other Pi models as we're able. 
 
-## Terms Used in This Section
-
-- Electrostatic Discharge: Commonly known as "static electricity". Caused when there is a substantial difference in the electrical charge between two objects. Electrostatic discharge can damage computer components.
-- Motherboard: A printed circuit board with various chips, ports, and other components soldered to it. All the parts of a computer attach to the motherboard in some way. Think of it like the computer's nervous system.
-- Solid State Drive (SSD): A more modern primary local storage device for computers. These serve as a computer's permanent memory, and are commonly mounted directly on the motherboard. Solid state drives have no moving parts, so they can store more information in a much smaller space and can read and write that information much more quickly than hard disk drives (HDDs) can. Modern SSDs are also somewhat more reliable than comparable HDDs. However, they cost more per amount of storage capacity than HDDs. SSDs are *not* the same as SD/microSD cards, and are *not* interchangeable.
-- Hard Disk Drive (HDD): Also known as "hard drives" or "hard disks". An older primary local storage device for computers which serve as a computer's permanent memory, and are commonly mounted within the computer case. Hard drives store information on spinning magnetic disks. Because HDDs have many moving parts, they take up more space and have slower read and write times than comparable SSDs. However, they are cheaper than SSDs (as of this writing, a 20 terabyte external HDD cost about $280. An external SSD with the same capacity would cost at least 3-4x that much).
-- Universal Serial Bus (USB) port: An interface which lets users connect peripheral devices to computers. USB ports let computers and their peripheral devices exchange data and supply power. USB ports are famous for being nearly impossible to connect on the first try. On the Raspberry Pi, these are metal enclosures soldered to one side of the motherboard.
-- Ethernet port: An interface which enables computers to be physically connected to a local network (and therefore the internet) via an Ethernet cable. In general, Ethernet provides a faster connection than Wi-Fi. On the Raspberry Pi, this is a metal enclosure that sits next to the USB ports.
-- Wi-Fi: A protocol which allows computers to wirelessly connect to the internet. On the Raspberry Pi, Wi-Fi access is managed by a small chip on the motherboard.
-- Heatsink: A device which cools electrical and mechanical devices through heat exchange. For the Raspberry Pi, these are metal parts comprised of a flat contact plate and several metal fins which stick up off the plate. The fins increase the surface area of the heatsink which is exposed to air, which increases how much heat it can dissipate.
-- Thermal paste: A thick liquid which transfers heat very efficiently. Placed between a heatsink and the device it's cooling to facilitate heat transfer to the heatsink. On the Raspberry Pi's heatsinks, thermal paste is mildly adhesive and pre-applied to the contact plate of the heatsinks.
-- Case: The enclosure for a computer which protects the sensitive internal components. For the Raspberry Pi 5, this is a red and white plastic box.
-- Case fan: A fan that's attached to a computer case to cool the computer. Case fans either push hot air out of the case or pull cool air into it.
-- External drive: Short for "external solid state drive" or "external hard disk drive". These are SSDs or HDDs which are in portable mounts which are separate from a computer's case and which connect to the computer through USB. External drives are often used for backup storage. For the Raspberry Pi, this will be the primary storage, and are external only because they can't fit in the Pi's case.
-- Central Processing Unit (CPU): The part of a computer which runs programs. Think of it as a computer's brain.
-- Random Access Memory (RAM): RAM is temporary memory which the CPU uses for programs which it's actively running. Unlike SSDs and HDDs, RAM does not save information when it loses power.
-- I/O controller: A component which controls all input to and output from a computer.
+**Terminology**: If you are ever confused about what a term means, scroll down to the bottom of the page, where we have a list of technology terms used in this section.
 
 ## Parts of the Raspberry Pi 5
 
@@ -94,3 +78,21 @@ Figure 1: Raspberry Pi Temperature Monitor
 7. Set the case cover on top of the case fan mount.
 
 	  Figure 6: Completed Raspberry Pi 5
+
+## Terms Used in This Section
+
+- Electrostatic Discharge: Commonly known as "static electricity". Caused when there is a substantial difference in the electrical charge between two objects. Electrostatic discharge can damage computer components.
+- Motherboard: A printed circuit board with various chips, ports, and other components soldered to it. All the parts of a computer attach to the motherboard in some way. Think of it like the computer's nervous system.
+- Solid State Drive (SSD): A more modern primary local storage device for computers. These serve as a computer's permanent memory, and are commonly mounted directly on the motherboard. Solid state drives have no moving parts, so they can store more information in a much smaller space and can read and write that information much more quickly than hard disk drives (HDDs) can. Modern SSDs are also somewhat more reliable than comparable HDDs. However, they cost more per amount of storage capacity than HDDs. SSDs are *not* the same as SD/microSD cards, and are *not* interchangeable.
+- Hard Disk Drive (HDD): Also known as "hard drives" or "hard disks". An older primary local storage device for computers which serve as a computer's permanent memory, and are commonly mounted within the computer case. Hard drives store information on spinning magnetic disks. Because HDDs have many moving parts, they take up more space and have slower read and write times than comparable SSDs. However, they are cheaper than SSDs (as of this writing, a 20 terabyte external HDD cost about $280. An external SSD with the same capacity would cost at least 3-4x that much).
+- Universal Serial Bus (USB) port: An interface which lets users connect peripheral devices to computers. USB ports let computers and their peripheral devices exchange data and supply power. USB ports are famous for being nearly impossible to connect on the first try. On the Raspberry Pi, these are metal enclosures soldered to one side of the motherboard.
+- Ethernet port: An interface which enables computers to be physically connected to a local network (and therefore the internet) via an Ethernet cable. In general, Ethernet provides a faster connection than Wi-Fi. On the Raspberry Pi, this is a metal enclosure that sits next to the USB ports.
+- Wi-Fi: A protocol which allows computers to wirelessly connect to the internet. On the Raspberry Pi, Wi-Fi access is managed by a small chip on the motherboard.
+- Heatsink: A device which cools electrical and mechanical devices through heat exchange. For the Raspberry Pi, these are metal parts comprised of a flat contact plate and several metal fins which stick up off the plate. The fins increase the surface area of the heatsink which is exposed to air, which increases how much heat it can dissipate.
+- Thermal paste: A thick liquid which transfers heat very efficiently. Placed between a heatsink and the device it's cooling to facilitate heat transfer to the heatsink. On the Raspberry Pi's heatsinks, thermal paste is mildly adhesive and pre-applied to the contact plate of the heatsinks.
+- Case: The enclosure for a computer which protects the sensitive internal components. For the Raspberry Pi 5, this is a red and white plastic box.
+- Case fan: A fan that's attached to a computer case to cool the computer. Case fans either push hot air out of the case or pull cool air into it.
+- External drive: Short for "external solid state drive" or "external hard disk drive". These are SSDs or HDDs which are in portable mounts which are separate from a computer's case and which connect to the computer through USB. External drives are often used for backup storage. For the Raspberry Pi, this will be the primary storage, and are external only because they can't fit in the Pi's case.
+- Central Processing Unit (CPU): The part of a computer which runs programs. Think of it as a computer's brain.
+- Random Access Memory (RAM): RAM is temporary memory which the CPU uses for programs which it's actively running. Unlike SSDs and HDDs, RAM does not save information when it loses power.
+- I/O controller: A component which controls all input to and output from a computer.
