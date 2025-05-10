@@ -36,11 +36,8 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 7. Finally, you need to tell your Pi where to find the Big Bear App Store, so you can use their apps. ("Store" is a bit misleading. All of these applications are free, and depend on your [donations](../donations_list.md) to do the work they do.) First, click on the App icon. Next, click the dropdown menu which says `### apps`, where `###` is some number. This will open a menu. In this menu, click `More Apps`. This will open a bar to type text into. Type `https://icewhale.bigbeartechworld.com/big-bear-casaos.zip` into this bar and press Enter. This will add a list of Apps you can use, maintained by Big Bear and the Big Bear community.
 
 
-<img src="../Media_Repository/CasaOS_Apps_1.png" alt="CasaOS Apps 1" title="CasaOS Apps 1" width="40%"/> 
-<img src="../Media_Repository/CasaOS_Apps_2.png" alt="CasaOS Apps 2" title="CasaOS Apps 2" width="40%"/>
-
-<img src="../Media_Repository/CasaOS_Apps_3.png" alt="CasaOS Apps 3" title="CasaOS Apps 3" width="40%"/> 
-<img src="../Media_Repository/CasaOS_Apps_4.png" alt="CasaOS Apps 4" title="CasaOS Apps 4" width="40%"/>
+<img src="../Media_Repository/CasaOS_Apps_1.png" alt="CasaOS Apps 1" title="CasaOS Apps 1" width="40%"/> <img src="../Media_Repository/CasaOS_Apps_2.png" alt="CasaOS Apps 2" title="CasaOS Apps 2" width="40%"/>
+<img src="../Media_Repository/CasaOS_Apps_3.png" alt="CasaOS Apps 3" title="CasaOS Apps 3" width="40%"/> <img src="../Media_Repository/CasaOS_Apps_4.png" alt="CasaOS Apps 4" title="CasaOS Apps 4" width="40%"/>
 
 Now on to the next step. As a gentle introduction to CasaOS, you are going to set up an advertisement / tracker blocker, called Pihole, which will block many ads you might otherwise see while browsing the internet. [Click here to install Pihole](../Instructions/Pihole_Installation.md).
 
