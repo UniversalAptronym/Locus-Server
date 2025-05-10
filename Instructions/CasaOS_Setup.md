@@ -34,4 +34,10 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 <img src="../Media_Repository/CasaOS_Layout_Settings.png" alt="CasaOS Layout Settings" title="CasaOS Layout Settings" width="50%"/>
 
-Now on to the next step! We're doing to set up a [home cloud server using Nextcloud](Nextcloud_Setup_Local.md)!
+7. To-do: Add BigBear appstore.
+
+Now on to the next step. As a gentle introduction to CasaOS, you are going to set up an advertisement / tracker blocker, called Pihole, which will block many ads you might otherwise see while browsing the internet. [Click here to install Pihole](../Instructions/Pihole_Installation.md).
+
+If you want to skip that, you can go straight to installing a [secure communications system and home cloud server using Nextcloud](../Instructions/Nextcloud_Setup_Local.md).
+
+If you want to skip that, you can go straight to installing a [dedicated secure communications system](../Instructions/Databag_Setup_Local.md).
