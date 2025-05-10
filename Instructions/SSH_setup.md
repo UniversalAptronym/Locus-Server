@@ -9,13 +9,15 @@ SSH means "Secure Shell", referring to the Secure Shell Protocol. An SSH program
 
 Note: Terminal windows often do not accept `ctrl+v` commands to paste content. If you want to paste the following commands, you may have to right-click in the terminal window (on some systems this automatically pastes text) or right-click and select paste.
 
-0. In a previous step you created a **Pi hostname**, **Pi username**, and **Pi password**. Make sure you have all three ready for this step. During these steps you will also learn your **router's local IP address**, and set your **Pi's local IP address**. These should both be written down and saved permanently.
-
-1. If you are using Windows, download and install [PuTTY](../Software_Repository/SSH.md). Make sure to create a desktop shortcut for PuTTY, and open it up.
+0. In a previous step you created a **Pi hostname**, **Pi username**, and **Pi password**, as in the image below. Make sure you have all three ready for this step. During these steps you will also learn your **router's local IP address**, and set your **Pi's local IP address**. These should both be written down and saved permanently.
 
 <img src="../Media_Repository/Pi_Imager_OS_settings_1.png" alt="Previous screen where you entered your Pi hostname" title="Previous screen where you entered your Pi hostname" width="40%"/>
 
-2. In the field for `Host Name (or IP address)`, enter your Pi hostname followed by ".local", like this `[exampleHostname].local`. This will take you to a mostly black window with only text saying `login as:`. This is known as the "terminal" window. Enter your Pi username and press Enter. Enter your Pi password (no text will appear, this is a normal security measure) and press Enter.
+1. If you are using Windows, download and install [PuTTY](../Software_Repository/SSH.md). Make sure to create a desktop shortcut for PuTTY, and open it up. In the field for `Host Name (or IP address)`, enter your **Pi hostname** followed by ".local", like this `[exampleHostname].local`. This tells your computer that you want it to talk to your Raspberry Pi.
+
+<img src="../Media_Repository/PuTTY_screen.png" alt="PuTTY login screen" title="PuTTY login screen" width="40%"/>
+
+2. Press `Open` at the bottom of the PuTTY screen. This will open a mostly black window with only text, saying `login as:`. This is known as the "terminal" window, which is used to give commands to computers using text inputs. Enter your **Pi username** and press Enter. Enter your **Pi password** (no text will appear as you type, as a security measure) and press Enter.
   - If this works, some more text will appear and the bottom line will read `[exampleHostame].[exampleUsername]:~ $`. This means your computer is speaking to a machine named `exampleHostname` (this is your Pi), and you are logged in as `[exampleUsername]`. Additionally, the `~` means you are accessing the home directory of your Pi, and the `$` means you are a normal user.
   - If you get a black screen without text, your Pi is probably not finished setting up. Exit the screen and try again in a few minutes.
   - If you get an error message, particularly anything about a software error, you probably got your wifi details wrong in the previous step.
