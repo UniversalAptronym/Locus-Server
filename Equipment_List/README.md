@@ -4,11 +4,9 @@ Note: In addition to the equipment itself, you will need to purchase a web URL, 
 
 ## __Very Basics__
 
-To-do: Add section about stuff like having internet acess, a router, etc.
+You will need an internet connection, provided by an internet router you own. This process requires making some small modifications to your router which you will only be able to do you if can log in to its internal software. This means you cannot be relying on public college or library wi-fi for your internet connection, or on a phone's data plan.
 
-## __Secure Communication Only__
-
-As of 2024, the following will cost $50-70. 
+If you own your own router but do not know how to log into it, [Wikihow has an excellent and easy to follow guide](https://www.wikihow.com/Access-a-Router). You can also call your internet provider to ask for their help logging into your router.
 
 ## __Full Home Server with Cloud Storage and Secure Communication__
 
@@ -30,6 +28,10 @@ Buy a [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/) wit
 
 Raspberry Pi 5 and SSD in an external enclosure. (left) Exposed Pi 5 and SSD. (Right) Enclosed Pi 5 and SSD.
 <img src="../Media_Repository/Raspberry_Pi_5_and_SSD_exposed.jpg" alt="Exposed Pi 5 and SSD" title="Exposed Pi 5 and SSD" width="40%"/> <img src="../Media_Repository/Raspberry_Pi_5_and_SSD_enclosed.jpg" alt="Enclosed Pi 5 and SSD" title="Enclosed Pi 5 and SSD" width="40%"/> 
+
+## __Secure Communication Only__
+
+As of 2024, the following will cost $50-70. 
 
 #### __Critical Hardware (\~$50)__
 
