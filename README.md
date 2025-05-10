@@ -38,9 +38,11 @@ We want to make this project accessible to _as many people as possible_, which m
 6. [Image an operating system](Instructions/Raspberry_Pi_Image_Setup.md) onto your Micro SD Card (Secure Communication Only) or your SSD (Full Home Server). These are the storage devices which will hold all the operational software for your equipment.
 7. [Install SSH software](Instructions/SSH_setup.md) (this lets your computer talk to your Raspberry Pi during the installation).
 8. [Log into your Pi and complete the installation](Instructions/CasaOS_Setup.md).
-9. Set up your Databag server. 
-10. (For full home server users). Set up your Nextcloud system.
-11. Talk to your friends and say hi to others.
+9. Optional: [Install an advertisement and tracker blocker](Instructions/Pi-hole_Installation.md)
+10. (For full home server users). Set up your Nextcloud server, for secure communications and cloud storage.
+11. Optional: Set up your Databag server, for extra secure communications.
+12. Set up Nginx, which lets you and others connect to Nextcloud / Databag remotely over the internet.
+13. Talk to your friends and say hi to others.
 
 # __Usernames and Passwords__
 
