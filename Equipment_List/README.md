@@ -1,3 +1,5 @@
+# __Equipment List__
+
 Note: In addition to the equipment itself, you will need to purchase a web URL, which as of 2024 costs \~$10/yr. Follow the instructions [here](../Instructions/Getting_a_Domain_Name_(Web_URL).md) to do so.
 
 ## __Very Basics__
