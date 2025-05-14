@@ -4,7 +4,7 @@
 
 [Setup and Installation Guide](../../wiki/Setup-and-Installation)
 
-Welcome to the Locus Server project. Our primary goal is to provide an easy to use and affordable method for oppressed and at-risk groups (such as the LGBT+ community and religious or ethnic minorities) to communicate securely without fear of surveillance, censorship, or government violence. Our secondary goal is to make it easier for people to manage and store their own data online, without relying on expensive and intrusive tech monopolies. This guide will show you how to set up a secure, end-to-end encrypted, self-hosted communication server which includes text, voice, and video chat, and which can be modified to include encrypted, remotely-accessible cloud storage and ad blocking. 
+Welcome to the Hearth Box project. Our primary goal is to provide an easy to use and affordable method for oppressed and at-risk groups (such as the LGBT+ community and religious or ethnic minorities) to communicate securely without fear of surveillance, censorship, or government violence. Our secondary goal is to make it easier for people to manage and store their own data online, without relying on expensive and intrusive tech monopolies. This guide will show you how to set up a secure, end-to-end encrypted, self-hosted communication server which includes text, voice, and video chat, and which can be modified to include encrypted, remotely-accessible cloud storage and ad blocking. 
 
 This server facilitates communication which is much more difficult for governments or malicious actors to surveil than other methods like texting, Facebook Messenger, Instagram, WhatsApp, or Discord. While we suggest the [Signal app](https://signal.org/#signal) as an easier-to-use alternative for secure, end-to-end encrypted communication, it is blocked in some countries (such as [Russia, Venezuela,](https://www.theverge.com/2024/8/9/24217008/signal-blocked-venezuela-russia) [China, and Iran](https://www.techradar.com/news/china-blocks-signal-heres-what-you-need-to-know)). This can be circumvented by a virtual private network (VPN), but those services are often restricted by oppressive governments as well.
 
@@ -20,7 +20,7 @@ If you are not part of an at-risk group and don't know anyone who is, you don't 
 
 Follow these instructions step by step to make a secure communication hub / home server. Each step links to a detailed list of instructions.
 
-We want to make this project accessible to _as many people as possible_, which means these instructions are written for people with little to no experience building computers, making websites, or self-hosting. Consequently, we've made individual steps in this guide as simple as possible. That also means that there are a lot of steps. Don't let the length of the guide intimidate you! (If you're an IT expert, you may find these instructions overly detailed; we hope they're still useful to you.) Whether you're a novice with computers and need your hand held through each step, or if you're an IT expert who happens to trip over some particular pain point, we don't want anyone to give up on making a home server because we didn't explain it carefully enough.
+We want to make this project accessible to _as many people as possible_, which means these instructions are written for people with little to no experience building computers, making websites, or self-hosting. Consequently, we've made individual steps in this guide as simple as possible. That also means that there are a lot of steps, but don't let the length of the guide intimidate you! (If you're an IT expert, you may find these instructions overly detailed; we hope they're still useful to you.) Whether you're a novice with computers and need your hand held through each step, or if you're an IT expert who happens to trip over some particular pain point, we don't want anyone to give up on making a home server because we didn't explain it carefully enough.
 
  1. Decide what you're getting.
 
@@ -46,12 +46,21 @@ We want to make this project accessible to _as many people as possible_, which m
 
 # __Usernames and Passwords__
 
-Before we start, you should to decide on certain usernames, passcodes, etc. You will need these later, and they are very important for your security. **Make sure these are usernames and passwords you can remember, which do not rely on simple patterns. If you absolutely must write them down, store them in a secure *offline* location. None of these passwords should be a copy of other passwords you use.** You will need:
+Before you start, you should to decide on the usernames, passwords, and emails you will use to log in to certain programs. You will need these later, and they are very important for your security. You should also decide on the URL for your Hearth Box.
+
+**Warning:** Make sure these are usernames and passwords you can remember and which do not rely on simple patterns. If you absolutely must write them down, store them in a secure *offline* location.
+
+**Warning:** None of these usernames or passwords should be the same as other usernames or passwords you use.
+
+You will need:
 
 ## __For regular use__
-- **Web URL** (this is the URL you and others will use to access your Pi's services) **(IMPORTANT: This is publically visible and SHOULD NOT MATCH ANY USERNAMES BELOW)**
-- **Databag username** (this is your username for the secure communication app) (Important: Do not ever set your browser to autocomplete this username)
-- **Databag password** (this is your password for the secure communication app) (Important: Do not ever set your browser to autocomplete this password)
+- **Web URL** (this is the URL you and others will use to access your Pi's services)
+
+ **Warning:** This is publically visible. *It should not match any usernames, passwords, or emails below*.
+
+- **Databag username** (this is your username for the secure communication app) (**Warning:** Do not ever set your browser to autocomplete this username)
+- **Databag password** (this is your password for the secure communication app) (**Warning:** Do not ever set your browser to autocomplete this password)
 #### __For regular use - Full Home Server Only__
 - **CasaOS username** (this is the username you use to log into your Pi through a web browser)
 - **CasaOS password** (this is the password you use to log into your Pi through a web browser)
