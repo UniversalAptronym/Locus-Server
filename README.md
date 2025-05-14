@@ -46,12 +46,20 @@ We want to make this project accessible to _as many people as possible_, which m
 
 # __Usernames and Passwords__
 
-Before we start, you should to decide on certain usernames, passcodes, etc. You will need these later, and they are very important for your security. **Make sure these are usernames and passwords you can remember and which do not rely on simple patterns. If you absolutely must write them down, store them in a secure *offline* location. None of these passwords should be a copy of other passwords you use.** You will need:
+Before you start, you should to decide on the usernames, passwords, and emails you will use to log in to certain programs. You will need these later, and they are very important for your security. You should also decide on the URL for your Hearth Box.
+
+**Warning:** Make sure these are usernames and passwords you can remember and which do not rely on simple patterns. If you absolutely must write them down, store them in a secure *offline* location.
+**Warning:** None of these usernames or passwords should be the same as other usernames or passwords you use.
+
+You will need:
 
 ## __For regular use__
-- **Web URL** (this is the URL you and others will use to access your Pi's services) **(IMPORTANT: This is publically visible and SHOULD NOT MATCH ANY USERNAMES BELOW)**
-- **Databag username** (this is your username for the secure communication app) (Important: Do not ever set your browser to autocomplete this username)
-- **Databag password** (this is your password for the secure communication app) (Important: Do not ever set your browser to autocomplete this password)
+- **Web URL** (this is the URL you and others will use to access your Pi's services)
+
+ - **(Warning: This is publically visible and SHOULD NOT MATCH ANY USERNAMES BELOW)**
+
+- **Databag username** (this is your username for the secure communication app) (**Warning:** Do not ever set your browser to autocomplete this username)
+- **Databag password** (this is your password for the secure communication app) (**Warning:** Do not ever set your browser to autocomplete this password)
 #### __For regular use - Full Home Server Only__
 - **CasaOS username** (this is the username you use to log into your Pi through a web browser)
 - **CasaOS password** (this is the password you use to log into your Pi through a web browser)
