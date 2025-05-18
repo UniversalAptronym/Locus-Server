@@ -4,7 +4,7 @@ to-do:
   - Also add a Tailscale tutorial, but that's not an immediate priority. 
 - We might also need to change the Zero Trust instructions for dietpi with Secure Communications Only.
 
-# __Instructions__
+# __Getting a Web URL with Cloudflare__
 
 This section will show you how to get a web domain and sign up for Cloudflare, a company which provides (among other things) web traffic routing services. As of 2025, Cloudflare's services cost about $10/yr. This section may be harder to understand if you're unfamiliar with internet backend terminology, but it's not technically complicated. In essence, you're filling out paperwork.
 
