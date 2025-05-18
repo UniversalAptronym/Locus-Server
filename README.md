@@ -87,10 +87,10 @@ You should record this information somewhere offline, where you won't lose it.
 This information will be temporarily stored on your computer, and should be deleted when this setup is finished.
 To prepare you should make:
 - A folder named `Cloudflare_Setup_Files`.
-In that folder you should make
-- An empty text file named `Cloudflare_Tunnel`.
-- An empty text file named `Cloudlflare_SSL_Certificate`.
-- An empty text file named `Cloudlflare_SSL_Private_Key`.
+In this folder you should make
+  - An empty text file named `Cloudflare_Tunnel`.
+  - An empty text file named `Cloudlflare_SSL_Certificate`.
+  - An empty text file named `Cloudlflare_SSL_Private_Key`.
 
 If you do not know how to make new folders or text files, see these guides for doing so with [Windows](Instructions/New_Folder_File_Instructions_(Windows).md) and [Mac](Instructions/New_Folder_File_Instructions_(Mac).md).
 
