@@ -4,13 +4,15 @@
 
 [Setup and Installation Guide](../../wiki/Setup-and-Installation)
 
-Welcome to the Hearth Box project!
+Welcome to the Hearth Box project! 
 
-Our primary goal is to provide an easy to use and affordable method for oppressed and at-risk groups (such as the LGBT+ community and religious or ethnic minorities) to communicate securely without fear of surveillance, censorship, or government violence. Our secondary goal is to make it easier for people to manage and store their own data online, without relying on expensive and intrusive tech monopolies. This guide will show you how to set up a secure, end-to-end encrypted, self-hosted communication server using hardware you physically possess, which enables text, voice, and video chat, and also remotely-accessible cloud storage and ad blocking. 
+This guide will show you how to set up a "Hearth Box". A Hearth Box is a device you physically own, which hosts a secure, end-to-end encrypted, self-hosted server accessible on the worldwide web. What this means is that you and others can communicate through it via text, voice, and video chat, on your personal computers and mobile devices, without censorship and without anyone intercepting and reading your communications en-route. A Hearth Box also enables cloud storage of your personal data, which likewise cannot be censored or spied on by third parties. Finally, as an extra perk, a Hearth Box can help filter some internet ads which standard ad-blockers may miss.
 
 (left) An example of a Hearth Box. (right) An example of one of the communication platforms hosted on a Hearth Box
 
 <img src="Media_Repository/Raspberry_Pi_5_and_SSD_enclosed.jpg" alt="Enclosed Pi 5 and SSD" title="Enclosed Pi 5 and SSD" width="40%"/> <img src="Media_Repository/Nextcloud_Talk_Example.png" alt="Nextcloud talk example" title="Nextcloud talk example" width="50%"/> 
+
+Our primary goal is to provide an *easy to use* and affordable method for oppressed and at-risk groups (such as the LGBT+ community and religious or ethnic minorities) to communicate securely without fear of surveillance, censorship, or government violence. Our secondary goal is to make it easier for people to manage and store their own data online, without relying on expensive and intrusive tech monopolies. We have written these documents with ease of access in mind and they intended to be accessible even by those with little to no technical expertise. This guide will show you how to set up a "Hearth Box" secure, end-to-end encrypted, self-hosted server (i.e. information sent through this server en-route by anyone other than their intended recipients) using hardware you physically possess, which enables text, voice, and video chat, and also remotely-accessible cloud storage and ad blocking. 
 
 The server on a Hearth Box facilitates communication which is much more difficult for governments or malicious actors to surveil than other methods like texting, Facebook Messenger, Instagram, WhatsApp, or Discord. While we suggest the [Signal app](https://signal.org/#signal) as an easier-to-use alternative for secure, end-to-end encrypted communication, it is blocked in some countries as of 2025, (such as [Russia, Venezuela,](https://www.theverge.com/2024/8/9/24217008/signal-blocked-venezuela-russia) [China, and Iran](https://www.techradar.com/news/china-blocks-signal-heres-what-you-need-to-know)). This can be circumvented by a virtual private network (VPN), but those services are often restricted by government censorship as well.
 
