@@ -1,6 +1,6 @@
 # __Equipment List__
 
-Note: In addition to the equipment itself, you will need to purchase a web URL, which as of 2024 costs \~$10/yr. The instructions on how to do so are on the [next page](../Instructions/Getting_a_Domain_Name_(Web_URL).md).
+Note: In addition to the equipment itself, you will need to purchase a web URL, which as of 2024 costs \~$10/yr. The instructions on how to do so are on the [next page](../Instructions/Cloudflare_(Web_URL).md).
 
 ## __Very Basics__
 
@@ -54,4 +54,4 @@ Raspberry Pi Zero 2 W. (left) Bare motherboard. (Middle) Motherboard with therma
 - SD Card USB Adapter (like [this](https://www.amazon.com/Reader-Adapter-Camera-Memory-Wansurs/dp/B0B9QZ4W4Y)) ($5)
   - If your computer does not have an SD card or micro SD card reader, you will need one of these.
 
-Once you have finished your purchases, you will need to purchase a web URL, which as of 2024 costs \~$10/yr. [Follow the instructions here to do so](../Instructions/Getting_a_Domain_Name_(Web_URL).md).
+Once you have finished your purchases, you will need to purchase a web URL, which as of 2024 costs \~$10/yr. [Follow the instructions here to do so](../Instructions/Cloudflare_(Web_URL).md).
