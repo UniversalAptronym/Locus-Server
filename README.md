@@ -80,7 +80,7 @@ Before we start, you should to decide on certain usernames, passcodes, etc. You 
 - **Databag admin password** (this is your administrator password for the secure communication app) 
 
 ### __Recorded information__
-You will also learn the following information during this installation. 
+You will also need to record the following information during this installation. 
 
 #### __Offline Recorded Information__
 You should record this information somewhere offline, where you won't lose it.
