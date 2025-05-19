@@ -58,34 +58,37 @@ Before we start, you should to decide on certain usernames, passcodes, etc. You 
 
 ## __For regular use__
 - **Web URL** (this is the URL you and others will use to access your Pi's services) **(IMPORTANT: This is publically visible and SHOULD NOT MATCH ANY USERNAMES BELOW)**
-- **Databag username** (this is your username for the secure communication app) (Important: Do not ever set your browser to autocomplete this username)
-- **Databag password** (this is your password for the secure communication app) (Important: Do not ever set your browser to autocomplete this password)
-
-#### __For regular use - Full Home Server Only__
 - **CasaOS username** (this is the username you use to log into your Pi through a web browser)
 - **CasaOS password** (this is the password you use to log into your Pi through a web browser)
 - **Nextcloud username** (this is the username you use to log into your home server storage, and an alternative secure communication service)
 - **Nextcloud password** (this is the password you use to log into your home server storage, and an alternative secure communication service)
 
-## __Usernames and passwords you'll need during installation or for changing your system later__
+### __Optional secure communication app with better operational security__
+- **Databag username** (this is your username for the secure communication app) (Important: Do not ever set your browser to autocomplete this username)
+- **Databag password** (this is your password for the secure communication app) (Important: Do not ever set your browser to autocomplete this password)
+
+## __For regular use - Full Home Server Only__
+
+### __Usernames and passwords you'll need during installation or for changing your system later__
+**IMPORTANT:** None of these passwords should be the same as the others! 
 - **Raspberry Pi hostname** (`hostname`.local is the name your Pi goes by when your computer talks to it) 
 - **Raspberry Pi username** (this is the username you use to log into your Pi through the terminal) (if you don't know what that is yet, don't worry)
 - **Raspberry Pi password** (this is the password you use to log into your Pi through the terminal)
 - **Cloudflare email** (this is the email you use for a free account with a service which lets you receive and manage your web URL)
 - **Cloudflare password** (this is the password you use to receive and manage your web URL)
 - **Nginx email** (this is the email you use for a free account with a service which lets you send your computer passwords without other people intercepting them) 
-- **Databag admin password** (this is your administrator password for the secure communication app) **(IMPORTANT: None of these passwords should be the same as the others, but this one MUST BE DIFFERENT THAN THE OTHERS! DO NOT EVER SET YOUR BROWSER TO AUTOCOMPLETE THIS PASSWORD!)**
+- **Databag admin password** (this is your administrator password for the secure communication app) 
 
-## __Recorded information__
+### __Recorded information__
 You will also learn the following information during this installation. 
 
-### __Offline Recorded Information__
+#### __Offline Recorded Information__
 You should record this information somewhere offline, where you won't lose it.
 - Your Raspberry **Pi's local IP address**
 - Your network **router's local IP address**
 - Your network **router's global IP address**
 
-### __Temporarily Recorded Information__
+#### __Temporarily Recorded Information__
 This information will be temporarily stored on your computer, and should be deleted when this setup is finished.
 To prepare you should make:
 - A folder named `Cloudflare_Setup_Files`.
