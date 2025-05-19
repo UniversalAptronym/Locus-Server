@@ -63,7 +63,7 @@ Before we start, you should to decide on certain usernames, passcodes, etc. You 
 - **Nextcloud username** (this is the username you use to log into your home server storage, and an alternative secure communication service)
 - **Nextcloud password** (this is the password you use to log into your home server storage, and an alternative secure communication service)
 
-### __Optional secure communication app with better operational security__
+#### __Optional: For Databag, a secure communication app which is clunkier than Nextcloud but has better operational security__
 - **Databag username** (this is your username for the secure communication app) (Important: Do not ever set your browser to autocomplete this username)
 - **Databag password** (this is your password for the secure communication app) (Important: Do not ever set your browser to autocomplete this password)
 
