@@ -4,7 +4,7 @@ to-do:
   - Also add a Tailscale tutorial, but that's not an immediate priority. 
 - We might also need to change the Zero Trust instructions for dietpi with Secure Communications Only.
 
-# __Instructions__
+# __Getting a Web URL with Cloudflare__
 
 This section will show you how to get a web domain and sign up for Cloudflare, a company which provides (among other things) web traffic routing services. As of 2025, Cloudflare's services cost about $10/yr. This section may be harder to understand if you're unfamiliar with internet backend terminology, but it's not technically complicated. In essence, you're filling out paperwork.
 
@@ -34,21 +34,21 @@ Next, you will set up a "tunnel". This allows encryption of the information whic
 
 <img src="../Media_Repository/Cloudflare_Zero_Trust_1.png" alt="Cloudflare Networks button" title="Cloudflare Networks button" width="40%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_1a.png" alt="Cloudflare Team Name" title="Cloudflare Team Name" width="30%"/> 
 
-6. In the home page for `Zero Trust`, click `Networks`, then click `Create a tunnel`. Select `Cloudflared`. Enter a name for your tunnel and click `Save Tunnel`. You do not have to record this name - it will be here on your Cloudflare account if you ever need it again. Select `Docker`. Click the text which begins with `$ docker run` to *Copy* that text.
+6. In the home page for `Zero Trust`, click `Networks`, then click `Create a tunnel`. Select `Cloudflared`. Enter a name for your tunnel and click `Save Tunnel`. You do not have to record this name - it will be here on your Cloudflare account if you ever need it again. Select `Docker`. Click the text which begins with `$ docker run`, or highlight and press **Ctrl+C** to *Copy* that text.
 
-<img src="../Media_Repository/Cloudflare_Zero_Trust_2.png" alt="Cloudflare tunnel button" title="Cloudflare tunnel button" width="30%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_3.png" alt="Cloudflare Cloudflared button" title="Cloudflare Cloudflared button" width="30%"/>
+<img src="../Media_Repository/Cloudflare_Zero_Trust_2.png" alt="Cloudflare tunnel button" title="Cloudflare tunnel button" width="40%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_3.png" alt="Cloudflare Cloudflared button" title="Cloudflare Cloudflared button" width="40%"/>
 
-<img src="../Media_Repository/Cloudflare_Zero_Trust_4.png" alt="Cloudflare tunnel name field" title="Cloudflare tunnel name field" width="30%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_5.png" alt="Cloudflare connector text" title="Cloudflare connector text" width="30%"/>
+<img src="../Media_Repository/Cloudflare_Zero_Trust_4.png" alt="Cloudflare tunnel name field" title="Cloudflare tunnel name field" width="40%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_5.png" alt="Cloudflare connector text" title="Cloudflare connector text" width="40%"/>
 
-7. If you haven't already, create a dedicated folder for information about your server on your computer. Open this folder. If you already have a dedicated folder, navigate to it.
-  
-8. Within this folder, create a new plaintext file (plaintext files have the file extension **.txt**). Open this file, then press **CTRL + V** (for Linux or Windows) or **CMD + V** (for Mac) to *Paste* the text you copied in Step 5 into the file. Save this file and leave it open. You will need this later.
+7. If you haven't already, create a dedicated folder for information about your server on your computer. To make a new folder on Windows, navigate to your desktop or open File Explorer and navigate to the location you want your server information to be stored. **Right-click** on your desktop or in File Explorer, select **New Folder**, then type your desired folder name and press Enter. Open this folder. Within this folder, create a new plaintext file (plaintext files have the file extension **.txt**). Do this by **right-clicking**, clicking **New Text Document**, then typing `Cloudflare_Tunnel` and pressing Enter. Open this file, then press **CTRL + V** (for Linux or Windows) or **CMD + V** (for Mac) to *Paste* the text you copied in Step 5 into the file. Save this file and leave it open. You will need this later.
 
-9. Finally, return to the Cloudflare webpage, scroll down, and click `Next` at the bottom of the page. This will take you to the page pictured below.
+<img src="../Media_Repository/Cloudflare_New_Text.png" alt="How to make a new text document.png" title="How to make a new text document" width="50%"/> 
+
+8. Finally, return to the Cloudflare webpage, scroll down, and click `Next` at the bottom of the page. This will take you to the page pictured below.
   
 **Note:** Depending on what part of the process you're at, the `Save` button will either say `Save Tunnel` or `Save Hostname`.
 
-<img src="../Media_Repository/Cloudflare_New_Text.png" alt="How to make a new text document.png" title="How to make a new text document" width="30%"/> <img src="../Media_Repository/Cloudflare_Public_Hostname_0.png" alt="Cloudflare Public Hostname Blank" title="Cloudflare Public Hostname Blank" width="50%"/>
+<img src="../Media_Repository/Cloudflare_Public_Hostname_0.png" alt="Cloudflare Public Hostname Blank" title="Cloudflare Public Hostname Blank" width="50%"/>
 
 What you do next depends on whether you are setting up a full home server or only a secure communications hub. Follow the instructions below based on your choice. Either way, this next step will set up a series of sub-websites which you will use to access various functions of your Raspberry Pi. For example, `databag.[exampleweburl].org` will take you to your secure communications hub. Meanwhile `nginx.[exampleweburl].org` will take you to part of your device's security interface, and `pihole.[exampleweburl].org` will take you to the control panel for an adblocker which will reduce the number of ads for all devices on your internet.
 
