@@ -26,15 +26,15 @@ Figure 0: Relevant components of the Raspberry Pi 5
 Figure 1: Raspberry Pi Temperature Monitor 
 (You will see how to access this temperature monitor in a [later sectioon](../Instructions/CasaOS_Setup.md).
 
-<img src="../Media_Repository/Raspberry_Pi_Assembly_Temperature.png" alt="Raspberry Pi temperature monitor" title="Raspberry Pi temperature monitor" width="40%"/>
+<img src="../Media_Repository/Raspberry_Pi_Assembly_Temperature.png" alt="Raspberry Pi temperature monitor" title="Raspberry Pi temperature monitor" width="50%"/>
 
 ## Assembly Instructions
 
 1. Gather your parts. Remove everything from its packaging (carefully, so that you can return anything which is broken) and visually inspect it for damage or missing pieces (damage could include cracks, cuts, rust, or corrosion). You should have:
 
-	Figure 2: Raspberry Pi parts (mostly in their packaging)
+	Figure 2: Raspberry Pi parts. The Pi itself, case, power supply, and heatsinks are still in their packaging. The SSD and external SSD enclosure have been removed from their packaging.
 
-![Raspberry Pi parts. The Pi itself, case, power supply, and heatsinks are still in their packaging. The SSD and external SSD enclosure have been removed from their packaging.](/Media_Repository/RPi5_HardwareSetup/0_PiAssembly_Parts.png "Raspberry Pi parts")
+<img src="/Media_Repository/RPi5_HardwareSetup/0_PiAssembly_Parts.png" alt="Raspberry Pi parts" title="Raspberry Pi parts" width="60%"/>
 
 	1. The Pi motherboard
 	2. The case and case fan
