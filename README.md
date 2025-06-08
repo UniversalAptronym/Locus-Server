@@ -76,7 +76,8 @@ Before we start, you should to decide on certain usernames, passcodes, etc. You 
 - **Raspberry Pi password** (this is the password you use to log into your Pi through the terminal)
 - **Cloudflare email** (this is the email you use for a free account with a service which lets you receive and manage your web URL)
 - **Cloudflare password** (this is the password you use to receive and manage your web URL)
-- **Nginx email** (this is the email you use for a free account with a service which lets you send your computer passwords without other people intercepting them) 
+- **Nginx email** (this is the email you use for a free account with a service which lets you send your computer passwords without other people intercepting them)
+- **Nginx password** (this is the password you use for a free account with a service which lets you send your computer passwords without other people intercepting them) 
 - **Databag admin password** (this is your administrator password for the secure communication app) 
 
 ### __Recorded information__
