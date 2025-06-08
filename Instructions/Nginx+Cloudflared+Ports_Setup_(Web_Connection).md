@@ -8,7 +8,7 @@ Nginx Proxy Mananager creates what is known as a "reverse proxy" for the server 
 
 1. If you do not already have it open, access your Raspberry Pi by entering its `local IP address` into your web browser. Open the `App Store` button. Navigate to the Nginx Proxy Manager installer either by scrolling down, or typing `nginx` into the search bar. Then click `Install`. 
 
-<img src="../Media_Repository/Nginx_Install_1.png" alt="Nginx Proxy Manager installation 1" title="Nginx Proxy Manager installation 1" width="30%"/> <img src="../Media_Repository/Nginx_Install_2.png" alt="Nginx Proxy Manager installation 2" title="Nginx Proxy Manager installation 2" width="30%"/> 
+<img src="../Media_Repository/Nginx_Install_1.png" alt="Nginx Proxy Manager installation 1" title="Nginx Proxy Manager installation 1" width="40%"/> <img src="../Media_Repository/Nginx_Install_2.png" alt="Nginx Proxy Manager installation 2" title="Nginx Proxy Manager installation 2" width="40%"/> 
 
 2. This should bring up the following installation window, which you can scroll to see the entirety of. Make sure each installation field has the following values:
 - Docker Image: `jc21/nginx-proxy-manager`
@@ -34,7 +34,7 @@ Nginx Proxy Mananager creates what is known as a "reverse proxy" for the server 
 - Restart Policy: `unless-stopped`
 - Container Name: `nginxproxymanager`
 
-<img src="../Media_Repository/Nginx_Install_3.png" alt="Nginx Proxy Manager installation settings 1" title="Nginx Proxy Manager installation settings 1" width="30%"/> <img src="../Media_Repository/Nginx_Install_4.png" alt="Nginx Proxy Manager installation settings 2" title="Nginx Proxy Manager installation settings 2" width="30%"/> 
+<img src="../Media_Repository/Nginx_Install_3.png" alt="Nginx Proxy Manager installation settings 1" title="Nginx Proxy Manager installation settings 1" width="40%"/> <img src="../Media_Repository/Nginx_Install_4.png" alt="Nginx Proxy Manager installation settings 2" title="Nginx Proxy Manager installation settings 2" width="40%"/> 
 
 As a gentle introduction to CasaOS, you are going to set up an advertisement / tracker blocker, called Pi-hole, which will block many ads you might otherwise see while browsing the internet. [Click here to install Pi-hole](../Instructions/Pi-hole_Installation.md).
 
