@@ -34,7 +34,25 @@ Nginx Proxy Mananager creates what is known as a "reverse proxy" for the server 
 - Restart Policy: `unless-stopped`
 - Container Name: `nginxproxymanager`
 
+When you are finished, click 'Save'.
+
 <img src="../Media_Repository/Nginx_Install_3.png" alt="Nginx Proxy Manager installation settings 1" title="Nginx Proxy Manager installation settings 1" width="40%"/> <img src="../Media_Repository/Nginx_Install_4.png" alt="Nginx Proxy Manager installation settings 2" title="Nginx Proxy Manager installation settings 2" width="36%"/> 
+
+3. Next you need to open Nginx Proxy Manager. When you are finished with this section, you will be able to do so by clicking the `Nginx Proxy Manager`. However, the `Web UI` field is configured so that clicking on this icon opens the web URL `https://nginx.examplewebURL`, and you do not yet have web connectivity enabled. Your Hearth Box can still only be connected to via your **Raspberry Pi's local IP address**. Instead, open a new web browser page and type into the address bar `http://XXX.XXX.XXX.XXX:82`, where `XXX.XXX.XXX.XXX` is your **Raspberry Pi's local IP address**. Then press Enter.
+
+Reminder: Using your **Raspberry Pi's local IP address** to access your Hearth Box will only work when you are connecting to the internet through the same local router as your Raspberry Pi.
+
+4. You should see the Nginx login page. In the next step you will set up your own personal **Nginx email** and **Nginx password**, but right now you will use the Nginx default email and password to log in. These are `admin@example.com` and `changeme` respectively. Type these into the `Email address` and `Password` boxes, then press `Sign In`.
+
+<img src="../Media_Repository/Nginx_Login.png" alt="Nginx Proxy Manager login" title="Nginx Proxy Manager login" width="40%"/> <img src="../Media_Repository/Nginx_Changes_1.png" alt="Nginx Proxy Manager email 1" title="Nginx Proxy Manager email 1" width="40%"/>
+
+5. Click the account icon in the top right. Then click `Edit Details`. Change the "Email" box to your desired **Nginx Email**. You can change the "Full Name" and "Nickname" if you want, but it's not necessary. When you're finished, click `Save`.
+
+<img src="../Media_Repository/Nginx_Changes_2.png" alt="Nginx Proxy Manager email 2" title="Nginx Proxy Manager email 2" width="40%"/> <img src="../Media_Repository/Nginx_Changes_3.png" alt="Nginx Proxy Manager email 3" title="Nginx Proxy Manager email 3" width="40%"/> 
+
+6. Click the account icon in the top right. Then click `Change Password`. If the "Current Password" is not automatically filled in, type in `changeme`. Type your desired **Nginx password** into the "New Password" and "Confirm Password" boxes. When you're finished, click `Save`.
+
+<img src="../Media_Repository/Nginx_Changes_4.png" alt="Nginx Proxy Manager email 4" title="Nginx Proxy Manager email 4" width="40%"/> <img src="../Media_Repository/Nginx_Changes_5.png" alt="Nginx Proxy Manager email 5" title="Nginx Proxy Manager email 5" width="40%"/> 
 
 As a gentle introduction to CasaOS, you are going to set up an advertisement / tracker blocker, called Pi-hole, which will block many ads you might otherwise see while browsing the internet. [Click here to install Pi-hole](../Instructions/Pi-hole_Installation.md).
 
