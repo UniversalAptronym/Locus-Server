@@ -54,6 +54,23 @@ Reminder: Using your **Raspberry Pi's local IP address** to access your Hearth B
 
 <img src="../Media_Repository/Nginx_Login_Changes_4.png" alt="Nginx Proxy Manager email 4" title="Nginx Proxy Manager email 4" width="40%"/> <img src="../Media_Repository/Nginx_Login_Changes_5.png" alt="Nginx Proxy Manager email 5" title="Nginx Proxy Manager email 5" width="40%"/> 
 
+7. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 As a gentle introduction to CasaOS, you are going to set up an advertisement / tracker blocker, called Pi-hole, which will block many ads you might otherwise see while browsing the internet. [Click here to install Pi-hole](../Instructions/Pi-hole_Installation.md).
 
 If you want to skip that, you can go straight to installing a [secure communications system and home cloud server using Nextcloud](../Instructions/Nextcloud_Setup_Local.md).
