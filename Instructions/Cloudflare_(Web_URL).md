@@ -54,7 +54,7 @@ We will use these files later.
 
 ## __Setting up Cloudflare Tunnels__
 
-Next, you will set up a "tunnel". This ensures that encrypted information always goes through Cloudflare, where it is properly encrypted and protected from eavesdroppers. (Detailed explanation, if you are interested.)[https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/]
+Next, you will set up a "tunnel". This ensures that encrypted information always goes through Cloudflare, where it is properly encrypted and protected from eavesdroppers. [Detailed explanation, if you are interested.](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/)
 
 10. Return to Cloudflare's `Account Home`. On the left-hand side of your screen, click `Zero Trust`. This will take you to a screen where you enter a team name. Enter whatever you want, you don't have to record this.
 
