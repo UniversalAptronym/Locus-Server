@@ -1,6 +1,8 @@
-# __Nginx | Port-Forwarding | Cloudflared Tunnel Setup (Connecting Your Pi To The Worldwide Web)__
+# __Cloudflared | Nginx | Port-Forwarding |  Setup (Connecting Your Pi To The Worldwide Web)__
 
 In this section you will install Nginx Proxy Manager, set up port forwarding on your router, and install a Cloudflared tunnel. Each of these will be one component of letting your Hearth Box connect to the wider internet, and is described in greater detail below.
+
+## __Cloudflared__
 
 ## __Nginx Proxy Manager__
 
