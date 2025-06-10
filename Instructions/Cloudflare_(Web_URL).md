@@ -8,6 +8,8 @@ to-do:
 
 This section will show you how to get a web domain and sign up for Cloudflare, a company which provides (among other things) web traffic routing services. As of 2025, Cloudflare's services cost about $10/yr. This section may be harder to understand if you're unfamiliar with internet backend terminology, but it's not technically complicated. In essence, you're filling out paperwork.
 
+This paperwork makes it so that when someone types your Hearth Box's **Web URL** into a browser, the request to see that website gets redirected to the server hosted on your Raspberry Pi.
+
 ## __Purchasing a URL__
 
 Note: Updates to Cloudflare's website may cause its user interface or layout to differ from its depiction in the following images. If this is the case, please leave a note in the `Issues` tab of the Locus Server's Github repository.
