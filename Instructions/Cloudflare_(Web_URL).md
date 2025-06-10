@@ -66,7 +66,7 @@ Next, you will set up a "tunnel". This ensures that encrypted information always
 
 <img src="../Media_Repository/Cloudflare_Zero_Trust_4.png" alt="Cloudflare tunnel name field" title="Cloudflare tunnel name field" width="40%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_5.png" alt="Cloudflare connector text" title="Cloudflare connector text" width="40%"/>
 
-12. Before beginning, you should have created a text file named `Cloudflare_Tunnel.txt`. Open it. Then press **CTRL + V** (for Linux or Windows) or **CMD + V** (for Mac) to *Paste* the text you copied in previous step into the file. Save this file and leave the folder it is within open.
+12. Before beginning, you should have created a text file named `Cloudflare_Tunnel.txt`. Open it. Then press `CTRL + V` (for Linux or Windows) or `CMD + V` (for Mac) to *Paste* the text you copied in previous step into the file. Save this file and leave the folder it is within open.
 
 13. Finally, return to the Cloudflare webpage, scroll down, and click `Next` at the bottom of the page. This will take you to the page pictured below.
   
