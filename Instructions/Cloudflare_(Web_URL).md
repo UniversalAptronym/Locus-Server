@@ -46,9 +46,9 @@ Next you will obtain a "Secure Sockets Layer" (SSL) certificate and SSL private 
 
 <img src="../Media_Repository/Cloudflare_SSL_4.png" alt="Cloudflare SSL Origin Server" title="Cloudflare SSL Origin Server" width="50%"/> 
 
-8. Before beginning you should have created a text file named `Cloudflare_SSL_Certificate.txt` . Open it. Navigate back to your browser and click on the text in "Origin Box" to select it, then press **Ctrl+C** to *Copy* that text. Then select your text file (you may have to click the body of the file to select it properly) and press **CTRL + V** (for Linux or Windows) or **CMD + V** (for Mac) to *Paste* the text you copied in previous step into the file. Save this file and leave the folder it is within open.
+8. Before beginning you should have created a text file named `Cloudflare_SSL_Certificate.txt` . Open it. Navigate back to your browser and click on the text in "Origin Box" to select it, then press `Ctrl + C` to *Copy* that text. Then select your text file (you may have to click the body of the file to select it properly) and press `CTRL + V` (for Linux or Windows) or `CMD + V` (for Mac) to *Paste* the text you copied in previous step into the file. Save this file and leave the folder it is within open.
 
-9. Before beginning you should have created a text file named `Cloudflare_SSL_private Key.txt` . Open it. Navigate back to your browser and click on the text in "Private Key" to select it, then press **Ctrl+C** to *Copy* that text. Then select your text file (you may have to click the body of the file to select it properly) and press **CTRL + V** (for Linux or Windows) or **CMD + V** (for Mac) to *Paste* the text you copied in previous step into the file. Save this file and leave the folder it is within open.
+9. Before beginning you should have created a text file named `Cloudflare_SSL_private Key.txt` . Open it. Navigate back to your browser and click on the text in "Private Key" to select it, then press `Ctrl + C` to *Copy* that text. Then select your text file (you may have to click the body of the file to select it properly) and press `CTRL + V` (for Linux or Windows) or `CMD + V` (for Mac) to *Paste* the text you copied in previous step into the file. Save this file and leave the folder it is within open.
 
 We will use these files later.
 
@@ -60,7 +60,7 @@ Next, you will set up a "tunnel". This ensures that encrypted information always
 
 <img src="../Media_Repository/Cloudflare_Zero_Trust_1.png" alt="Cloudflare Networks button" title="Cloudflare Networks button" width="40%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_1a.png" alt="Cloudflare Team Name" title="Cloudflare Team Name" width="30%"/> 
 
-11. In the home page for `Zero Trust`, click `Networks`, then click `Create a tunnel`. Select `Cloudflared`. Enter a name for your tunnel and click `Save Tunnel`. You do not have to record this name - it will be here on your Cloudflare account if you ever need it again. Select `Docker`. Click the text which begins with `$ docker run`, or highlight and press **Ctrl+C** to *Copy* that text.
+11. In the home page for `Zero Trust`, click `Networks`, then click `Create a tunnel`. Select `Cloudflared`. Enter a name for your tunnel and click `Save Tunnel`. You do not have to record this name - it will be here on your Cloudflare account if you ever need it again. Select `Docker`. Click the text which begins with `$ docker run`, or highlight and press `Ctrl + C` to *Copy* that text.
 
 <img src="../Media_Repository/Cloudflare_Zero_Trust_2.png" alt="Cloudflare tunnel button" title="Cloudflare tunnel button" width="40%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_3.png" alt="Cloudflare Cloudflared button" title="Cloudflare Cloudflared button" width="40%"/>
 
