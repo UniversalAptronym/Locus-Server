@@ -37,12 +37,8 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 <img src="../Media_Repository/CasaOS_Apps_1.png" alt="CasaOS Apps 1" title="CasaOS Apps 1" width="30%"/> <img src="../Media_Repository/CasaOS_Apps_2.png" alt="CasaOS Apps 2" title="CasaOS Apps 2" width="30%"/> <img src="../Media_Repository/CasaOS_Apps_3.png" alt="CasaOS Apps 3" title="CasaOS Apps 3" width="30%"/> 
 
-8. Type `https://icewhale.bigbeartechworld.com/big-bear-casaos.zip` into this bar and press Enter. This will add additional Apps you can install, maintained by Big Bear and the Big Bear community. If you scroll down, you'll see a bunch of apps with "BigBearCasaOS" as their listed category. We will be using software from here to do everything from here on out.
+8. Type `https://icewhale.bigbeartechworld.com/big-bear-casaos.zip` into this bar and press Enter. This will add additional Apps you can install, maintained by Big Bear and the Big Bear community. If you scroll down, you'll see a bunch of apps with "BigBearCasaOS" as their listed category. We will be using software from here later.
 
 <img src="../Media_Repository/CasaOS_Apps_4.png" alt="CasaOS Apps 4" title="CasaOS Apps 4" width="40%"/> <img src="../Media_Repository/CasaOS_Apps_5.png" alt="CasaOS Apps 5" title="CasaOS Apps 5" width="40%"/>
 
-Now on to the next step. As a gentle introduction to CasaOS, you are going to set up an advertisement / tracker blocker, called Pi-hole, which will block many ads you might otherwise see while browsing the internet. [Click here to install Pi-hole](../Instructions/Pi-hole_Installation.md).
-
-If you want to skip that, you can go straight to installing a [secure communications system and home cloud server using Nextcloud](../Instructions/Nextcloud_Setup_Local.md).
-
-If you want to skip that, you can go straight to installing a [dedicated secure communications system](../Instructions/Databag_Setup_Local.md).
+Now on to the next step. We're going to use [Nginx to safely connect your Raspberry Pi to the worldwide web](../Instructions/Nginx_Setup_(Web_Connection).md).
