@@ -118,11 +118,19 @@ First, we will connect your CasaOS dashboard to the web.
 
 <img src="../Media_Repository/Nginx_Proxy_Host_SSL_1.png" alt="Nginx Proxy Manager proxy host SSL 1" title="Nginx Proxy Manager proxy host SSL 1" width="40%"/> <img src="../Media_Repository/Nginx_Proxy_Host_SSL_2.png" alt="Nginx Proxy Manager proxy host SSL 2" title="Nginx Proxy Manager proxy host SSL 2" width="40%"/>
 
+----------------------------
+
+SCRATCH THIS
+
+STILL NEED TO DO PORT FOWARDING APPARENTLY
+
 This makes it so that your Raspberry Pi can securely accept requests to see your Hearth Box's **Web URL**! If you type `examplewebURL` into a web browser, where `examplewebURL` is your **Web URL**, it should take you to your CasaOS dashboard!
 
 21. However, to access specific programs from the web, you will have to configure their own web URLs, with the appropriate prefixes. To configure "Nginx Proxy Manager", repeat steps 16-20, but replace `examplewebURL` with `nginx.examplewebURL`.
 
-This makes it so that when you click the "Nginx Proxy Manager" icon on your CasaOS dashboard, or type `nginx.examplewebURL` (where `examplewebURL` is your **Web URL**) into a web browser, it will take you to Nginx!
+This (almost) makes it so that when you click the "Nginx Proxy Manager" icon on your CasaOS dashboard, or type `nginx.examplewebURL` (where `examplewebURL` is your **Web URL**) into a web browser, it will take you to Nginx!
+
+There's just one more thing to do to connect : Port Forwarding.
 
 
 
