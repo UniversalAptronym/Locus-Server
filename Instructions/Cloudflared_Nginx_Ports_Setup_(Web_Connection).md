@@ -12,7 +12,7 @@ Cloudflared (note the 'd') is a program which connects your server to a Cloudfla
 
 <img src="../Media_Repository/Cloudflared_Install_1.png" alt="Cloudflared Proxy Manager installation 1" title="Cloudflared Proxy Manager installation 1" width="40%"/> <img src="../Media_Repository/Cloudflared_Install_2.png" alt="Cloudflared Proxy Manager installation 2" title="Cloudflared Proxy Manager installation 2" width="40%"/> 
 
-2. This should bring up the following installation window, which you can scroll to see the entirety of. Add your **Raspberry Pi's local IP address** to the leftmost text box under "Web UI". The click `Save`. This tells your server that you want to connect to this program via your local router, not the worldwide web. (You will only be able to access this program from a machine connected to your local router, but that's fine, we only need to use it once.
+2. This should bring up the following installation window, which you can scroll to see the entirety of. Add your **Raspberry Pi's local IP address** to the leftmost text box under "Web UI". The click `Save`. This tells your server that you want to connect to this program via your local router, not the worldwide web. (You will only be able to access this program from a machine connected to your local router, but that's fine, you only need to use it once.
 
 <img src="../Media_Repository/Cloudflared_Install_3.png" alt="Cloudflared Proxy Manager installation 3" title="Cloudflared Proxy Manager installation 3" width="50%"/>
 
@@ -20,7 +20,11 @@ Cloudflared (note the 'd') is a program which connects your server to a Cloudfla
 
 4. Click the `Cloudflared` program icon. This will open a new tab with your Cloudflared program. Click inside the text box beneath **Enter Tunnel Connector Token:". Then `CTRL + V` (for Linux or Windows) or `CMD + V` (for Mac) to *Paste* the text from `Cloudlflared_Tunnel.txt`.
 
-5. Press the `Save` button. It will turn into `Start` button. Press the `Start` button. You can now close out of the Cloudflared tab.
+<img src="../Media_Repository/Cloudflared_Install_4.png" alt="Cloudflared Proxy Manager installation 4" title="Cloudflared Proxy Manager installation 4" width="50%"/> <img src="../Media_Repository/Cloudflared_Install_5.png" alt="Cloudflared Proxy Manager installation 5" title="Cloudflared Proxy Manager installation 5" width="50%"/>
+
+5. Press the `Save` button. It will turn into `Start` button. Press the `Start` button. Close out of the Cloudflared tab and delete `Cloudflared_Tunnel.txt`.
+
+<img src="../Media_Repository/Cloudflared_Install_6.png" alt="Cloudflared Proxy Manager installation 6" title="Cloudflared Proxy Manager installation 6" width="50%"/>
 
 That's it! That's all you have to do with Cloudflared.
 
@@ -76,15 +80,41 @@ Reminder: Using your **Raspberry Pi's local IP address** to access your Hearth B
 
 6. Click the account icon in the top right. Then click `Change Password`. If the "Current Password" is not automatically filled in, type in `changeme`. Type your desired **Nginx password** into the "New Password" and "Confirm Password" boxes. When you're finished, click `Save`.
 
-<img src="../Media_Repository/Nginx_Login_Changes_4.png" alt="Nginx Proxy Manager email 4" title="Nginx Proxy Manager email 4" width="40%"/> <img src="../Media_Repository/Nginx_Login_Changes_5.png" alt="Nginx Proxy Manager email 5" title="Nginx Proxy Manager email 5" width="40%"/> 
+<img src="../Media_Repository/Nginx_Login_Changes_4.png" alt="Nginx Proxy Manager password 1" title="Nginx Proxy Manager password 1" width="40%"/> <img src="../Media_Repository/Nginx_Login_Changes_5.png" alt="Nginx Proxy Manager password 2" title="Nginx Proxy Manager password 2" width="40%"/> 
 
-7. 
+### __Adding An SSL Certificate And Private Key To Nginx__
 
+7. Next you need to give Nginx your **SSL Certificate**, so it can perform encryption (an explanation of [SSL certificates](https://www.cloudflare.com/learning/ssl/what-is-an-ssl-certificate/) and [encryption](https://en.wikipedia.org/wiki/Public-key_cryptography) if you are curious). Click the `SSL Certificate` tab. Click `Add SSL Certificate`.
 
+<img src="../Media_Repository/Nginx_SSL_Certificate_1.png" alt="Nginx Proxy Manager SSL Certificate 1" title="Nginx Proxy Manager SSL Certificate 1" width="40%"/> <img src="../Media_Repository/Nginx_SSL_Certificate_2.png" alt="Nginx Proxy Manager SSL Certificate 2" title="Nginx Proxy Manager SSL Certificate 2" width="40%"/> 
 
+8. Enter your **Web URL** into the "Name" text box. 
 
+9. Click the `Browse` button attached to "Certificate Key". Before beginning, you should have created a text file named `Cloudflare_SSL_Private_Key.txt`. Navigate to this file and select it, then click `Open`.
 
+10. Click the `Browse` button attached to "Certificate". Before beginning, you should have created a text file named `Cloudflare_SSL_Certificate.txt`. Navigate to this file and select it, then click `Open`. Then click `Save`.
 
+<img src="../Media_Repository/Nginx_SSL_Certificate_3.png" alt="Nginx Proxy Manager SSL Certificate 3" title="Nginx Proxy Manager SSL Certificate 3" width="40%"/> 
+
+### __Adding A New Program To Nginx__
+
+Pay careful attention to this section. You will need to repeat this sections with slight modifications each time you want to connect a program on your Hearth Box to the worldwide web. There are two elements which change depending on the program being connected, the **URLprefix** and the **forwarding port**. 
+
+First, we will connect Nginx Proxy Manager to the web. It uses:
+- **URLprefix**: `nginx`
+- **Forwarding port**: `81`
+
+11. Click `Dashboard`, and then click `Proxy Hosts`. Click `Add Proxy Hosts.`
+
+<img src="../Media_Repository/Nginx_Proxy_Host_1.png" alt="Nginx Proxy Manager proxy host 1" title="Nginx Proxy Manager proxy host 1" width="40%"/> <img src="../Media_Repository/Nginx_Proxy_Host_2.png" alt="Nginx Proxy Manager proxy host 2" title="Nginx Proxy Manager proxy host 2" width="40%"/> 
+
+12. Under "Domain Names" enter `URLprefix.examplewebURL` where you replace `URLprefix` as above, and replace `examplewebURL` with your Hearth Box's **Web URL**. Note that `examplewebURL` should include the suffix `.com`, `.org`, or whatever else you selected.
+
+13. Set the "Scheme" to `https`, where the "s" signifies a "secure" connection. In the "Forward Hostname / IP" text box, enter your **Raspberry Pi's local IP address**. In the "Forward Port" text box, enter the **forwarding port** value above.
+
+14. Click the following buttons to turn their options on: `Cache Assets`, `Block Common Exploits`, `Websockets Support`. Then click the `SSL` tab.
+
+<img src="../Media_Repository/Nginx_Proxy_Host_Details.png" alt="Nginx Proxy Manager proxy host details" title="Nginx Proxy Manager proxy host details" width="50%"/>
 
 
 
