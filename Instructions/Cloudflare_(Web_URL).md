@@ -32,7 +32,7 @@ Note: Updates to Cloudflare's website may cause its user interface or layout to 
 
 ## __Obtaining an SSL Certificate and Private Key__
 
-Next you will obtain a "Secure Sockets Layer" (SSL) certificate and SSL private key. Encrypted communication requires a server to have a "private key" (a string of random characters) from which "public keys" are created and given to machines which connect to the server. These keys are used to perform encryption ((an explanation, if you are curious))[https://en.wikipedia.org/wiki/Public-key_cryptography]. To ensure no one impersonates your server, your private key must be verified by a trusted authority (in this case, Cloudlfare). This verification is managed by an SSL certificate ((an explanation, if you are curious))[https://www.cloudflare.com/learning/ssl/what-is-an-ssl-certificate/].
+Next you will obtain a "Secure Sockets Layer" (SSL) certificate and SSL private key. Encrypted communication requires a server to have a "private key" (a string of random characters) from which "public keys" are created and given to machines which connect to the server. These keys are used to perform encryption ([an explanation, if you are curious](https://en.wikipedia.org/wiki/Public-key_cryptography)). To ensure no one impersonates your server, your private key must be verified by a trusted authority (in this case, Cloudlfare). This verification is managed by an SSL certificate ([an explanation, if you are curious](https://www.cloudflare.com/learning/ssl/what-is-an-ssl-certificate/)).
 
 5. Return to Cloudflare's `Account Home`. Click your chosen URL under `Domain`. Click the `SSL` (Secure Sockets Layer) tab on the left, then the `Origin Server` tab beneath that.
 
@@ -54,7 +54,7 @@ We will use these files later.
 
 ## __Setting up Cloudflare Tunnels__
 
-Next, you will set up a "tunnel". This ensures that encrypted information always goes through Cloudflare, where it is properly encrypted and protected from eavesdroppers. [Detailed explanation, if you are interested.](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/)
+Next, you will set up a "tunnel". This ensures that encrypted information always goes through Cloudflare, where it is properly encrypted and protected from eavesdroppers. [An explanation, if you are curious.](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/)
 
 10. Return to Cloudflare's `Account Home`. On the left-hand side of your screen, click `Zero Trust`. This will take you to a screen where you enter a team name. Enter whatever you want, you don't have to record this.
 
